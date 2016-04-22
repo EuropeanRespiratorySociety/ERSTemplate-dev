@@ -106,7 +106,8 @@ elixir(function(mix) {
  
     	'init.js' 
     	]);
-    /*
+
+    
         mix.scripts([  
         '../vendor/jquery-flot/jquery.flot.js', 
         '../vendor/jquery-flot/jquery.flot.pie.js', 
@@ -131,8 +132,7 @@ elixir(function(mix) {
         '../vendor/chartjs/Chart.min.js'
 
         ], 'public/js/stats.js');
-    */    
-    /*
+
         mix.scripts([  
         '../vendor/fullpagejs/vendors/jquery.easings.min.js',
         '../vendor/fullpagejs/vendors/jquery.slimscroll.min.js',
@@ -145,9 +145,10 @@ elixir(function(mix) {
 
         mix.copy('resources/assets/js/app-stats.js', 'public/js/app-stats.js');
         mix.copy('resources/assets/js/app-fullpage.js', 'public/js/app-fullpage.js');
+        mix.copy('resources/assets/js/app-assemblies.js', 'public/js/app-assemblies.js');
         mix.copy('resources/assets/js/app-enjoyhint-demo.js', 'public/js/app-enjoyhint-demo.js');
         //mix.copy('resources/assets/js/app-wow.js', 'public/js/app-wow.js');
         
         mix.copy('resources/assets/vendor/dropzone/upload.php', 'public/pages/upload.php');
-    */
+    
 });
