@@ -379,9 +379,15 @@
 						> .panel-heading{
 							text-align: center;
 							border: none;
+							margin: 0 10px;
+							width:90%;
 
-							position: relative;
+							position: absolute;
 							top: 50%;
+							-webkit-transform: translateY(-50%);
+							-moz-transform: translateY(-50%);
+							-ms-transform: translateY(-50%);
+							-o-transform: translateY(-50%);
 							transform: translateY(-50%);
 
 							.icon{
@@ -390,6 +396,13 @@
 
 							.title{
 								font-size:25px;
+							}
+
+							.img-circle{
+								display:block;
+								margin: 0 auto 15px;
+								width:80px;
+								height:80px;
 							}
 						}
 					}

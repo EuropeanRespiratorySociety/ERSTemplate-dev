@@ -13,11 +13,8 @@
 		               		</div>
 	                </div>
 	                <div class="card-action">
-	                	<a class="btn btn-transparent" href="#">
-							All certificates
-						</a>
 						<a class="btn btn-dark-primary pull-right" href="#">
-							Details
+							More...
 						</a>	
 	                </div>
 	    		</div>

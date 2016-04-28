@@ -9,7 +9,13 @@
 								<ul class="list-group">
 									<li class="list-group-item waiting">
 										<div class="icon pull-right">
-											<a data-target="#my-event-waiting-info" data-toggle="modal"><span class="s7-clock"></span></a>
+											<a href="javascript:void(0)" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+											data-placement="left" 
+											data-toggle="popover" 
+											data-container="body" 
+											title="" 
+											type="button" 
+											><span class="s7-clock"></span></a>
 										</div>	
 										<span class="date">26-27 Sept, 2016</span>
 										<span class="event-type">ERS Course</span>

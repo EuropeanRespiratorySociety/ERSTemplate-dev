@@ -35,25 +35,6 @@
 
 
 	</div>
-<div class="modal fade" role="dialog" tabindex="-1" id="my-event-waiting-info" style="display: none;">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button class="close" aria-hidden="true" data-dismiss="modal" type="button"><i class="icon s7-close"></i></button>
-          </div>
-          <div class="modal-body">
-            <div class="text-center">
-              <h4>Wainting for payment</h4>
-              <p>You have paid with a bank transfer. We are waiting for your money</p> 
-              <p>We will notify you when we will have got your money</p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-default" data-dismiss="modal" type="button">Close the window</button>
-          </div>
-        </div>
-      </div>
-</div>
 
 	</div>
 	@include('newsfeed.newsfeed', array('class' => 'col-md-3'))

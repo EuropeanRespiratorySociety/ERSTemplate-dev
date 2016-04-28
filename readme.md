@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.1.9**
+**Version 1.1.10**
 
 The *html structure has changed since previous version* for the header and the left bar. Now the logo is included in the left bar. As such the header had to be moved to the left of the width of the left bar.
 
@@ -334,6 +334,13 @@ You can see a "real" example here `/pages/fullpage`
 
 -------------------
 ## Change log
+
+### What is new in 1.1.10
+* Dashboard - Added Popover to icons
+* Dashboard - Removed overkill modal window on dashboard
+* Dashboard - Congress certificate panel fix
+* Dashboard - CME (portfolio) button change
+* Dashboard - Chrome display bug for full link pannels
 
 ### What is new in 1.1.9
 * New Metanavigation (sliding with small breadcrumb)
