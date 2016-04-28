@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.1.10**
+**Version 1.1.11**
 
 The *html structure has changed since previous version* for the header and the left bar. Now the logo is included in the left bar. As such the header had to be moved to the left of the width of the left bar.
 
@@ -334,6 +334,10 @@ You can see a "real" example here `/pages/fullpage`
 
 -------------------
 ## Change log
+
+### What is new in 1.1.10
+* Resolved issue 5 (language switcher)
+* The right menu icon can now be removed without breaking the design
 
 ### What is new in 1.1.10
 * Dashboard - Added Popover to icons
