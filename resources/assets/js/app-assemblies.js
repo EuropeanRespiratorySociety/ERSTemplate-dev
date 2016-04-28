@@ -3,7 +3,8 @@ var App = (function () {
   
   App.assemblies = function( ){
 
-    var alt2 = App.color.alt2;
+    //var alt2 = App.color.assemblies_odd;
+    var alt2 = App.color.school;
     var school = App.color.school;
     var scientific = App.color.scientific;
     var alt1 = App.color.alt1;

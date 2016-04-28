@@ -10,11 +10,13 @@
 		h2{
 				margin-bottom: 5px;
 				margin-top: 6px;
-				font-family: @open-sans;
+				/*font-family: @open-sans;*/
 				font-weight: 300;
-				letter-spacing:-1px;
+				letter-spacing:0px;
 				font-size: 28px;
-				line-height: 36px; 
+				line-height: 36px;
+				padding: 10px 2px;
+				
 		}
 
 		.breadcrumb{
@@ -26,9 +28,13 @@
 
 		//White header style
 		.ers-white-header &{
-			background-color: darken(@light-color, 2.8%);
+			/*background-color: darken(@light-color, 2.8%);*/
+			background-color: transparent;
 			color: @dark-color;
-			border-left: 1px solid darken(@light-color, 10%);
+			/*border-left: 1px solid darken(@light-color, 10%);*/
+			border-bottom: 1px solid @pageTitle-inner-border;
+			display: inline-block;
+			margin: 40px 0;
 		}
 		
 		//Blue header style

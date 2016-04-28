@@ -3,6 +3,11 @@
 */
 .btn{
 	border-radius: 0;
+	font-weight: @btn-font-weight;
+  	text-align: center;
+  	font-family: @font-family-sans-serif;
+  	padding: 10px 20px;
+  	text-transform: uppercase;
 
   &:active,
 	&.active{
@@ -40,7 +45,8 @@
 }
 
 .btn-default{
-  color: @btn-default-color;
+  //color: @btn-default-color;
+  color: @link-color;
   background-color: @btn-default-bg;
   border-color: @btn-default-border;
 
@@ -48,7 +54,7 @@
   &.focus {
     color: @btn-default-color;
     background-color: @btn-default-bg;
-        border-color: @btn-default-border;
+    border-color: @btn-default-border;
   }
 
   &:hover {

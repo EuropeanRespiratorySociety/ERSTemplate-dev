@@ -54,43 +54,37 @@
 		text-align: center;
 		color: @ers-content-default-text;
 
-			.lighterLink {
-				a{
-					&:hover, &:active{
-					text-decoration: none;
-					color: @primary-color-lightest;
-					}
-				}
-				
-
-			}
-
-			ul li{
-				list-style-type:none;
-    		}
-    		.bs-grid-block{
-    			border:0
-
-    		}
-
-			.pageTitle{
-				padding: 10px 2px;
-				border-bottom: 1px solid @pageTitle-inner-border;
-				display: inline-block;
-				margin: 40px 0;
-
-			}
-			.pageSubTitle{
-			}
-			.pageDescription{
-				width: 60%;
-	    		margin: 40px auto;
-			}
-			.photo_caption{
-				margin-top: 10px ;
-			}
+		ul li{
+			list-style-type:none;
+    	}
+    	.bs-grid-block{
+    		border:0
+    	}
 			
+		.photo_caption{
+			margin-top: 10px ;
+		}
+		.lead{
 
+		}
+		.center-block{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			float: none;
+		}
+		.lead {
+		  margin-bottom: 40px;
+		  margin-top: 20px;
+		  font-size: 16px;
+		  font-weight: 300;
+		  line-height: 1.4;
+		}
+		@media (min-width: 768px) {
+		  .lead {
+		    font-size: 18px;
+		  }
+		}
 	}
 
 }
