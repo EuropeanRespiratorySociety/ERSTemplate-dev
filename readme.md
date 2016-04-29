@@ -335,7 +335,7 @@ You can see a "real" example here `/pages/fullpage`
 -------------------
 ## Change log
 
-### What is new in 1.1.10
+### What is new in 1.1.11
 * Resolved issue 5 (language switcher)
 * The right menu icon can now be removed without breaking the design
 
