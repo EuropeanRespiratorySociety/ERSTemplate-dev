@@ -11010,15 +11010,27 @@ button:focus {
   color: #ffffff;
 }
 .ers-top-header .navbar-collapse .ers-icons-nav li.lang-switcher {
-  padding: 0 9px;
+  margin-right: -25px;
+  padding: 0 0 0 9px;
   position: relative;
   top: 25px;
+}
+.ers-top-header .navbar-collapse .ers-icons-nav li.lang-switcher > div {
+  color: rgba(120, 161, 196, 0.8);
 }
 .ers-top-header .navbar-collapse .ers-icons-nav li.lang-switcher > div select {
   background: transparent;
   border: none;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
+  color: rgba(120, 161, 196, 0.8);
+  appearance: none;
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+}
+.ers-top-header .navbar-collapse .ers-icons-nav li.lang-switcher > div select option {
+  border: none;
+  background: #014983;
 }
 .ers-top-header .ers-toggle-right-sidebar {
   float: right;

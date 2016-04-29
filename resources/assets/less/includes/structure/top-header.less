@@ -735,20 +735,26 @@
 						}
 					}
 				}
-			}
+			} 
 
 			li.lang-switcher{
-				
-					padding: 0 9px;
+				 	margin-right: -25px;
+    				padding: 0 0 0 9px;
 					position: relative;
 					top: 25px;
 				> div{
+					color: fade(@text-color, 80%);
 					select{
 						background:transparent;
 						border:none;
-						color: fade(@light-color, 80%);
-						font-size: 14px;
+						color: fade(@text-color, 80%);
+    					appearance:none;
+    					-moz-appearance:none; /* Firefox */
+    					-webkit-appearance:none; /* Safari and Chrome */
+
 						option{
+							border:none;
+							background: @main-nav-blue-color;
 
 						}
 					}
