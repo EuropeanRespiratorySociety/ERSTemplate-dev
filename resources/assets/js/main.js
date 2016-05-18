@@ -535,6 +535,10 @@ var App = (function () {
         colors.alt3    = getColor('clr-alt3');
         colors.school    = getColor('clr-school');
         colors.scientific    = getColor('clr-scientific');
+        //colors.clinical    = getColor('clr-clinical');
+        colors.assemblies1    = getColor('clr-assemblies1');
+        colors.assemblies2    = getColor('clr-assemblies2');
+
 
       //Prevent Connections Dropdown closes on click
         $(".ers-connections").on("click",function( e ){

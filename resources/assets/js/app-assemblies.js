@@ -4,22 +4,47 @@ var App = (function () {
   App.assemblies = function( ){
 
     //var alt2 = App.color.assemblies_odd;
-    var alt2 = App.color.school;
-    var school = App.color.school;
+    var assemblies1 = App.color.assemblies1;
+    var assemblies2 = App.color.assemblies2;
     var scientific = App.color.scientific;
     var alt1 = App.color.alt1;
 
     $('#fullpage').fullpage({
         //Navigation
-        menu: '#menu',
+        menu: '',
         lockAnchors: false,
-        anchors: ['Events', 'Education', 'Scientific', 'animation-support'],
+        anchors: [
+            'assemblies', 
+            'clinical', 
+            'respiratory-intensive-care', 
+            'cell-and-molecular-biology', 
+            'clinical-physiology', 
+            'airway-diseases',
+            'occupation-and-epidemiology', 
+            'paediatrics', 
+            'thoracic-surgery', 
+            'allied-respiratory', 
+            'respiratory-infections', 
+            'thoracic-oncology'
+        ],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Events', 'Education', 'Scientific', 'Animation Support'],
+        navigationTooltips: [
+            'Assemblies', 
+            'Clinical', 
+            'Respiratory Intensive Care', 
+            'Cell and Molecular Biology', 
+            'Clinical physiology...', 
+            'Airway Diseases', 
+            'Occupation and Epidemiology', 
+            'Paediatrics', 'Thoracic Surgery...', 
+            'Allied Respiratory Professionals', 
+            'Respiratory Infections', 
+            'Thoracic Oncology'
+        ],
         showActiveTooltip: false,
-        slidesNavigation: true,
-        slidesNavPosition: 'bottom',
+        slidesNavigation: false,
+        slidesNavPosition: 'top',
 
         //Scrolling
         css3: true,
@@ -35,7 +60,7 @@ var App = (function () {
         loopHorizontal: true,
         continuousVertical: false,
         normalScrollElements: '#element1, .element2',
-        scrollOverflow: false,
+        scrollOverflow: true,
         touchSensitivity: 15,
         normalScrollElementTouchThreshold: 5,
 
@@ -48,9 +73,9 @@ var App = (function () {
         controlArrows: true,
         verticalCentered: false,
         resize : false,
-        sectionsColor : [alt2, school, scientific, alt1],
+        sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2],
         paddingTop: '0px',
-        paddingBottom: '0px',
+        paddingBottom: '40px',
         fixedElements: '#header, .footer',
         responsiveWidth: 765,
         responsiveHeight: 0,
@@ -61,7 +86,7 @@ var App = (function () {
 
         //events
         onLeave: function(index, nextIndex, direction){
-            var leavingSection = $(this);
+            /*var leavingSection = $(this);
 
             //after leaving section 2
             if(index == 1 && direction =='down'){
@@ -71,7 +96,7 @@ var App = (function () {
             else if(index == 2 && direction == 'up'){
                 $('div.ers-wrapper').removeClass('ers-full-screen-with-metanav');           
 
-            }
+            }*/
         
         },
         afterLoad: function(anchorLink, index){},
