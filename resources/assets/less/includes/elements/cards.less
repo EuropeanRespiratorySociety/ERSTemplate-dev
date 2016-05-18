@@ -34,3 +34,176 @@
  .card-variants(@dark-color, @light-color);
 }
 
+
+
+//Card for Events
+
+#ersMainWebsite &{
+	.ers-content{
+		@media (max-width: @screen-sm-max){
+			.row_event {
+			    max-width: 450px;
+			    margin-left: auto;
+			    margin-right: auto;
+			}
+		}
+
+		/* card-event-box */
+
+		.card-event-box{
+			font-family:@font-family-serif;
+			border: 1px solid #dad9d9;
+
+			.card-image{
+				margin-bottom: 240px;
+    			max-height: 158px;
+    		}
+			.card-content{
+				position: absolute;
+			    top: 25%;
+    			/*left: 50%;
+    			-webkit-transform: translate(-50%, -50%);
+    			transform: translate(-50%, -50%);*/
+    			background-color: transparent;
+	    		z-index: 100;
+	    		padding: 0;
+	    		width: 100%;
+
+	    		div{
+	    		    width: 85%;
+    				margin: auto;
+    				background-color: white;
+    				border: 1px solid #dad9d9;
+    				height: 270px;
+    				padding: 20px 10px 10px;
+    				text-align: left;
+    			}
+
+    			p{
+    				line-height: 120%;
+    			}
+
+    			p.title{
+    				color:@link-color;
+    				font-size: 22px;
+    				line-height: 120%;
+
+    				span{
+    				 	font-size: 13px;
+    				 	display: block;
+    				 }
+    			}
+    			p.date{
+    				font-family:@font-family-sans-serif;
+    				margin:5px 0;
+    			}
+    			p.early_bird{
+    				background-color: #EAF1FD;
+    				font-family:@font-family-sans-serif;
+    				color:@link-color;
+    				border: 1px solid #9EBEF4;
+    				padding: 0 5px;
+    				font-size: 12px;
+    				margin: 10px 0;
+    				display: inline-block;
+    			}
+    			.icon{
+    				color:@link-color;
+
+    			}
+    			p.place{
+    				color:@link-color;
+    				font-family:@font-family-sans-serif;
+
+    			}
+    		}
+		}
+
+		/* Fin card-event-box */
+
+
+		/* card-event (default) */
+
+		.card-event{
+			font-family:@font-family-serif;
+			border: 1px solid #dad9d9;
+			background-color: @lighter-grey-bg;
+
+			.card-image{
+    			max-height: 158px;
+    		}
+			.card-content{
+				background-color: transparent;
+	    		padding: 7%;
+	    		text-align: left;
+
+
+    			p{
+    				line-height: 120%;
+
+    			}
+
+    			p.title{
+    				color:@link-color;
+    				font-size: 22px;
+    				line-height: 120%;
+
+    				span{
+    					font-size: 13px;
+    					display: block;
+
+    				}
+    			}
+    			p.date{
+    				font-family:@font-family-sans-serif;
+    				margin:5px 0;
+    			}
+    			p.early_bird{
+    				background-color: #EAF1FD;
+    				font-family:@font-family-sans-serif;
+    				color:@link-color;
+    				border: 1px solid #9EBEF4;
+    				padding: 0 5px;
+    				font-size: 12px;
+    				margin: 10px 0;
+    				display: inline-block;
+
+
+    			}
+    			.icon{
+    				color:@link-color;
+
+    			}
+    			p.place{
+    				color:@link-color;
+    				font-family:@font-family-sans-serif;
+
+    			}	
+			}
+			.card-action{
+				background-color: transparent;
+				.btn{
+
+				}
+				.btn-default{
+					background-color: @lighter-grey-bg;
+				}
+				.btn-register{
+					background-color: white;
+				}
+
+			}
+			.label{
+			    position: absolute;
+			    right: 0;
+    			z-index: 100;
+    			font-weight: 100;
+    			font-size: 17px;
+    			font-style: italic;
+    			padding: 5px 10px 2px;
+
+			}
+		}
+		/* Fin card-event (default) */
+	}
+}

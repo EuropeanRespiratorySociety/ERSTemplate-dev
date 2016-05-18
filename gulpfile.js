@@ -38,9 +38,10 @@ elixir(function(mix) {
     mix.copy('resources/assets/vendor/jquery/jquery.min.js', 'public/js/jquery.min.js');
 
     mix.less('style.less');
+    mix.less(['includes/plugins/fullpage.less'], 'public/css/fullpage.css');
     mix.styles([
         '../vendor/select2/css/select2.min.css',
-    	'../../../public/css/style.css',
+    	//'../../../public/css/style.css',
         '../vendor/jquery.gritter/css/jquery.gritter.css',
         '../vendor/jquery.niftymodals/css/component.css',
         '../vendor/jquery.vectormap/jquery-jvectormap-1.2.2.css',
@@ -51,7 +52,8 @@ elixir(function(mix) {
         '../vendor/bootstrap-slider/css/bootstrap-slider.css',
         '../vendor/dropzone/dist/dropzone.css',
         '../vendor/datatables/css/dataTables.bootstrap.min.css',
-        '../vendor/fullpagejs/dist/jquery.fullpage.min.css',
+        //'../vendor/fullpagejs/dist/jquery.fullpage.min.css',
+        '../../../public/css/fullpage.css',
         '../vendor/wow/wow.css',
         '../vendor/enjoyhint/src/jquery.enjoyhint.css',
         '../../../public/css/style.css'
@@ -146,7 +148,9 @@ elixir(function(mix) {
         mix.copy('resources/assets/js/app-stats.js', 'public/js/app-stats.js');
         mix.copy('resources/assets/js/app-fullpage.js', 'public/js/app-fullpage.js');
         mix.copy('resources/assets/js/app-assemblies.js', 'public/js/app-assemblies.js');
+        mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
         mix.copy('resources/assets/js/app-enjoyhint-demo.js', 'public/js/app-enjoyhint-demo.js');
+        
         //mix.copy('resources/assets/js/app-wow.js', 'public/js/app-wow.js');
         
         mix.copy('resources/assets/vendor/dropzone/upload.php', 'public/pages/upload.php');
