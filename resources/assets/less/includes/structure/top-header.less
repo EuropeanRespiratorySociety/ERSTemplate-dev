@@ -248,10 +248,13 @@
 
 		}
 		.ers-main-nav{
-	
+			white-space: nowrap;
 			> li{
 
-				float:left;
+				float:none;
+				display: inline-table;
+				margin: 0 -5px 0 0;
+				text-overflow: ellipsis;
 
 				&.active{
 
@@ -912,10 +915,13 @@
 				}
 
 				.ers-main-nav{
+					white-space:nowrap;
 
 					> li{
-
-						float:left;
+							float:none;
+							display: inline-table;
+							margin: 0 -5px 0 0;
+							text-overflow: ellipsis;
 
 						> a{
 							color: @text-color;
@@ -1091,10 +1097,14 @@
 				}
 
 				.ers-main-nav{
+					white-space:nowrap;
 
 					> li{
 
-						float:left;
+						float:none;
+						display: inline-table;
+						margin: 0 -5px 0 0;
+						text-overflow: ellipsis;
 
 						> a{
 							color: @text-color;
