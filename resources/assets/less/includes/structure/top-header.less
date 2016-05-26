@@ -248,13 +248,8 @@
 
 		}
 		.ers-main-nav{
-			white-space: nowrap;
+		
 			> li{
-
-				float:none;
-				display: inline-table;
-				margin: 0 -5px 0 0;
-				text-overflow: ellipsis;
 
 				&.active{
 
@@ -344,7 +339,13 @@
 				}
 
 			@media @phone{
+
 						clear:both;
+						white-space: normal;
+
+						li{
+							display:block;
+						}
 					}
 			}
 
@@ -365,6 +366,12 @@
 		.ers-user-nav{
 			margin-right: 0;
 
+						clear:both;
+						white-space: normal;
+
+						li{
+							display:block;
+						}
 			> li.dropdown{
 
 				> a{
@@ -915,13 +922,8 @@
 				}
 
 				.ers-main-nav{
-					white-space:nowrap;
 
 					> li{
-							float:none;
-							display: inline-table;
-							margin: 0 -5px 0 0;
-							text-overflow: ellipsis;
 
 						> a{
 							color: @text-color;
@@ -938,6 +940,7 @@
 							}
 						}
 					}
+
 				}
 
 				//add Rika 260116
@@ -1097,14 +1100,8 @@
 				}
 
 				.ers-main-nav{
-					white-space:nowrap;
 
 					> li{
-
-						float:none;
-						display: inline-table;
-						margin: 0 -5px 0 0;
-						text-overflow: ellipsis;
 
 						> a{
 							color: @text-color;
