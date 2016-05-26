@@ -8962,6 +8962,15 @@ button:focus {
   z-index: 2000!important;
 }
 
+h1 .text-primary,
+h2 .text-primary,
+h3 .text-primary,
+h4 .text-primary,
+h5 .text-primary,
+h6 .text-primary {
+  color: #015291;
+}
+
 /*------------------------------------------------------------------
 [Fonts]
 */
@@ -15523,10 +15532,6 @@ button:focus {
   color: #333333;
 }
 
-#ersMainWebsite  .ers-content ul li {
-  list-style-type: none;
-}
-
 #ersMainWebsite  .ers-content .bs-grid-block {
   border: 0;
 }
@@ -16565,12 +16570,6 @@ button:focus {
   z-index: 1;
 }
 
-@media (min-width: 992px) {
-  .assemblies-content .card.card-padded .card-title {
-    min-height: 80px;
-  }
-}
-
 .card.card-padded .card-content {
   margin: 0 20px 0;
   position: relative;
@@ -16861,12 +16860,6 @@ button:focus {
   border-radius: 2px 2px 0 0;
   position: relative;
   z-index: 1;
-}
-
-@media (min-width: 992px) {
-  .assemblies-content .card-primary.card-padded .card-title {
-    min-height: 80px;
-  }
 }
 
 .card-primary.card-padded .card-content {
@@ -17161,12 +17154,6 @@ button:focus {
   z-index: 1;
 }
 
-@media (min-width: 992px) {
-  .assemblies-content .card-school.card-padded .card-title {
-    min-height: 80px;
-  }
-}
-
 .card-school.card-padded .card-content {
   margin: 0 20px 0;
   position: relative;
@@ -17457,12 +17444,6 @@ button:focus {
   border-radius: 2px 2px 0 0;
   position: relative;
   z-index: 1;
-}
-
-@media (min-width: 992px) {
-  .assemblies-content .card-scientific.card-padded .card-title {
-    min-height: 80px;
-  }
 }
 
 .card-scientific.card-padded .card-content {
@@ -17757,12 +17738,6 @@ button:focus {
   z-index: 1;
 }
 
-@media (min-width: 992px) {
-  .assemblies-content .card-info.card-padded .card-title {
-    min-height: 80px;
-  }
-}
-
 .card-info.card-padded .card-content {
   margin: 0 20px 0;
   position: relative;
@@ -18053,12 +18028,6 @@ button:focus {
   border-radius: 2px 2px 0 0;
   position: relative;
   z-index: 1;
-}
-
-@media (min-width: 992px) {
-  .assemblies-content .card-warning.card-padded .card-title {
-    min-height: 80px;
-  }
 }
 
 .card-warning.card-padded .card-content {
@@ -18353,12 +18322,6 @@ button:focus {
   z-index: 1;
 }
 
-@media (min-width: 992px) {
-  .assemblies-content .card-danger.card-padded .card-title {
-    min-height: 80px;
-  }
-}
-
 .card-danger.card-padded .card-content {
   margin: 0 20px 0;
   position: relative;
@@ -18649,12 +18612,6 @@ button:focus {
   border-radius: 2px 2px 0 0;
   position: relative;
   z-index: 1;
-}
-
-@media (min-width: 992px) {
-  .assemblies-content .card-success.card-padded .card-title {
-    min-height: 80px;
-  }
 }
 
 .card-success.card-padded .card-content {
@@ -18949,12 +18906,6 @@ button:focus {
   z-index: 1;
 }
 
-@media (min-width: 992px) {
-  .assemblies-content .card-dark.card-padded .card-title {
-    min-height: 80px;
-  }
-}
-
 .card-dark.card-padded .card-content {
   margin: 0 20px 0;
   position: relative;
@@ -19136,6 +19087,10 @@ button:focus {
 .card-dark .card-action a:hover {
   /*color: darken(@primary-color,10%);
     text-decoration: none; */
+}
+
+.card-border {
+  border: 1px solid #e0e0e0;
 }
 
 .ers-content {
@@ -22756,10 +22711,16 @@ li.L9 {
 }
 
 @media (max-width: 991px) {
-  #ersMainWebsite  .assemblies-content .row_depertment {
+  #ersMainWebsite  .assemblies-content .row_assemblies_card {
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #ersMainWebsite  .assemblies-content .card-title {
+    min-height: 80px;
   }
 }
 
@@ -22789,6 +22750,66 @@ li.L9 {
 
 #ersMainWebsite .ers-courses .courses-director ul {
   padding-left: 0;
+}
+
+@media (min-width: 992px) {
+  #ersMainWebsite .leadership-content .leadership-people .col-md-4 {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 991px) {
+  #ersMainWebsite .leadership-content .row_depertment {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #ersMainWebsite .leadership-content .leadership-menu {
+    position: fixed;
+  }
+
+  #ersMainWebsite .leadership-content .main-content {
+    position: relative;
+    left: -12px;
+  }
+}
+
+#ersMainWebsite .leadership-content .leadership-menu {
+  right: 0;
+  height: 100%;
+  padding: 50px 20px 20px;
+}
+
+#ersMainWebsite .leadership-content .leadership-menu div.links {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#ersMainWebsite .leadership-content .leadership-menu div.links p {
+  font-size: 16px;
+}
+
+#ersMainWebsite .leadership-content .leadership-menu ul {
+  padding-left: 0;
+}
+
+#ersMainWebsite .leadership-content .xs-mb-15 {
+  margin-bottom: 35px;
+}
+
+#ersMainWebsite .leadership-content .national_delegates {
+  margin-bottom: 30px;
+}
+
+#ersMainWebsite .leadership-content .national_delegates strong {
+  font-size: 20px;
+}
+
+#ersMainWebsite .leadership-content .card .card-title a {
+  font-size: 16px;
 }
 
 /*------------------------------------------------------------------
@@ -31341,6 +31362,18 @@ fieldset[disabled] .btn-social.btn-tumblr.active {
 
 .list-group-item {
   padding: 13px 15px;
+}
+
+.ers-content li {
+  list-style-type: none;
+}
+
+.ers-content ul.list-unstyled {
+  padding-left: 20px;
+}
+
+.ers-content ul.list-unstyled li {
+  list-style-type: circle;
 }
 
 /*------------------------------------------------------------------
