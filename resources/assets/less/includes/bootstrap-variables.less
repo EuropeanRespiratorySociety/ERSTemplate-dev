@@ -240,21 +240,36 @@
 //== Media queries breakpoints
 //
 //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
-
+// //////////////
 // Extra small screen / phone
+// ** Deprecated `@screen-xs` as of v3.0.1
+//@screen-xs:                  480px;
+// ** Deprecated `@screen-xs-min` as of v3.2.0
+//@screen-xs-min:              @screen-xs;
+// ** Deprecated `@screen-phone` as of v3.0.1
+//@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+// ** Deprecated `@screen-sm` as of v3.0.1
+//@screen-sm:                  768px;
+//@screen-sm-min:              @screen-sm;
+// ** Deprecated `@screen-tablet` as of v3.0.1
+//@screen-tablet:              @screen-sm-min;
+// //////////////////////////
+
 // ** Deprecated `@screen-xs` as of v3.0.1
 @screen-xs:                  480px;
 // ** Deprecated `@screen-xs-min` as of v3.2.0
-@screen-xs-min:              @screen-xs;
+@screen-xs-min:              @screen-md;
 // ** Deprecated `@screen-phone` as of v3.0.1
-@screen-phone:               @screen-xs-min;
+@screen-phone:               @screen-md-min;
 
 // Small screen / tablet
 // ** Deprecated `@screen-sm` as of v3.0.1
 @screen-sm:                  768px;
-@screen-sm-min:              @screen-sm;
+@screen-sm-min:              @screen-md;
 // ** Deprecated `@screen-tablet` as of v3.0.1
-@screen-tablet:              @screen-sm-min;
+@screen-tablet:              @screen-md-min;
 
 // Medium screen / desktop
 // ** Deprecated `@screen-md` as of v3.0.1
