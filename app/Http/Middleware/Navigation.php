@@ -74,6 +74,10 @@ class Navigation
                 $menu->errors->add('404', 'errors/404');
                 $menu->errors->add('503', 'errors/503');  
 
+              $menu->add('Megamenu', array('url' => 'errors', 'class' => 'yamm-fw'));
+                $menu->megamenu->add('test', 'errors/test')->add('test1');
+                $menu->megamenu->add('test', 'errors/test')->add('test2');  
+
         });
 
         return $next($request);

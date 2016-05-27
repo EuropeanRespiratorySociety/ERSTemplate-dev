@@ -436,119 +436,131 @@
 				height:450px;
 			}
 
-		.become-a-member{
-				&.panel{
-					height:450px;
-				}
+			> .col-sm-6{
+				padding-right:0;
 
-				.scrollable{
-					height: 285px;
+				@media @phone, @tablet{
+					padding-right:15px;
+
+					.login-container{
+						padding-right:0px;
+					}
 				}
-		}
+			}
+
+			.become-a-member{
+					&.panel{
+						height:450px;
+					}
+
+					.scrollable{
+						height: 285px;
+					}
+			}
 			
-		@media @tablet{
-			.login-container{
-				padding-right:15px;
-			}
-		}	
-		@media @phone{
-			.login-container{
-				padding-right:15px;
-			}
-		}
-
-		/* All this needs to be moved to the login-container */
-			.login-container .panel-full-primary .panel-body form {
-				margin-top:30px;
+			@media @tablet{
+				.login-container{
+					padding-right:15px;
+				}
+			}	
+			@media @phone{
+				.login-container{
+					padding-right:15px;
+				}
 			}
 
-			.login-container .panel-full-primary .panel-body .form-group .input-group .form-control {
-			    background-color: transparent;
-			    border: 0 none;
-			    box-shadow: none;
-			    color: #78a1c4;
-			    font-size: 14px;
-			    font-weight: 500;
-			    height: 36px;
-			    padding: 0;
-			}
+			/* All this needs to be moved to the login-container */
+				.login-container .panel-full-primary .panel-body form {
+					margin-top:30px;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group .input-group .input-group-addon {
+				.login-container .panel-full-primary .panel-body .form-group .input-group .form-control {
 				    background-color: transparent;
 				    border: 0 none;
-			}
+				    box-shadow: none;
+				    color: #78a1c4;
+				    font-size: 14px;
+				    font-weight: 500;
+				    height: 36px;
+				    padding: 0;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group .input-group {
-			    border-bottom: 1px solid #78a1c4;
-			    padding: 0;
-			}
+				.login-container .panel-full-primary .panel-body .form-group .input-group .input-group-addon {
+					    background-color: transparent;
+					    border: 0 none;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group {
+				.login-container .panel-full-primary .panel-body .form-group .input-group {
+				    border-bottom: 1px solid #78a1c4;
+				    padding: 0;
+				}
+
+				.login-container .panel-full-primary .panel-body .form-group {
+					    margin: 0;
+					    padding: 0;
+				}
+				.login-container .panel-full-primary .panel-body .form-group.login-submit {
+					    padding-bottom: 15px;
+					    padding-top: 40px;
+				}
+				.login-container .panel-full-primary .panel-body .form-group {
 				    margin: 0;
 				    padding: 0;
-			}
-			.login-container .panel-full-primary .panel-body .form-group.login-submit {
-				    padding-bottom: 15px;
-				    padding-top: 40px;
-			}
-			.login-container .panel-full-primary .panel-body .form-group {
-			    margin: 0;
-			    padding: 0;
-			}
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group.footer {
-			    font-size: 12px;
-			    line-height: 15px;
-			    margin-top: 3px;
-			}
-			.login-container .panel-full-primary .panel-body .form-group {
-			    margin: 0;
-			    padding: 0;
-			}
+				.login-container .panel-full-primary .panel-body .form-group.footer {
+				    font-size: 12px;
+				    line-height: 15px;
+				    margin-top: 3px;
+				}
+				.login-container .panel-full-primary .panel-body .form-group {
+				    margin: 0;
+				    padding: 0;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group.footer {
-			    font-size: 12px;
-			    line-height: 15px;
-			}
+				.login-container .panel-full-primary .panel-body .form-group.footer {
+				    font-size: 12px;
+				    line-height: 15px;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group.footer {
-			    font-size: 12px;
-			    line-height: 15px;
-			}
+				.login-container .panel-full-primary .panel-body .form-group.footer {
+				    font-size: 12px;
+				    line-height: 15px;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group .remember {
-			    color: #78a1c4;
-			    font-size: 12px;
-			    text-align: right;
-			}
+				.login-container .panel-full-primary .panel-body .form-group .remember {
+				    color: #78a1c4;
+				    font-size: 12px;
+				    text-align: right;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group .remember {
-			    color: #78a1c4;
-			    font-size: 12px;
-			    text-align: right;
-			}
-			.login-container .panel-full-primary .panel-body .form-group .remember label {
-			    cursor: pointer;
-			    font-size: 12px;
-			    margin: 0;
-			}
-			.login-container .panel-full-primary .panel-body .form-group .remember .ers-checkbox {
-			    display: inline-block;
-			    line-height: 0;
-			    margin-left: 7px;
-			}
+				.login-container .panel-full-primary .panel-body .form-group .remember {
+				    color: #78a1c4;
+				    font-size: 12px;
+				    text-align: right;
+				}
+				.login-container .panel-full-primary .panel-body .form-group .remember label {
+				    cursor: pointer;
+				    font-size: 12px;
+				    margin: 0;
+				}
+				.login-container .panel-full-primary .panel-body .form-group .remember .ers-checkbox {
+				    display: inline-block;
+				    line-height: 0;
+				    margin-left: 7px;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group .remember .ers-checkbox input[type="checkbox"] + label::before {
-			    border: 1px solid #78a1c4;
-			    height: 14px;
-			    vertical-align: middle;
-			    width: 14px;
-			}
+				.login-container .panel-full-primary .panel-body .form-group .remember .ers-checkbox input[type="checkbox"] + label::before {
+				    border: 1px solid #78a1c4;
+				    height: 14px;
+				    vertical-align: middle;
+				    width: 14px;
+				}
 
-			.login-container .panel-full-primary .panel-body .form-group.login-submit .btn {
-			    width: 100%;
-			}
-		}	
+				.login-container .panel-full-primary .panel-body .form-group.login-submit .btn {
+				    width: 100%;
+				}
+			}	
 
 	}
 

@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.1.11**
+**Version 1.1.12**
 
 The *html structure has changed since previous version* for the header and the left bar. Now the logo is included in the left bar. As such the header had to be moved to the left of the width of the left bar.
 
@@ -107,6 +107,7 @@ Library | Version
 [Parsley](http://parsleyjs.org/) | 2.1.3
 [Select2](https://select2.github.io/) | 4.0.0
 [WOW](http://mynameismatthieu.com/WOW/) | 1.1.2
+[Yamm](https://github.com/geedmo/yamm3) | 1.1.0
 
 
 # How to use
@@ -334,6 +335,10 @@ You can see a "real" example here `/pages/fullpage`
 
 -------------------
 ## Change log
+
+### What is new in 1.1.12
+* Added megamenu full width dropdown (Yamm)
+* Numerous bug fixes on mobiles
 
 ### What is new in 1.1.11
 * Resolved issue 5 (language switcher)
