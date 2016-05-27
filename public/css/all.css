@@ -23010,7 +23010,7 @@ li.L9 {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .ers-dashboard .ers-dashboard-content .col-sm-6 {
-    padding-right: 0;
+    padding-right: 15px;
   }
 }
 .ers-dashboard .ers-dashboard-content .user-card > .col-md-6 {
