@@ -68,6 +68,7 @@
 
 			.user-avatar{
 				position: absolute;
+				width:220px;
 				left: 46px;
 				top: -50px;
 
@@ -91,8 +92,21 @@
 				}
 
 				.member-since{
-					padding-top: 15px;
-				}	
+					@media @phone, @tablet{
+						position: absolute;
+						left:80px;
+						top:30px;
+					}
+				}
+
+				.text-center{
+					margin-right: -20px;
+					@media @phone, @tablet{
+						position: absolute;
+						left:80px;
+						top:45px;
+					}
+				}
 
 				img{
 					width: 135px;

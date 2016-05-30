@@ -460,6 +460,12 @@
 					margin-right: -(@icons-nav-dropdown-width / 2);
 					right: 50%;
 					padding-bottom: 0;
+					height:190px;
+					position: fixed!important;
+
+					& .dropdown-menu {
+						position: fixed!important;
+					}
 
 					.title{
 						font-family: @DinPro;
@@ -1046,6 +1052,7 @@
 		.ers-content{
 
 		}
+
 	}
 
 	//Blue version
@@ -1185,6 +1192,38 @@
 	
 	@media @phone{
 		position: relative;
+
+		//mobile white version &{ targets the ancestor
+		.ers-white-header &{
+			.navbar-header {
+				.page-title{
+					color: @dark-color;
+				}
+
+				.ers-toggle-left-sidebar{
+					.icon-bar{
+						display: inline-block;
+						background-color: transparent;
+						height: auto;
+						width: auto;
+						vertical-align: middle;
+
+						span{
+							display: block;
+							width: 25px;
+							height: 1px;
+							margin-top: 6px;
+							background-color: @dark-color;
+
+							&:first-child{
+								margin-top: 0;
+							}
+						}
+					}
+				}
+			}
+
+		}		
 		
 		.navbar-collapse{
 			background-color: @primary-color;
@@ -1232,7 +1271,7 @@
 								}
 
 								&:active{
-									color: @light-color;
+									color: @left-sidebar-color;
 								}
 							}
 						}
@@ -1295,13 +1334,13 @@
 
 								&:hover, &:active, &:focus{
 									
+									background-color: @dark-primary-color;
 									color: @light-color;
 								}
 
 								&:active{
 									color: @light-color;
 									background-color: @dark-primary-color;
-									padding: 0px;
 								}
 							}
 						}
@@ -1500,6 +1539,10 @@
 							}
 						}
 					}
+				}
+				li.lang-switcher{
+					display:inline-block;
+					top: 27px;
 				}
 			}
 		}
