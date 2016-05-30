@@ -4,6 +4,10 @@
 #gritter-notice-wrapper{
 	width: @notification-width;
 	top: @notification-top-position;
+
+	@media @phone{
+		width: @notification-width * 0.85;
+	}
 }
 
 //Social Color Mixin
@@ -51,6 +55,10 @@
 				color: darken(@light-color, 15%);
 				width: 267px;
 				display: table-cell;
+
+				@media @phone{
+					width: 267px * 0.85;
+				}
 
 				.gritter-close{
 					display: block !important;
