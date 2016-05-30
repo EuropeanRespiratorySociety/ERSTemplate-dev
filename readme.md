@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.1.12**
+**Version 1.1.~~12~~ 11**
 
 The *html structure has changed since previous version* for the header and the left bar. Now the logo is included in the left bar. As such the header had to be moved to the left of the width of the left bar.
 
@@ -336,8 +336,8 @@ You can see a "real" example here `/pages/fullpage`
 -------------------
 ## Change log
 
-### What is new in 1.1.12
-* Added megamenu full width dropdown (Yamm)
+### What is new in ~~1.1.12~~
+* ~~Added megamenu full width dropdown (Yamm)~~
 * Numerous bug fixes on mobiles
 
 ### What is new in 1.1.11
