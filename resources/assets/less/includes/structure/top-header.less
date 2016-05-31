@@ -460,11 +460,17 @@
 					margin-right: -(@icons-nav-dropdown-width / 2);
 					right: 50%;
 					padding-bottom: 0;
-					height:190px;
-					position: fixed!important;
+					height: 290px;
+					
 
-					& .dropdown-menu {
+					@media @phone, @tablet{
+						height:190px;
 						position: fixed!important;
+
+
+						& .dropdown-menu {
+							position: fixed!important;
+						}
 					}
 
 					.title{
@@ -513,6 +519,8 @@
 						margin-left: -8px;
 					}
 				}
+
+
 
 				.ers-notifications, .ers-messages{
 
