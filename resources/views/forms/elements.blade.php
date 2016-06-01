@@ -422,7 +422,7 @@
                       <label class="col-sm-3 control-label">Read Only</label>
                       <div class="col-sm-6">
                         <div data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd - HH:ii" data-link-field="dtp_input1" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" readonly="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" readonly="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
@@ -430,7 +430,7 @@
                       <label class="col-sm-3 control-label"> Only Date </label>
                       <div class="col-sm-6">
                         <div data-min-view="2" data-date-format="yyyy-mm-dd" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
@@ -438,7 +438,7 @@
                       <label class="col-sm-3 control-label">Decade View</label>
                       <div class="col-sm-6">
                         <div data-start-view="4" data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd - HH:ii" data-link-field="dtp_input1" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
@@ -446,7 +446,7 @@
                       <label class="col-sm-3 control-label">Year View</label>
                       <div class="col-sm-6">
                         <div data-start-view="3" data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd - HH:ii" data-link-field="dtp_input1" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
@@ -454,7 +454,7 @@
                       <label class="col-sm-3 control-label">Month View</label>
                       <div class="col-sm-6">
                         <div data-start-view="2" data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd - HH:ii" data-link-field="dtp_input1" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
@@ -462,7 +462,7 @@
                       <label class="col-sm-3 control-label">Day View</label>
                       <div class="col-sm-6">
                         <div data-start-view="1" data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd - HH:ii" data-link-field="dtp_input1" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
@@ -470,7 +470,7 @@
                       <label class="col-sm-3 control-label">Hour View</label>
                       <div class="col-sm-6">
                         <div data-start-view="0" data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd - HH:ii" data-link-field="dtp_input1" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
@@ -478,7 +478,7 @@
                       <label class="col-sm-3 control-label">Day View Meridian</label>
                       <div class="col-sm-6">
                         <div data-show-meridian="true" data-start-view="1" data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd - HH:ii" data-link-field="dtp_input1" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
@@ -486,7 +486,7 @@
                       <label class="col-sm-3 control-label">Hour View Meridian</label>
                       <div class="col-sm-6">
                         <div data-show-meridian="true" data-start-view="0" data-date="1979-09-16T05:25:07Z" data-date-format="yyyy-mm-dd - HH:ii" data-link-field="dtp_input1" class="input-group date datetimepicker col-md-5 col-xs-7">
-                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="icon-th s7-date"></i></span>
+                          <input size="16" type="text" value="" class="form-control"><span class="input-group-addon btn btn-primary"><i class="s7-date"></i></span>
                         </div>
                       </div>
                     </div>
