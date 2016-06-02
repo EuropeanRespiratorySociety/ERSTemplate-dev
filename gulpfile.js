@@ -99,7 +99,7 @@ elixir(function(mix) {
 
         'app-tables-datatables.js',
         //'app-ui-notifications.js',
-        'app-ui-nestable-lists.js',
+        //'app-ui-nestable-lists.js',
         //'app-form-wizard.js',
         //'app-form-masks.js',
         'app-form-elements.js',
