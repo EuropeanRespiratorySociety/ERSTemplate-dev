@@ -557,7 +557,7 @@ var App = (function () {
         
           $('.ers-icons-nav > .dropdown').on('shown.bs.dropdown', function () {
             if ($(window).width() < 992){
-              $(".ers-user-nav").css('min-height', '0px');
+              $(".ers-user-nav").css('min-height', '79px');
             }
           });
           
