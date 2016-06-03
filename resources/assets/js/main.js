@@ -554,12 +554,20 @@ var App = (function () {
           $(".ers-scroller").nanoScroller();
         });
 
-        
+        if(!$('.ers-icons-nav > .dropdown > span.s7-piggy')){        
           $('.ers-icons-nav > .dropdown').on('shown.bs.dropdown', function () {
             if ($(window).width() < 992){
               $(".ers-user-nav").css('min-height', '79px');
             }
           });
+        }  
+      if($('.ers-icons-nav > .dropdown > span.s7-piggy')){ 
+        $('.ers-icons-nav > .dropdown > span.s7-piggy').on('shown.bs.dropdown', function () {
+            if ($(window).width() < 992){
+              $(".ers-user-nav").css('min-height', '110px');
+            }
+          });  
+          }  
           
           $('.ers-icons-nav > .dropdown').on('hidden.bs.dropdown', function () {
             if ($(window).width() < 992){
