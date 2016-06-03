@@ -556,13 +556,13 @@ var App = (function () {
 
         
           $('.ers-icons-nav > .dropdown').on('shown.bs.dropdown', function () {
-            if ($(window).width() < 768){
-              $(".ers-user-nav").css('min-height', '140px');
+            if ($(window).width() < 992){
+              $(".ers-user-nav").css('min-height', '79px');
             }
           });
           
           $('.ers-icons-nav > .dropdown').on('hidden.bs.dropdown', function () {
-            if ($(window).width() < 768){
+            if ($(window).width() < 992){
               $(".ers-user-nav").css('min-height', '0px');
             }
           });
