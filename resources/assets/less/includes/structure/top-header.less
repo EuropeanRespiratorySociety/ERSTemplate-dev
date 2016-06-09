@@ -482,11 +482,17 @@
 					margin-right: -(@icons-nav-dropdown-width / 2);
 					right: 50%;
 					padding-bottom: 0;
-					height: 290px;					
+					height: 290px;
+					-webkit-box-shadow: 10px 10px 20px -6px rgba(78,78,78,0.50);
+					-moz-box-shadow: 10px 10px 20px -6px rgba(78,78,78,0.50);
+					box-shadow: 10px 10px 20px -6px rgba(78,78,78,0.50);					
 
 					@media @phone, @tablet{
 						height:235px;
 						position: fixed!important;
+						-webkit-box-shadow:none;
+						-moz-box-shadow:none;
+						box-shadow:none;
 
 
 						& .dropdown-menu {

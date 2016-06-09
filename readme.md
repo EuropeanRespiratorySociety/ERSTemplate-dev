@@ -337,7 +337,7 @@ You can see a "real" example here `/pages/fullpage`
 ## Change log
 
 ### What is new in 1.1.13
-* Main menu - Third menu level added to the main nav. (html change requireds)
+* Main menu - Third menu level added to the main nav. (html change requiredse)
 
 ### What is new in 1.1.12
 * Numerous bug fixes on mobiles
