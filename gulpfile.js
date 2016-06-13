@@ -148,6 +148,7 @@ elixir(function(mix) {
         mix.copy('resources/assets/js/app-fullpage.js', 'public/js/app-fullpage.js');
         mix.copy('resources/assets/js/app-assemblies.js', 'public/js/app-assemblies.js');
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
+        mix.copy('resources/assets/js/app-home.js', 'public/js/app-home.js');
         mix.copy('resources/assets/js/app-enjoyhint-demo.js', 'public/js/app-enjoyhint-demo.js');
         
         //mix.copy('resources/assets/js/app-wow.js', 'public/js/app-wow.js');

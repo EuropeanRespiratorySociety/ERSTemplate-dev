@@ -15,6 +15,10 @@
 				width:100%;
 				margin-top:19px;
 			}
+			span{
+			    margin-right: 4px;
+			}
+			
 		}
 
 		.event-items-category{
@@ -45,9 +49,9 @@
 			a{font-family:@font-family-sans-serif;}
 		}
 		.article{
-		    font-size: 18px;
+		    font-size: 16px;
     		line-height: 140%;
-    		margin-top: 40px;
+    		margin: 40px 20px 20px;
 		}
 		.learning-outcomes{
 		    border-top: 1px solid @gray-light-midium;
@@ -81,6 +85,7 @@
 			padding:0 !important;
 
 			.tab-container{
+				position: fixed;
 
 				font-size: 12px;
 				p{
@@ -108,7 +113,7 @@
 				}
 				.nav-tabs{
 					li{
-						width:32%;
+						width:45%;
 						font-size: 12px;
 						a{color:#555;}
 						a:hover{color:#999;}
@@ -116,14 +121,40 @@
 
 				}
 
+				.tab-bottom{
+				    position: absolute;
+				    bottom: 0;
+				    height:100px;
+				    border:1px solid #666;
+				    width:90%;
+				}
 
+				.tab-register-bt{
+				position: absolute;
+				     position: absolute;
+				     bottom: 255px;
+				     right: 10px;
+				     width: 90%;
 				}
-				.btn-primary{
-					width: 100%;
+
+				.tab-content{
+					height:100%;
+					position: fixed;
 				}
+
+
+			}
+			.btn-primary{
+				width: 100%;
+			}
 
 			
 
+		}
+
+		.left-photo-map{
+			padding:0;
+			p{margin: 0;}
 		}
 
 	}

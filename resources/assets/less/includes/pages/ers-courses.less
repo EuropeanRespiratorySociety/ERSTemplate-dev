@@ -2,7 +2,7 @@
 	.ers-courses{
 
 		.courses-director{
-		    /*position: fixed;*/
+		    position: fixed;
 		    right: 0;
 		    height:100%;
 		    padding: 20px;
@@ -17,6 +17,19 @@
 		        padding-left:0;
 
 		    }
+
+		    @media @phone{
+				position:relative;
+			}
+
+			@media @tablet{
+
+				position:relative; 
+			}
+		}
+		.courses-footer{
+		margin:60px 0 40px 0;
+		h3{margin:20px 0 40px;}
 		}
 		
 	}

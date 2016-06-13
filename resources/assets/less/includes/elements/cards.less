@@ -41,7 +41,10 @@
 
 
 
-//Card for Events
+
+/*--------------------------*/
+/***** Card for Events *****/
+/*--------------------------*/
 
 
 	.ers-content{
@@ -53,81 +56,6 @@
 			}
 		}
 
-		/* card-event-box */
-
-		.card-event-box{
-			font-family:@font-family-serif;
-			border: 1px solid #dad9d9;
-
-			.card-image{
-				margin-bottom: 240px;
-    			max-height: 158px;
-    		}
-			.card-content{
-				position: absolute;
-			    top: 25%;
-    			/*left: 50%;
-    			-webkit-transform: translate(-50%, -50%);
-    			transform: translate(-50%, -50%);*/
-    			background-color: transparent;
-	    		z-index: 100;
-	    		padding: 0;
-	    		width: 100%;
-
-	    		div{
-	    		    width: 85%;
-    				margin: auto;
-    				background-color: white;
-    				border: 1px solid #dad9d9;
-    				height: 270px;
-    				padding: 20px 10px 10px;
-    				text-align: left;
-    			}
-
-    			p{
-    				line-height: 120%;
-    			}
-
-    			p.title{
-    				color:@link-color;
-    				font-size: 22px;
-    				line-height: 120%;
-
-    				span{
-    				 	font-size: 13px;
-    				 	display: block;
-    				 }
-    			}
-    			p.date{
-    				font-family:@font-family-sans-serif;
-    				margin:5px 0;
-    			}
-    			p.early_bird{
-    				background-color: #EAF1FD;
-    				font-family:@font-family-sans-serif;
-    				color:@link-color;
-    				border: 1px solid #9EBEF4;
-    				padding: 0 5px;
-    				font-size: 12px;
-    				margin: 10px 0;
-    				display: inline-block;
-    			}
-    			.icon{
-    				color:@link-color;
-
-    			}
-    			p.place{
-    				color:@link-color;
-    				font-family:@font-family-sans-serif;
-
-    			}
-    		}
-		}
-
-		/* Fin card-event-box */
-
-
-		/* card-event (default) */
 
 		.card-event{
 			font-family:@font-family-serif;
@@ -139,12 +67,13 @@
     		}
 			.card-content{
 				background-color: transparent;
-	    		padding: 7%;
+	    		padding: 20px;
 	    		text-align: left;
 
 
     			p{
     				line-height: 120%;
+                    margin:5px 0;
 
     			}
 
@@ -156,9 +85,13 @@
     				span{
     					font-size: 13px;
     					display: block;
-
+                        
     				}
     			}
+                div.lead-card {
+                    p {
+                    }
+                }
     			p.date{
     				font-family:@font-family-sans-serif;
     				margin:5px 0;
@@ -170,7 +103,7 @@
     				border: 1px solid #9EBEF4;
     				padding: 0 5px;
     				font-size: 12px;
-    				margin: 10px 0;
+    				margin: 5px 0;
     				display: inline-block;
 
 
@@ -182,34 +115,148 @@
     			p.place{
     				color:@link-color;
     				font-family:@font-family-sans-serif;
+                    margin-botton:20px;
 
     			}	
 			}
 			.card-action{
+                position: absolute;
+                bottom: 0;
+                right: 0;
 				background-color: transparent;
-				.btn{
-
-				}
+                margin-top: 0;
 				.btn-default{
-					background-color: @lighter-grey-bg;
+					background-color: transparent;
+                    border-color: transparent;
 				}
 				.btn-register{
 					background-color: white;
 				}
 
 			}
-			.label{
-			    position: absolute;
-			    right: 0;
-    			z-index: 100;
-    			font-weight: 100;
-    			font-size: 17px;
-    			font-style: italic;
-    			padding: 5px 10px 2px;
+            .text-capitalize {text-transform: capitalize !important;}
 
-			}
+            @media (min-width: @screen-md-min) {
+                min-height: 370px;
+                &.card-event-large{min-height:auto;}
+            }
+            @media (max-width: @screen-sm-max){
+                min-height: 340px;
+                &.card-event-large{min-height:auto;}
+            }
+
+
+			
 		}
-		/* Fin card-event (default) */
+
+        
 	}
+
+    
+
+/*-------------------------------------------------*/
+/***** Card with hover effect for News on Home *****/
+/*-------------------------------------------------*/
+
+figure.hover-gradation figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 10%, rgba(0,0,0,0.3) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 10%, rgba(0,0,0,0.3) 100%);
+    
+    content: '';
+    opacity: 1;
+}
+
+
+figure.hover-gradation:hover figcaption::before{
+    opacity: 0;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.hover-gradation figcaption::before{
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.hover-gradation img{
+max-width: 100%;
+width: 100%;
+    height: auto;
+    
+}
+
+figure.hover-gradation h2{
+position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 22px;
+    margin: 10px 20px;
+    text-align: left;
+    
+}
+
+/*-----------------------------------------------------*/
+/***** Card with general hover effect on Home *****/
+/*-----------------------------------------------------*/
+
+
+.card-home{
+
+    img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    
+    }
+    .title-box{
+        position: absolute;
+        bottom: 0;
+
+        background-color: darken(@btn-primary-bg, 5%);
+        /*mix-blend-mode: multiply;*/
+        filter:alpha(opacity=90);
+        -moz-opacity: 0.9;
+        opacity: 0.9;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 20px 10px;
+        h2{
+            color: white;
+            font-size: 20px;
+            margin: 0;
+
+        }
+    }                                          
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

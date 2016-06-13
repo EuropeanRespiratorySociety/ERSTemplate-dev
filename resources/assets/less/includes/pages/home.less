@@ -1,0 +1,208 @@
+#ersMainWebsite {
+	.home-content{
+		.top-box{
+    		height:450px;
+    		background-image: url("../images/home/news160602.jpg");
+    	    background-color: rgba(0, 0, 0, 0);
+    	    background-size: cover;
+    	    background-position: center center;
+    	    background-repeat: no-repeat;
+
+		    .subject{
+				color:white;
+				
+				background-color: @primary-color;
+				
+				margin: auto;
+    			position: relative;
+    			top: 35%;
+    			padding: 10px;
+
+    			
+    			@media (max-width: @screen-xs-max) {
+        		width:70%;
+    			/*height:35%;*/
+        		}
+
+        		@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+        		width:70%;
+    			/*height:35%;*/
+
+        		}
+
+        		@media (min-width: @screen-md) {
+    			width:45%;
+    			/*height:35%;*/
+        		}
+
+        		div{
+        		border:1px solid white;
+        		padding:20px;
+        		height:100%;
+        		font-size: 24px;
+
+        		label{
+        		font-size: 13px;
+        		display:block;
+        		margin:20px 0 0 0;
+        		}
+
+
+        		}
+
+
+
+			}
+		}
+
+        /***** News *****/
+
+        .home-news-content{
+            .row{
+                max-width:1000px;
+                .col-md-4{
+                padding:0;
+                }
+                @media (max-width: @screen-sm-max){
+                    max-width: 450px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    .col-md-4{
+                    margin:0 0 50px 0;
+                    }
+                }
+            }
+        }
+
+
+
+        /***** Community *****/
+        .home-community-content{
+            @media (max-width: @screen-sm-max){
+                .row {
+                    max-width: 450px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                    .col-md-4{
+                    margin:0 0 50px 0;
+                    }
+                }
+            }
+
+        }
+
+        /***** Scientific *****/
+
+        .home-scientific-content{
+            .col-md-3{
+                padding:0 10px;
+            }
+            @media (min-width: @screen-md) {
+                .page-head{
+                margin: 20px 0 20px 10px;
+                padding: 5px;
+                }
+
+                
+                
+
+            }
+            
+            
+        }
+
+        /***** Publications *****/
+        .home-publications-content{
+            @media (max-width: @screen-sm-max){
+                .row {
+                    max-width: 450px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                }
+            }
+        
+
+            
+            .row-books{
+                h2{font-size: 18px;}
+                .card-padded{
+                    background: transparent;
+                    .summary{
+                        color:@dark-color;
+                        padding-left: 0;
+                        a{
+                            color:@link-color;
+                            display:block;
+                            font-family:@font-family-sans-serif;
+                            margin-top:5px;
+                        }
+
+                        
+                    }
+                }
+
+
+            }
+        }
+
+        /***** Professional *****/
+
+        .home-professional-content{
+            .row-professional{
+                ul{
+                    list-style: none;
+                    padding-left: 0px;
+                    li{
+                        list-style-type: none;
+                        line-height:200%;
+                        font-size: 16px;
+                        a{
+                            color: @gray-light;
+                            &:hover{ color: @link-hover-color }
+                        }
+
+                    }
+                }
+
+                .col-md-3{
+                    border-right: 1px solid @gray-light-midium;
+                    min-height:330px;
+                    h2{
+                        margin-top: 0;
+                        font-size:25px;
+                    }
+                    .card-event {
+                        margin-right:10px;
+                        @media (min-width: @screen-md-min) {
+                        min-height: auto;
+                        &.card-event-large{min-height:auto;}
+                        }
+                        @media (max-width: @screen-sm-max){
+                        min-height: auto;
+                        &.card-event-large{min-height:auto;}
+                        }
+
+                        .card-content{
+                            padding: 15px;
+                            p.title{font-size: 18px;}
+
+                        }
+                        
+
+                    }
+                    
+                }
+
+                
+            }
+
+        }
+
+
+
+	}
+}
+
