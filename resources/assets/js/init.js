@@ -9,7 +9,7 @@ $(document).ready(function(){
     //Runs prettify
     prettyPrint();
     //Runs nestable
-    App.uiNestableLists();
+    //App.uiNestableLists();
     //Runs notifications
     //App.uiNotifications();
     //Form Elements

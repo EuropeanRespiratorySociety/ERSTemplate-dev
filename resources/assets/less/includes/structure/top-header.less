@@ -177,6 +177,7 @@
 						border: 0;
 						border-radius: 0px;
 						margin-top: 2px;
+						box-shadow:none;
 
 						> li{
 
@@ -196,20 +197,41 @@
 									background-color: transparent;
 									color: @dropdown-text-color;
 								}
+
+
+								.caret{
+									display:none;
+								}
 							}
-						}
+							//Third level visible
+
+							> ul {
+								display:block;
+								position:relative;
+
+								> li { 
+									background: @light-grey1;
+									a{
+										&:before{
+											content:'> ';
+										}
+									}
+	
+								}
+							} 
 
 						&:after{
-						border-bottom: 8px solid white;
-					    border-left: 8px solid transparent;
-					    border-right: 8px solid transparent;
-					    top: -8px;
-					    content: "";
-					    /*display: inline-block;*/
-					    left: 42px;
-					    margin-left: -6px;
-					    position: absolute;
-					    display:none;
+							border-bottom: 8px solid white;
+						    border-left: 8px solid transparent;
+						    border-right: 8px solid transparent;
+						    top: -8px;
+						    content: "";
+						    /*display: inline-block;*/
+						    left: 42px;
+						    margin-left: -6px;
+						    position: absolute;
+						    display:none;
+						}
 						}
 					}
 				}
@@ -461,11 +483,16 @@
 					right: 50%;
 					padding-bottom: 0;
 					height: 290px;
-					
+					-webkit-box-shadow: 10px 10px 20px -6px rgba(78,78,78,0.50);
+					-moz-box-shadow: 10px 10px 20px -6px rgba(78,78,78,0.50);
+					box-shadow: 10px 10px 20px -6px rgba(78,78,78,0.50);					
 
 					@media @phone, @tablet{
-						height:190px;
+						height:235px;
 						position: fixed!important;
+						-webkit-box-shadow:none;
+						-moz-box-shadow:none;
+						box-shadow:none;
 
 
 						& .dropdown-menu {
@@ -1448,8 +1475,13 @@
 						padding-top: 0;
 						border-radius: 0;
 
-						> li{
-							height: 100%;
+						&.ers-messages, &.ers-notifications {
+						 > li {
+						 	height:100%;
+						 }
+						}
+
+						> li {
 							display: table;
 							table-layout: fixed;
 							width: 100%;

@@ -1,8 +1,8 @@
 # ERS Template
 
-**Version 1.1.12**
+**Version 1.1.13**
 
-The *html structure has changed since previous version* for the header and the left bar. Now the logo is included in the left bar. As such the header had to be moved to the left of the width of the left bar.
+Since last version a third menu leve has been added to the main menu. The html structure has changed now the `.navbar-nav`class has to be added to the `<ul>`following the `<div class="ers-navbar-collapse collapse navbar-collapse">`
 
  **Bootstrap** and **Jquery** are used (see bellow for the list of libraries) . 
 
@@ -335,6 +335,9 @@ You can see a "real" example here `/pages/fullpage`
 
 -------------------
 ## Change log
+
+### What is new in 1.1.13
+* Main menu - Third menu level added to the main nav. (html change requiredse)
 
 ### What is new in 1.1.12
 * Numerous bug fixes on mobiles

@@ -554,15 +554,15 @@ var App = (function () {
           $(".ers-scroller").nanoScroller();
         });
 
-        
-          $('.ers-icons-nav > .dropdown').on('shown.bs.dropdown', function () {
-            if ($(window).width() < 768){
-              $(".ers-user-nav").css('min-height', '140px');
+        $('.ers-icons-nav > .dropdown').on('shown.bs.dropdown', function () {
+            if ($(window).width() < 992){
+              $(".ers-user-nav").css('min-height', '122px');
             }
           });
+
           
           $('.ers-icons-nav > .dropdown').on('hidden.bs.dropdown', function () {
-            if ($(window).width() < 768){
+            if ($(window).width() < 992){
               $(".ers-user-nav").css('min-height', '0px');
             }
           });

@@ -72,7 +72,16 @@ class Navigation
 
               $menu->add('Errors', 'errors');
                 $menu->errors->add('404', 'errors/404');
-                $menu->errors->add('503', 'errors/503');  
+                $menu->errors->add('503', 'errors/503');
+
+              $menu->add('Menu', 'menu');
+                $menu->menu->add('Second Level A', '#');
+                  $menu->secondLevelA->add('Third Level A', '#');
+                  $menu->secondLevelA->add('Third Level B', '#');
+                  $menu->secondLevelA->add('Third Level C', '#');
+                $menu->menu->add('Second Level B', '#');
+                $menu->menu->add('Second Level C', '#');
+
 
         });
 
