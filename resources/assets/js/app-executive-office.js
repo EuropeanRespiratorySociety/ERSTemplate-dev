@@ -48,7 +48,7 @@ var App = (function () {
         //Scrolling
         css3: true,
         scrollingSpeed: 700,
-        autoScrolling: true,
+        autoScrolling: false,
         fitToSection: false,
         fitToSectionDelay: 1000,
         scrollBar: true, //needs to be true for WOW to work
@@ -59,7 +59,7 @@ var App = (function () {
         loopHorizontal: true,
         continuousVertical: false,
         normalScrollElements: '#element1, .element2',
-        scrollOverflow: true,
+        scrollOverflow: false,
         touchSensitivity: 15,
         normalScrollElementTouchThreshold: 5,
 

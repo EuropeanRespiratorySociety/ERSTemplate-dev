@@ -1,5 +1,10 @@
 #ersMainWebsite {
 	.home-content{
+        .main-content{
+        padding-bottom:50px;
+
+
+        }
 		.top-box{
     		height:450px;
     		background-image: url("../images/home/news160602.jpg");
@@ -63,15 +68,7 @@
                 .col-md-4{
                 padding:0;
                 }
-                @media (max-width: @screen-sm-max){
-                    max-width: 450px;
-                    margin-left: auto;
-                    margin-right: auto;
-
-                    .col-md-4{
-                    margin:0 0 50px 0;
-                    }
-                }
+               
             }
         }
 
@@ -79,17 +76,7 @@
 
         /***** Community *****/
         .home-community-content{
-            @media (max-width: @screen-sm-max){
-                .row {
-                    max-width: 450px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    
-                    .col-md-4{
-                    margin:0 0 50px 0;
-                    }
-                }
-            }
+            
 
         }
 
@@ -104,6 +91,10 @@
                 margin: 20px 0 20px 10px;
                 padding: 5px;
                 }
+                .scientific-top{
+                padding-bottom:0;
+
+                }
 
                 
                 
@@ -115,16 +106,6 @@
 
         /***** Publications *****/
         .home-publications-content{
-            @media (max-width: @screen-sm-max){
-                .row {
-                    max-width: 450px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    
-                }
-            }
-        
-
             
             .row-books{
                 h2{font-size: 18px;}
@@ -142,6 +123,7 @@
 
                         
                     }
+                    padding-bottom:50px;
                 }
 
 
@@ -169,6 +151,7 @@
 
                 .col-md-3{
                     border-right: 1px solid @gray-light-midium;
+
                     min-height:330px;
                     h2{
                         margin-top: 0;
@@ -193,6 +176,13 @@
                         
 
                     }
+
+                    @media @phone{
+                        border-right: 0;
+                    }
+                    @media @tablet{
+                        border-right: 0;
+                    }
                     
                 }
 
@@ -200,6 +190,40 @@
             }
 
         }
+
+
+        /***** Research *****/
+
+        /***** Advocacy *****/
+
+        /***** ELF *****/
+        .home-elf-content{
+            .page-head{border-bottom:0;}
+        }
+
+        
+
+        /***** Card Responsive *****/
+
+        .home-research-content, .home-advocacy-content, .home-publications-content, .home-community-content, .home-news-content, .home-professional-content, .home-elf-content{
+
+            @media (max-width: @screen-sm-max){
+                .row {
+                    max-width: 450px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+
+                    .col-md-4{
+                    margin:0 0 50px 0;
+                    }
+                }
+            }
+
+        }
+
+
+
 
 
 
