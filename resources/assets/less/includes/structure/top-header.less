@@ -164,13 +164,37 @@
 				}
 
 				&.dropdown{
-
+				@media @phone, @tablet{
+						text-align:center;
+					} 
 					> a{
+						display:inline-block;
 
 						.angle-down{
 							font-size: 27px;
 							vertical-align: middle;
 						}
+					}
+
+					> a.independent-toggle{
+						width:15px;
+						padding: 0 0 0 2px;
+						margin: 0 0 0 -14px;
+
+						@media @phone, @tablet{	
+							padding: 0 4px 0 2px;
+							margin: 0;
+						}
+					}
+
+					> b.caret{
+						display:inline-block;
+						height:20px;
+						margin:10px 4px 0 0;
+
+						&:hover{
+							cursor:pointer
+						}	
 					}
 
 					.dropdown-menu{ // ul second level
@@ -201,10 +225,12 @@
 								}
 
 
-								.caret{
+								.caret, a.independent-toggle{
 									display:none;
 								}
 							}
+
+							.caret, a.independent-toggle{display:none;}
 							//Third level visible
 
 							> ul.dropdown-menu {
@@ -328,7 +354,6 @@
 						background-color: @main-nav-blue-color;
 					}
 
-
 					@media @tablet{
 						padding: 0 12px;
 					}
@@ -336,6 +361,17 @@
 
 
 				}
+
+				> b.caret{
+					background: @main-nav-blue-color;
+
+					&:hover, &:active{
+						background-color: @dark-primary-color;
+						color: @light-color !important;
+					}
+				}
+
+
 
 				&.dropdown{
 
@@ -411,10 +447,12 @@
 			margin-right: 0;
 
 			> li.dropdown{
+			text-align:left;
 
 				> a{
 					padding-left: 16px;
 					padding-right: 4px;
+					display:block;
 
 					@media @tablet{
 						padding-left: 10px;
@@ -477,6 +515,7 @@
 				> a{
 					padding: 0 9px;
 					position: relative;
+					display:block;
 
 					.icon{
 						font-size: 28px;
@@ -981,8 +1020,12 @@
 				.ers-main-nav{
 
 					> li{
-
+						background: @light-color;
 						float:left;
+
+						> b.caret{
+							color:@text-color;
+						}
 
 
 
@@ -1279,6 +1322,31 @@
 				}
 			}
 
+			.navbar-collapse{
+
+				> .ers-main-nav{
+
+					> li{
+						background-color:@light-color;
+					}
+
+					> li.dropdown{
+						background-color: @light-color;
+
+						&:hover, &.active{
+							background-color: darken(@light-color, 2.8%);
+
+							a {
+								background-color: darken(@light-color, 2.8%);
+							}
+					}
+					}
+
+				}
+
+
+			}
+
 		}		
 		
 		.navbar-collapse{
@@ -1357,6 +1425,7 @@
 				> li{
 					clear: both;
 					float: none;
+					background-color: @main-nav-blue-color; 
 
 					> a{
 						padding: 5px 0px;
@@ -1375,6 +1444,7 @@
 				}
 
 				> li.dropdown{
+				background-color: @main-nav-blue-color;
 					
 					.dropdown-menu {
 						background-color: @left-sidebar-background-sub-item;
@@ -1405,6 +1475,14 @@
 						&:after{
 							content: "";
 							display: none;
+						}
+
+					}
+
+					&:hover, &.active{
+						background-color: @dark-primary-color;
+						a {
+							background-color: @dark-primary-color;
 						}
 					}
 				}

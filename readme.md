@@ -1,8 +1,25 @@
 # ERS Template
 
-**Version 1.1.13**
+**Version 1.1.14**
 
-Since last version a third menu leve has been added to the main menu. The html structure has changed now the `.navbar-nav`class has to be added to the `<ul>`following the `<div class="ers-navbar-collapse collapse navbar-collapse">`
+Since Version **1.1.14** top level in the main navigation are clickable. It requires a change in the html:
+
+    <li class="dropdown">
+       <a class="dropdown-toggle disable" href="http://erstemplate.app/dashboard">
+        Top menu
+      </a>
+      <a href="javascript:void(0)" class="dropdown-toggle independent-toggle" data-toggle="dropdown"><b class="caret"></b></a>               
+      <ul class="dropdown-menu">
+        <li>
+         <a href="http://erstemplate.app/dashboard/member">
+          Second Level
+        </a>
+      </li>
+      ...
+
+You need to move the "caret" out of the top level `<a>` and wrap it in its own `<a>` with the `.independent-toggle` class.
+
+Since version **1.1.13** a third menu leve has been added to the main menu. The html structure has changed now the `.navbar-nav`class has to be added to the `<ul>`following the `<div class="ers-navbar-collapse collapse navbar-collapse">`
 
  **Bootstrap** and **Jquery** are used (see bellow for the list of libraries) . 
 
@@ -336,8 +353,12 @@ You can see a "real" example here `/pages/fullpage`
 -------------------
 ## Change log
 
+### What is new in 1.1.14
+* New dropdown menu with clickable top level items (html change required)
+* Hot fixes for myERS production readyness
+
 ### What is new in 1.1.13
-* Main menu - Third menu level added to the main nav. (html change requiredse)
+* Main menu - Third menu level added to the main nav. (html change required)
 
 ### What is new in 1.1.12
 * Numerous bug fixes on mobiles

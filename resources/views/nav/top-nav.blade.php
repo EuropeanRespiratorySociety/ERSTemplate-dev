@@ -14,7 +14,7 @@
           <a href="#" class="ers-toggle-right-sidebar">
             <span class="icon s7-menu2"></span>
           </a>
-          <a href="#" data-toggle="collapse" data-target=".ers-navbar-collapse" class="ers-toggle-top-header-menu collapsed">
+          <a data-toggle="collapse" data-target=".ers-navbar-collapse" class="ers-toggle-top-header-menu collapsed">
             <span class="icon s7-angle-down"></span>
           </a>         
           <div id="" class="ers-navbar-collapse collapse navbar-collapse">
