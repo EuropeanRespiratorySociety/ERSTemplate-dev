@@ -96,6 +96,7 @@ elixir(function(mix) {
         '../vendor/js-cookie/src/js.cookie.js',
         '../vendor/countup/countUp.min.js',
         '../vendor/enjoyhint/enjoyhint.min.js', //url of the font has to be changed in case of update of this file
+        '../vendor/masonry/masonry.pkgd.min.js', //url of the font has to be changed in case of update of this file
 
         'app-tables-datatables.js',
         //'app-ui-notifications.js',
