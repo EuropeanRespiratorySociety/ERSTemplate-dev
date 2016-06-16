@@ -58,13 +58,26 @@
 
 
 		.card-event{
-			font-family:@font-family-serif;
-			border: 1px solid #dad9d9;
-			background-color: @lighter-grey-bg;
+             font-family:@font-family-serif;
+             border: 1px solid #dad9d9;
+             background-color: @lighter-grey-bg;
 
-			.card-image{
-    			max-height: 158px;
-    		}
+             .card-image{
+                 height: 100px;
+                 overflow: hidden;
+                 position: relative;
+                 img{
+                     position: absolute;
+                     min-width: 100%;
+                     min-height: 100%;
+                     left: 50%;
+                     top: 50%;
+                     -webkit-transform: translate3d(-50%, -50%, 0);
+                     -moz-transform: translate3d(-50%, -50%, 0);
+                     -ms-transform: translate(-50%, -50%);
+                     transform: translate3d(-50%, -50%, 0);
+                 }
+             }
 			.card-content{
 				background-color: transparent;
 	    		padding: 20px;
@@ -143,7 +156,7 @@
             .text-capitalize {text-transform: capitalize !important;}
 
             @media (min-width: @screen-md-min) {
-                min-height: 370px;
+                min-height: 440px;
                 &.card-event-large{min-height:auto;}
             }
             @media (max-width: @screen-sm-max){
