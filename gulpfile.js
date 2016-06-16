@@ -98,6 +98,7 @@ elixir(function(mix) {
         '../vendor/enjoyhint/enjoyhint.min.js', //url of the font has to be changed in case of update of this file
         '../vendor/masonry/masonry.pkgd.min.js',
         '../vendor/masonry/isotope.js', 
+        '../vendor/masonry/packery.min.js', 
 
         'app-tables-datatables.js',
         //'app-ui-notifications.js',
