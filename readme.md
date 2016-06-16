@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.1.14**
+**Version 1.1.15**
 
 Since Version **1.1.14** top level in the main navigation are clickable. It requires a change in the html:
 
@@ -119,6 +119,7 @@ Library | Version
 [Google Prettify](https://github.com/google/code-prettify) | latest
 [Gritter](https://github.com/jboesch/Gritter) | 1.7.4
 [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) | 1.0.0
+[Masonry/Isotope](http://isotope.metafizzy.co/) | 3.0.1
 [Moment](http://momentjs.com/) | 2.5.1
 [nanoScroller](http://jamesflorentino.github.io/nanoScrollerJS/) | 0.8.7
 [Parsley](http://parsleyjs.org/) | 2.1.3
@@ -218,6 +219,24 @@ Validation is triggered on any `<form>` element
 ## Modal Effects
 
 Modal effects are triggered on element with the class `.md-trigger`
+
+## Masonry / Isotope
+
+Use the following code
+
+  ```
+    <script type="text/javascript">
+        $('.row_event').isotope({
+            layoutMode: 'packery',
+            packery: {
+                columnWidth: '.col-md-4',
+            },            
+            percentPosition: true
+            
+        });
+    </script>  
+  ```
+Of course you need to addapt the classes to your container element `.row_event`and the size `.col-md-4`
 
 ## Form Upload
 Dropzone is included on all pages. 
@@ -352,6 +371,10 @@ You can see a "real" example here `/pages/fullpage`
 
 -------------------
 ## Change log
+
+### What is new in 1.1.15
+* Added masonry/isotope/packary js lib
+* Hot fixes for myERS production readyness
 
 ### What is new in 1.1.14
 * New dropdown menu with clickable top level items (html change required)
