@@ -6,8 +6,10 @@
 
     		.article{
     		    column-count: 2;
-    		    p, ul{
+    		    p, ul, table{
     		    	page-break-inside: avoid;
+    		    	margin:0;
+    		    	padding-bottom:10px;
 
 	    		    @media @phone{
 	    		    	page-break-inside: auto;
@@ -19,7 +21,8 @@
 
 
     		    }
-    		    p { margin:0; }
+    		    h3 { margin:0;
+    		    	padding-bottom:10px; }
 
     		}
 
