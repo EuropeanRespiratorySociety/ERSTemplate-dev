@@ -4,6 +4,25 @@
 		    padding-left: 60px;
     		padding-right: 30px;
 
+    		.article{
+    		    column-count: 2;
+    		    p, ul{
+    		    	page-break-inside: avoid;
+
+	    		    @media @phone{
+	    		    	page-break-inside: auto;
+					}
+
+					@media @tablet{
+						page-break-inside: auto;
+					}
+
+
+    		    }
+    		    p { margin:0; }
+
+    		}
+
 		}
 		.img-responsive{
 		    width: 100%;
