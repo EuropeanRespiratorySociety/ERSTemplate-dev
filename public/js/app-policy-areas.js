@@ -11,40 +11,27 @@ var App = (function () {
 
     $('#fullpage').fullpage({
         //Navigation
-        menu: '',
+        menu: '#menu',
         lockAnchors: false,
         anchors: [
-            'assemblies', 
-            'clinical', 
-            'respiratory-intensive-care', 
-            'cell-and-molecular-biology', 
-            'clinical-physiology', 
-            'airway-diseases',
-            'occupation-and-epidemiology', 
-            'paediatrics', 
-            'thoracic-surgery', 
-            'allied-respiratory', 
-            'respiratory-infections', 
-            'thoracic-oncology'
+        	'policy-areas',
+            'tobacco-control', 
+            'chronic-diseases', 
+            'environment-policy', 
+            'research-and-innovation'
         ],
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: [
-            'Assemblies', 
-            'Clinical', 
-            'Respiratory Intensive Care', 
-            'Cell and Molecular Biology', 
-            'Clinical physiology...', 
-            'Airway Diseases', 
-            'Occupation and Epidemiology', 
-            'Paediatrics', 'Thoracic Surgery...', 
-            'Allied Respiratory Professionals', 
-            'Respiratory Infections', 
-            'Thoracic Oncology'
+            'Policy areas',
+            'Tobacco control',
+            'Chronic diseases including COPD', 
+            'Environment Policy', 
+            'Research and Innovation Policy'
         ],
         showActiveTooltip: false,
         slidesNavigation: false,
-        slidesNavPosition: 'top',
+        slidesNavPosition: 'bottom',
 
         //Scrolling
         css3: true,
@@ -73,7 +60,7 @@ var App = (function () {
         controlArrows: true,
         verticalCentered: false,
         resize : false,
-        sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2],
+        sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies1],
         paddingTop: '0px',
         paddingBottom: '40px',
         fixedElements: '#header, .footer',

@@ -4,6 +4,28 @@
 		    padding-left: 60px;
     		padding-right: 30px;
 
+    		.article{
+    		    column-count: 2;
+    		    p, ul, table{
+    		    	page-break-inside: avoid;
+    		    	margin:0;
+    		    	padding-bottom:10px;
+
+	    		    @media @phone{
+	    		    	page-break-inside: auto;
+					}
+
+					@media @tablet{
+						page-break-inside: auto;
+					}
+
+
+    		    }
+    		    h3 { margin:0;
+    		    	padding-bottom:10px; }
+
+    		}
+
 		}
 		.img-responsive{
 		    width: 100%;
