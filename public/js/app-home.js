@@ -81,20 +81,7 @@ var App = (function () {
         slideSelector: '.slide',
 
         //events
-        onLeave: function(index, nextIndex, direction){
-            /*var leavingSection = $(this);
-
-            //after leaving section 2
-            if(index == 1 && direction =='down'){
-                $('div.ers-wrapper').addClass('ers-full-screen-with-metanav');
-            }
-
-            else if(index == 2 && direction == 'up'){
-                $('div.ers-wrapper').removeClass('ers-full-screen-with-metanav');           
-
-            }*/
-        
-        },
+        onLeave: function(index, nextIndex, direction){},
         afterLoad: function(anchorLink, index){},
         afterRender: function(){},
         afterResize: function(){},

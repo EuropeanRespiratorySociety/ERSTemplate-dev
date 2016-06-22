@@ -37,7 +37,8 @@ var App = (function () {
             'Clinical physiology...', 
             'Airway Diseases', 
             'Occupation and Epidemiology', 
-            'Paediatrics', 'Thoracic Surgery...', 
+            'Paediatrics', 
+            'Thoracic Surgery...', 
             'Allied Respiratory Professionals', 
             'Respiratory Infections', 
             'Thoracic Oncology'
@@ -76,7 +77,7 @@ var App = (function () {
         sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2],
         paddingTop: '0px',
         paddingBottom: '40px',
-        fixedElements: '#header, .footer',
+        fixedElements: '#fixed-top-bar, .fixed-main-nav',
         responsiveWidth: 765,
         responsiveHeight: 0,
 
@@ -85,20 +86,7 @@ var App = (function () {
         slideSelector: '.slide',
 
         //events
-        onLeave: function(index, nextIndex, direction){
-            /*var leavingSection = $(this);
-
-            //after leaving section 2
-            if(index == 1 && direction =='down'){
-                $('div.ers-wrapper').addClass('ers-full-screen-with-metanav');
-            }
-
-            else if(index == 2 && direction == 'up'){
-                $('div.ers-wrapper').removeClass('ers-full-screen-with-metanav');           
-
-            }*/
-        
-        },
+        onLeave: function(index, nextIndex, direction){},
         afterLoad: function(anchorLink, index){},
         afterRender: function(){},
         afterResize: function(){},
