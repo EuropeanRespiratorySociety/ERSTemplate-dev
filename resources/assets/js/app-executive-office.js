@@ -1,7 +1,7 @@
 var App = (function () {
   'use strict';
   
-  App.assemblies = function( ){
+  App.executiveOffice = function( ){
 
     //var alt2 = App.color.assemblies_odd;
     var assemblies1 = App.color.assemblies1;
@@ -16,8 +16,8 @@ var App = (function () {
         anchors: [
             'executive', 
             'finance', 
-            'corporate-relations', 
-            'membership_national', 
+            'corporate', 
+            'membership', 
             'it', 
             'educational',
             'scientific', 
@@ -75,7 +75,7 @@ var App = (function () {
         sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1],
         paddingTop: '0px',
         paddingBottom: '40px',
-        fixedElements: '#header, .footer',
+        fixedElements: '#fixed-top-bar, .fixed-main-nav',
         responsiveWidth: 765,
         responsiveHeight: 0,
 
@@ -84,20 +84,7 @@ var App = (function () {
         slideSelector: '.slide',
 
         //events
-        onLeave: function(index, nextIndex, direction){
-            /*var leavingSection = $(this);
-
-            //after leaving section 2
-            if(index == 1 && direction =='down'){
-                $('div.ers-wrapper').addClass('ers-full-screen-with-metanav');
-            }
-
-            else if(index == 2 && direction == 'up'){
-                $('div.ers-wrapper').removeClass('ers-full-screen-with-metanav');           
-
-            }*/
-        
-        },
+        onLeave: function(index, nextIndex, direction){},
         afterLoad: function(anchorLink, index){},
         afterRender: function(){},
         afterResize: function(){},
