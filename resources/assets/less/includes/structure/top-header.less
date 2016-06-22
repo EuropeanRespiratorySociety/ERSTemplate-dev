@@ -238,12 +238,21 @@
 								position:relative;
 								box-shadow:none;
 								width:100%;
-
+ 
 								> li { 
 									background: @light-grey1;
 									a{
 										&:before{
 											content:'> ';
+										}
+
+										&.contact{
+											padding:10px;
+											border-top:1px solid #fff;
+											border-bottom:1px solid #fff;
+											&:before{
+												content:'';
+											}
 										}
 									} 
 
@@ -1026,7 +1035,7 @@
 									display: -ms-inline-flexbox;
 									display: -webkit-inline-flex;
 									display: inline-flex;
-									height:300px;
+									height:450px;
 									position:absolute;
 
 
