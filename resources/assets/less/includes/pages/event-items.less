@@ -101,6 +101,7 @@
 				font-size: 12px;
 				padding: 0px 20px 10px;
 				position: fixed;
+				top:100px;
 
 				@media @phone{
 				position:relative;
@@ -129,16 +130,19 @@
 					.list-group-item{
 						border: 0;
 						padding: 8px 15px;
-						
 
 					}
 				}
 				.nav-tabs{
+					display:inline-flex;
+					width:100%;
+
 					li{
-					width:45%;
+					width:100%;
 					font-size: 12px;
 					a{color:#555;}
 					a:hover{color:#999;}
+					flex: 1 1 auto;
 					}
 
 				}

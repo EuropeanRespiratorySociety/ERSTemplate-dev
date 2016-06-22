@@ -1,7 +1,7 @@
 var App = (function () {
   'use strict';
   
-  App.assemblies = function( ){
+  App.home = function( ){
 
     //var alt2 = App.color.assemblies_odd;
     var assemblies1 = App.color.assemblies1;
@@ -19,7 +19,7 @@ var App = (function () {
             'community', 
             'scientific', 
             'publications', 
-            'professional',
+            'professional-development',
             'research', 
             'advocacy', 
             'elf'
@@ -32,7 +32,7 @@ var App = (function () {
             'ERS community', 
             'Scientific and educational meetings', 
             'Publications', 
-            'Professional resources', 
+            'Professional Development', 
             'Research', 
             'Raising the profile of respiratory health', 
             'ELF'
@@ -72,7 +72,7 @@ var App = (function () {
         sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2],
         paddingTop: '0px',
         paddingBottom: '0px',
-        fixedElements: '#header, .footer',
+        fixedElements: '#fixed-top-bar, .fixed-main-nav',
         responsiveWidth: 765,
         responsiveHeight: 0,
 

@@ -1124,6 +1124,7 @@
 
 							> a{
 							background-color: darken(@light-color, 2.8%);
+							//background-color: @light-color;
 							color: @left-sidebar-color-sub-item !important;
 							}	
 						}
@@ -1135,7 +1136,16 @@
 
 							&:hover, &:active{
 							background-color: darken(@light-color, 2.8%);
+							//background-color: @light-color;
 							color: @left-sidebar-color-sub-item !important;
+							}
+						}
+
+						> .dropdown-menu {
+							> li.active{
+								> a{
+									color: @light-color;
+								}
 							}
 						}
 					}	
