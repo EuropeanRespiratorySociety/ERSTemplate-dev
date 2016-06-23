@@ -138,14 +138,25 @@
 					width:100%;
 
 					li{
-					width:100%;
-					font-size: 12px;
-					a{color:#555;}
-					a:hover{color:#999;}
-					flex: 1 1 auto;
+						width:100%;
+						font-size: 12px;
+						flex: 1 1 auto;
+
+						> a{
+							color:#555;
+							min-height: 145px;
+
+							&:hover{
+								color:#999;
+							}
+						}
+
+						&.active > a {
+							min-height:145px;
+						}
 					}
 
-				}
+				} 
 
 				.tab-bottom{
 					position: absolute;
