@@ -1,8 +1,12 @@
 #ersMainWebsite{
+
 	.event-items-content{
 
 		font-family:@font-family-sans-serif;
-		.img-responsive{width:100%}
+		.img-responsive{
+			width:100%;
+			margin-bottom: 15px;
+		}
 
 		.header{
 		height:150px;
@@ -272,8 +276,14 @@
 		}
 
 		.left-photo-map{
-		padding:0;
-		p{margin: 0;}
+			padding:0;
+
+			p{
+				margin: 0;
+				white-space: nowrap;
+    			text-overflow: ellipsis;
+    			overflow: hidden;
+			}
 		}
 
 		.fellowship-categories{
@@ -332,9 +342,13 @@
 
 		}
 
-
-
-
-
 	}
+
+	.related-items{
+		padding:0px 35px 5px 35px;
+					
+		.img-responsive {
+			width:initial;
+		}	
+	} 
 }
