@@ -280,9 +280,27 @@
 
 			p{
 				margin: 0;
-				white-space: nowrap;
-    			text-overflow: ellipsis;
-    			overflow: hidden;
+
+			}
+
+			.card-content{
+				p{
+					white-space: nowrap;
+    				text-overflow: ellipsis;
+    				overflow: hidden;
+
+					@media @laptop{
+						display:none;
+					}
+				}
+
+				h4{
+					margin-top:0;
+
+					@media @laptop{
+						font-size: 15px;
+					}
+				}
 			}
 		}
 
@@ -324,8 +342,10 @@
 
 		.event-items-right-bt{
 			position: absolute;
-			bottom: 280px;
-			width: 80%;
+			padding-bottom:20px;
+			background: @light-color;
+			bottom: 260px;
+			width: 85%;
 
 			@media @phone{
 			position:relative;
@@ -345,10 +365,27 @@
 	}
 
 	.related-items{
-		padding:0px 35px 5px 35px;
-					
-		.img-responsive {
-			width:initial;
-		}	
+		padding:0px 10px 5px 10px;
+
+
+
+		@media @phone, @tablet{
+			padding: 0px 30px 10px 30px;
+		}
+		.card-image{
+			height:100%;
+			img {
+				height:100%;
+				object-fit: cover;
+			}		
+		}			
+	
 	} 
+
+	.left-photo-map {
+		.related-items{
+			padding:0px 10px 5px 25px;
+		}
+	}
+
 }
