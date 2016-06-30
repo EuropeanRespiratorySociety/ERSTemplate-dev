@@ -6,11 +6,9 @@
 
         }
 		.top-box{
-    		height:450px;
-    		background-image: url("../images/home/news160602.jpg");
+    		height:450px; 
     	    background-color: rgba(0, 0, 0, 0);
     	    background-size: cover;
-    	    background-position: center center;
     	    background-repeat: no-repeat;
 
 		    .subject{
@@ -67,6 +65,23 @@
                 max-width:1000px;
                 .col-md-4{
                 padding:0;
+
+                a{
+                    .card{
+                        min-height: 200px;
+                        max-height: 200px;
+                        overflow: hidden;
+
+                        h4{
+                            color: @light-color;
+                            text-align:left;
+                            position:absolute;
+                            bottom:160px;
+                            margin:10px 20px;
+                        }
+
+                    }
+                }
                 }
                
             }
@@ -209,7 +224,13 @@
 
                         .card-content{
                             padding: 15px;
-                            p.title{font-size: 18px;}
+                            
+                            p.title{
+                                font-size: 18px;
+                            }
+                            .place{
+                                margin-bottom: 0;
+                            }
 
                         }
                         
