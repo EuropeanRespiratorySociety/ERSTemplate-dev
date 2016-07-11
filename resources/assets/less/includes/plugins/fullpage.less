@@ -8,7 +8,7 @@
 html.fp-enabled,
 .fp-enabled body {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     overflow:hidden;
 
     /*Avoid flicker on slides transitions for mobile phones #336 */
@@ -124,12 +124,21 @@ html.fp-enabled,
 #fp-nav ul,
 .fp-slidesNav ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  background: #fff; 
+  opacity: 0.6;
+  -webkit-transition: opacity .5s; /* Safari */
+    transition: opacity .5s;
+
+  &:hover{
+    opacity:1;
+  }
 }
 #fp-nav ul li,
 .fp-slidesNav ul li {
     display: block;
-    width: 14px;
+    width: 10px;
     height: 13px;
     margin: 7px;
     position:relative;
@@ -187,7 +196,7 @@ html.fp-enabled,
     font-size: 14px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;
-    max-width: 220px;
+    max-width: 250px;
     overflow: hidden;
     display: block;
     opacity: 0;
@@ -202,7 +211,11 @@ html.fp-enabled,
     opacity: 1;
 }
 #fp-nav ul li .fp-tooltip.right {
-    right: 20px;
+    right: 31px;
+    top: -6px;
+    background: #fff;
+    padding: 4px 6px;
+    border:1px solid #e6e6e6;
 }
 #fp-nav ul li .fp-tooltip.left {
     left: 20px;

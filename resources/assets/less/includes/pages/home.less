@@ -13,6 +13,10 @@
 
 		    .subject{
 				color:white;
+
+                a{
+                    color:white;
+                }
 				
 				background-color: @primary-color;
 				
@@ -123,8 +127,9 @@
         .home-publications-content{
             
             .row-books{
-            .col-md-3, .col-md-4{
+            .col-md-3, .col-md-4, col-sm-2{
                 width:auto;
+
             }
                 h2{font-size: 18px;}
                 .card-padded{
@@ -172,6 +177,21 @@
                     right: 0;
                     bottom: 0;
                     z-index:1005;
+                }
+
+
+                @media @phone, @tablet{
+                    .card-content{
+                        width:60%;
+                        margin-right:0px;
+                    }
+
+                    &:hover{                
+                        .card-content{
+                            width:60%;
+                            margin-right:0px;
+                        }
+                    }
                 }
 
                 &:hover{
