@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?mwk35k');
-    src:    url('fonts/icomoon.eot?mwk35k#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?mwk35k') format('truetype'),
-        url('fonts/icomoon.woff?mwk35k') format('woff'),
-        url('fonts/icomoon.svg?mwk35k#icomoon') format('svg');
+    src:    url('fonts/icomoon.eot?mx8b9o');
+    src:    url('fonts/icomoon.eot?mx8b9o#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?mx8b9o') format('truetype'),
+        url('fonts/icomoon.woff?mx8b9o') format('woff'),
+        url('fonts/icomoon.svg?mx8b9o#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,24 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-elf:before {
+    content: "\e906";
+}
+.icon-ers:before {
+    content: "\e907";
+}
+.icon-vision:before {
+    content: "\e908";
+}
+.icon-e-learn:before {
+    content: "\e909";
+}
+.icon-my-ers:before {
+    content: "\e90a";
+}
+.icon-publications:before {
+    content: "\e90b";
+}
 .icon-handout:before {
     content: "\e905";
 }

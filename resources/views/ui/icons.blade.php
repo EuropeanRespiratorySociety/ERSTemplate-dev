@@ -1086,6 +1086,45 @@
               </div>
             </div>
 
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="icon-container">
+                <div class="icon"><span class="icon-publications"></span></div><span class="class">icon-publications</span>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="icon-container">
+                <div class="icon"><span class="icon-my-ers"></span></div><span class="class">icon-my-ers</span>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="icon-container">
+                <div class="icon"><span class="icon-e-learn"></span></div><span class="class">icon-e-learn</span>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="icon-container">
+                <div class="icon"><span class="icon-vision"></span></div><span class="class">icon-vision</span>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="icon-container">
+                <div class="icon"><span class="icon-ers"></span></div><span class="class">icon-ers</span>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="icon-container">
+                <div class="icon"><span class="icon-elf"></span></div><span class="class">icon-elf</span>
+              </div>
+            </div>
+
+
+
+
 
 
           
