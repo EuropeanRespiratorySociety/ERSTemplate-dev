@@ -1122,6 +1122,20 @@
               </div>
             </div>
 
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="icon-container">
+                <div class="icon"><span class="icon-hlfl"></span></div><span class="class">icon-elf</span>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-lg-2">
+              <div class="icon-container">
+                <div class="icon"><span class="icon-who"></span></div><span class="class">icon-elf</span>
+              </div>
+            </div>
+            
+
+
 
 
 
