@@ -134,6 +134,17 @@ html.fp-enabled,
   &:hover{
     opacity:1;
   }
+
+  /* Main Web site */
+
+  #ersMainWebsite &{
+    position: relative;
+    right: -37px;
+    padding: 10px 20px 10px 2px;
+    border-radius: 11px;
+    opacity: 1;
+  }
+
 }
 #fp-nav ul li,
 .fp-slidesNav ul li {
@@ -142,6 +153,13 @@ html.fp-enabled,
     height: 13px;
     margin: 7px;
     position:relative;
+
+    /* Main Web site */
+
+    #ersMainWebsite &{
+        margin: 4px 7px;
+    }
+
 }
 .fp-slidesNav ul li {
     display: inline-block;
@@ -164,6 +182,15 @@ html.fp-enabled,
     width: 12px;
     margin: -6px 0 0 -6px;
     border-radius: 100%;
+
+    /* Main Web site */
+
+    #ersMainWebsite &{
+        background:  white;
+        border-width: 2px;
+        border-style: solid;
+        border-color: @primary-color;
+    }
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
@@ -181,12 +208,25 @@ html.fp-enabled,
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
+
+    /* Main Web site */
+
+    #ersMainWebsite &{
+        background: #999;
+    }
 }
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
     width: 10px;
     height: 10px;
     margin: -5px 0px 0px -5px;
+
+    /* Main Web site */
+
+    #ersMainWebsite &{
+
+        background-color:  @primary-color;
+    }
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
@@ -202,13 +242,30 @@ html.fp-enabled,
     opacity: 0;
     width: 0;
     cursor: pointer;
+
+
+    /* Main Web site */
+
+    #ersMainWebsite &{
+
+    background-color:  @primary-color;
+    color: #fff;
+    border-radius: 3px;
+    font-family:@font-family-serif;
+    font-size: 14px;
+    }
 }
+
+
+
 #fp-nav ul li:hover .fp-tooltip,
 #fp-nav.fp-show-active a.active + .fp-tooltip {
     -webkit-transition: opacity 0.2s ease-in;
     transition: opacity 0.2s ease-in;
     width: auto;
     opacity: 1;
+
+
 }
 #fp-nav ul li .fp-tooltip.right {
     right: 31px;
@@ -216,6 +273,13 @@ html.fp-enabled,
     background: #fff;
     padding: 4px 6px;
     border:1px solid #e6e6e6;
+
+    /* Main Web site */
+
+    #ersMainWebsite &{
+        border:0;
+        padding: 4px 10px;
+    }
 }
 #fp-nav ul li .fp-tooltip.left {
     left: 20px;
@@ -225,3 +289,4 @@ html.fp-enabled,
 .fp-auto-height .fp-tableCell{
     height: auto !important;
 }
+
