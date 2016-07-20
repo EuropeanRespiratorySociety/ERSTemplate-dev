@@ -38,7 +38,6 @@ elixir(function(mix) {
     mix.copy('resources/assets/vendor/jquery/jquery.min.js', 'public/js/jquery.min.js');
 
     mix.less('style.less');
-    mix.less(['includes/plugins/fullpage.less'], 'public/css/fullpage.css');
     mix.styles([
         '../vendor/select2/css/select2.min.css',
     	//'../../../public/css/style.css',
