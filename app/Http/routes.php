@@ -67,6 +67,8 @@ Route::group(['middleware' => ['web']], function () {
     return view('pages.blank')->with($params);
 	});
 
+
+
 	
 	function display($color, $screen){
 

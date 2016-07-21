@@ -69,6 +69,7 @@ class Navigation
                 $menu->special->add('Signup Errors', 'special/sign-up-errors');
                 $menu->special->add('Signup with Ads', 'special/sign-up-ads');
                 $menu->special->add('Forgot Password', 'special/forgot');
+                $menu->special->add('Congress special', 'special/congress-special');
 
               $menu->add('Errors', 'errors');
                 $menu->errors->add('404', 'errors/404');

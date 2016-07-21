@@ -3,7 +3,8 @@
 	.event-items-content{
 
 		font-family:@font-family-sans-serif;
-	.img-responsive{
+
+		.img-responsive{
 			width:100%;
 		}
 
@@ -31,6 +32,17 @@
 			margin-right: 4px;
 			}
 
+		}
+
+		.ers-course-info{
+			position: relative;
+    		left: 10px;
+    		padding: 0 20px;
+
+		}
+
+		.ers-course-organisers{
+			padding: 0 40px;
 		}
 
 		.event-items-category{
@@ -63,7 +75,7 @@
 		.article{
 			font-size: 16px;
 			line-height: 140%;
-			margin: 40px 20px 20px;
+			margin: 40px;
 		}
 		.learning-outcomes{
 			border-top: 1px solid @gray-light-midium;
@@ -246,7 +258,7 @@
 		border-right:0;
 		border-bottom:0;
 		border-left:0;
-		padding: 10px;
+		/*padding: 10px ;*/
 
 		}
 		p{
@@ -305,34 +317,31 @@
 
 		.fellowship-categories{
 
-		.card{
-		font-family:@font-family-serif;
-		p{margin-bottom:20px;}
+			.card{
+				font-family:@font-family-serif;
+				p{margin-bottom:20px;}
+			}
+
+			@media (max-width: @screen-sm-max){
+
+				max-width: 450px;
+				margin-left: auto;
+				margin-right: auto;
 
 
+				.col-md-4{
+				margin:0 0 50px 0;
+				}
 
-		}
-
-		@media (max-width: @screen-sm-max){
-
-		max-width: 450px;
-		margin-left: auto;
-		margin-right: auto;
-
-
-		.col-md-4{
-		margin:0 0 50px 0;
-		}
-
-		}
+			}
 
 		}
 		.page-head{
-		margin:0;
-		h2{
-		margin-top: 30px;
+			margin:0 40px;
+			h2{
+			margin-top: 30px;
 
-		}
+			}
 		}
 
 		.event-items-fs-title{
