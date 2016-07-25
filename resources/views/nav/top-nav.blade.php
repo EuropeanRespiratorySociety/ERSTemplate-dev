@@ -4,7 +4,7 @@
 
             <!-- Start Page title Visible on Mobile size screen -->
             <div class="page-title">
-              <span>myERS</span>
+              <span>ERS Template</span>
             </div>
             <!-- End Page title Visible on Mobile size screen -->
               <a href="#" class="ers-toggle-left-sidebar navbar-toggle collapsed">
@@ -35,7 +35,7 @@
 
             <!-- Start Breadcrumb/title bar -->
             <ul class="nav navbar-left breadcrumb hidden-xs">
-              <li><a href="/"><h2>myERS</h2></a></li>
+              <li><a href="/"><h2>ERS Template</h2></a></li>
               @include('nav.breadcrumb-items', array('items' => $BreadCrumb->roots()))
             </ul>
             <!-- End Breadcrumb/title bar -->

@@ -16,37 +16,28 @@ class SlidingMetanavigation
      */
     public function handle($request, Closure $next)
     {
-
         \Menu::make('SlidingMetanav', function($menu){
 
             //the maximum depth is 4
 
-            $menu->add('The Society')->prepend('<i class="s7-culture icon"></i><span>')->append('</span>');
-                $menu->theSociety->add('Who we are', 'forms/elements');
-
-                $menu->theSociety->add('Assemblies', 'pages/blank')->prepend('<span>')->append('</span>');
-                    $menu->assemblies->add('Assembly 1', 'ui/buttons');
-                        $menu->assembly1->add('Group 1.1', 'ui/buttons');
-                        $menu->assembly1->add('Group 1.2', 'ui/panels');
-                    $menu->assemblies->add('Assembly 2', 'pages/blank-header');
-                    $menu->assemblies->add('Assembly 3', 'pages/blank-aside');
-                    $menu->assemblies->add('Assembly 4', 'pages/fullpage');
-
-                $menu->theSociety->add('Something Else', 'profile/member')->prepend('<span>')->append('</span>');
-                    $menu->somethingElse->add('Something 1', 'profile/member');
-                        $menu->something1->add('Group 1.1', 'profile/non-member');
-                    $menu->somethingElse->add('Something Nice', 'profile/non-member');
-                    $menu->somethingElse->add('Something  Beautiful', 'profile/edit');
-                    $menu->somethingElse->add('Something Wonderful', 'profile/variations');
-
-            $menu->add('An other menu item', 'special')->prepend('<i class="s7-plane icon"></i><span>')->append('</span>');
-                $menu->anOtherMenuItem->add('Who we are', 'login'); 
-                
-            $menu->add('Yet an other one', 'ui/grid')->prepend('<i class="s7-joy icon"></i><span>')->append('</span>');
-                $menu->yetAnOtherOne->add('A game', 'ui/grid');     
-
-            $menu->add('Why not an other', 'dashboard/member')->prepend('<i class="s7-cart icon"></i><span>')->append('</span>');
-                $menu->whyNotAnOther->add('Carrots', 'dashboard/non-member'); 
+            $menu->add('MyERS', 'https://my.ersnet.org')->prepend('<i class="icon-my-ers icon"></i><span>')->append('</span>'); 
+            $menu->add('Publications', url("#publications"))->prepend('<i class="icon-publications icon"></i><span>')->append('</span>'); 
+            $menu->add('e-learning', 'http://www.ers-education.org/home.aspx')
+                    ->prepend('<i class="icon-e-learn icon"></i><span>')->append('</span>')
+                    ->link->attr(array('target' => '_blank'));
+                    
+            $menu->add('ERS Vision', 'http://www.ersvision.org/')
+                    ->prepend('<i class="icon-vision icon"></i><span>')->append('</span>')
+                    ->link->attr(array('target' => '_blank')); 
+            $menu->add('Healthy Lung For Life', 'http://www.europeanlung.org/en/projects-and-research/projects/healthy-lungs-for-life/home/')
+                    ->prepend('<i class="icon-hlfl icon"></i><span>')->append('</span>')
+                    ->link->attr(array('target' => '_blank')); 
+            $menu->add('European Lung Foundation', 'http://www.europeanlung.org/en/')
+                    ->prepend('<i class="icon-elf icon"></i><span>')->append('</span>')
+                    ->link->attr(array('target' => '_blank')); 
+            $menu->add('TB Consilium', 'https://www.tbconsilium.org/')
+                    ->prepend('<div class="tb_consilium_nav clearfix"><i class="icon-ers icon pull-left"></i><i class="icon-who icon pull-right who-icon"></i></div><span>')->append('</span>')
+                    ->link->attr(array('target' => '_blank')); 
               
 
         });
