@@ -242,6 +242,11 @@
 								> li { 
 									background: @light-grey1;
 									a{
+										background-color: #f1f1f1;
+										&:hover{
+											background-color: @dark-primary-color;
+										}
+
 										&:before{
 											content:'> ';
 										}
@@ -357,6 +362,8 @@
 					padding: 0 18px 0 8px; 
 					outline: none;
 					background: @main-nav-blue-color;
+					/*koko*/
+
 
 					&:hover, &:active{
 						background-color: @dark-primary-color;
@@ -972,7 +979,7 @@
 		}
 	}
 
-	//White version
+	// White version
 	.ers-white-header &{
 		background-color: @light-color;
 
@@ -1085,13 +1092,13 @@
 
 
 
-				@media @tablet{
-					clear:both;
-					float:none;
-				}
+						@media @tablet{
+							clear:both;
+							float:none;
+						}
 
 						> a{
-							color: @text-color;
+							color: @gray-light;
 						}
 
 						&.open{
@@ -1128,47 +1135,6 @@
 					
 
 				}
-
-				//add Rika 260116
-				.ers-main-nav{
-			
-					> li{
-						&.active{
-
-							> a{
-							background-color: darken(@light-color, 2.8%);
-							//background-color: @light-color;
-							color: @left-sidebar-color-sub-item !important;
-							}	
-						}
-
-						> a{
-						background-color: @light-color;
-						//color: lighten(@lleft-sidebar-color-sub-item, 50%) !important;
-						color: @gray-light;
-
-							&:hover, &:active{
-							background-color: darken(@light-color, 2.8%);
-							//background-color: @light-color;
-							color: @left-sidebar-color-sub-item !important;
-							}
-						}
-
-						> .dropdown-menu {
-							> li.active{
-								> a{
-									color: @light-color;
-								}
-							}
-						}
-					}	
-
-
-	
-				}
-
-
-				
 			}
 
 			.ers-icons-nav{
@@ -1214,13 +1180,67 @@
 				color: fade(@text-color, 80%);
 			}
 		}
-		.ers-content{
+
+		// with phone, tablet, desktop with white header
+		.ers-main-nav{
+
+			> li{
+				&.active{
+
+					> a{
+					background-color: darken(@light-color, 2.8%);
+					//background-color: @light-color;
+					color: @left-sidebar-color-sub-item !important;
+					}	
+				}
+
+				> a{
+					background-color: @light-color;
+					color: @gray-light;
+
+					&:hover, &:active{
+					background-color: darken(@light-color, 2.8%);
+					//background-color: @light-color;
+					color: @left-sidebar-color-sub-item !important;
+					}
+				}
+
+				> .dropdown-menu {
+					> li.active{
+						> a{ color: @light-color; }
+					}
+				}
+			}
+
+			// Hover white version First level
+
+			li.dropdown{
+				dropdown-menu{
+					li{
+						a{
+							&:hover{background-color: @primary-color;}
+						}
+					}
+					.active{
+						a  {background-color: @primary-color;}
+						
+					}
+
+				}
+			}
+
+
+
 
 		}
+		// END with phone, tablet, non-responsive with white header
+		
 
 	}
 
-	//Blue version
+	// END White version
+
+	// Blue version non-responsive
 	@media @non-responsive{
 		.ers-blue-header &{
 			background-color: @primary-color;
@@ -1358,11 +1378,13 @@
 			}
 		}
 	}
+
+	// END Blue version non-responsive
 	
 	@media @phone{
 		position: relative;
 
-		//mobile white version &{ targets the ancestor
+		// Phone white version &{ targets the ancestor
 		.ers-white-header &{
 			.navbar-header {
 				.page-title{
@@ -1403,13 +1425,42 @@
 					> li.dropdown{
 						background-color: @light-color;
 
+						// Phone Hover white version First level
+
 						&:hover, &.active{
 							background-color: darken(@light-color, 2.8%);
 
 							a {
 								background-color: darken(@light-color, 2.8%);
 							}
-					}
+						}
+
+						.dropdown-menu {
+
+							> li{
+
+								> a{
+									color: @left-sidebar-color;
+									padding-left: 26px;
+
+									// Phone Hover white version Second level
+
+									&:hover, &:active, &:focus{
+										
+										background-color: @primary-color;;
+
+
+										color: @light-color;
+									}
+
+									&:active{
+										color: @light-color;
+										/*background-color: #000;*/
+									}
+
+								}
+							}
+						}
 					}
 
 				}
@@ -1417,7 +1468,11 @@
 
 			}
 
-		}		
+		}
+
+		//END Phone white version &{ targets the ancestor
+
+
 		
 		.navbar-collapse{
 			background-color: @primary-color;
@@ -1457,8 +1512,12 @@
 						> li {
 							
 							> a{
+
+								//Second level visible
+
 								color: @left-sidebar-color;
 								padding-left: 26px;
+								background: white;
 
 								&:hover, &:active, &:focus{
 									background-color: transparent;
@@ -1468,6 +1527,9 @@
 								&:active{
 									color: @left-sidebar-color;
 								}
+
+
+
 							}
 						}
 
@@ -1527,11 +1589,14 @@
 							
 							> a{
 								color: @left-sidebar-color;
+								/*color: @text-color;*/
 								padding-left: 26px;
 
 								&:hover, &:active, &:focus{
 									
 									background-color: @dark-primary-color;
+
+
 									color: @light-color;
 								}
 
