@@ -1,7 +1,7 @@
 
     <div class="ers-left-sidebar">
     <div class="navbar-header">
-            <a href="/" class="navbar-brand"></a>
+            <a href="https://www.ersnet.org" class="navbar-brand"></a>
     </div>
       <div class="content">
         <div class="ers-logo"></a></div>
