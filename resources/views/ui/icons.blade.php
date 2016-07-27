@@ -4,6 +4,167 @@
         <div class="page-head">
           <h2>Icons Font</h2>
         </div>
+        <div class="main-content app-icon">
+
+        <h4>Icon font for APP Congress 2016</h4>
+
+        <div class="row">
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-home"></span></div><span class="class">Home</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-calender"></span></div><span class="class">Programme</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-id"></span></div><span class="class">Social Sessions...</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-study"></span></div><span class="class">My Congress</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-Industry"></span></div><span class="class">Industry</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-global"></span></div><span class="class">World Village</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-map-2"></span></div><span class="class">Floorplans</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-info"></span></div><span class="class">Info & Help</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-my-ers"></span></div><span class="class">Participant Search</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-business-card"></span></div><span class="class">Business Cards</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-comment"></span></div><span class="class">Inbox</span>
+            </div>
+          </div>
+          
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-user"></span></div><span class="class">Get Social</span>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-chat"></span></div><span class="class">Interactive...</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-search"></span></div><span class="class">Browse...</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-filter"></span></div><span class="class">Browse by Filters</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-clock"></span></div><span class="class">Happening now</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-handout"></span></div><span class="class">Abstract</span>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-photo"></span></div><span class="class">ePosters</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-author"></span></div><span class="class">Author Index</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-users"></span></div><span class="class">Faculty</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-appointments"></span></div><span class="class">My Appointments</span>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-calender-check"></span></div><span class="class">My Programme</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-bookmarks"></span></div><span class="class">Bookmarks</span>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-note"></span></div><span class="class">My Notes</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="icon-ers"></span></div><span class="class">My ERS</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-refresh-2"></span></div><span class="class">Sync My Programme</span>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="icon-container">
+              <div class="icon"><span class="s7-star"></span></div><span class="class">Features</span>
+            </div>
+          </div>
+
+
+
+
+      
+
+
+        </div>
+
+
+        </div>
+
+        <div class="page-head">
+            <h2>Full Icon Set</h2>
+        </div>
+
         <div class="main-content">
           <div class="row">
             <div class="col-xs-6 col-sm-3 col-lg-2">
@@ -1124,13 +1285,13 @@
 
             <div class="col-xs-6 col-sm-3 col-lg-2">
               <div class="icon-container">
-                <div class="icon"><span class="icon-hlfl"></span></div><span class="class">icon-elf</span>
+                <div class="icon"><span class="icon-hlfl"></span></div><span class="class">icon-hlfl</span>
               </div>
             </div>
 
             <div class="col-xs-6 col-sm-3 col-lg-2">
               <div class="icon-container">
-                <div class="icon"><span class="icon-who"></span></div><span class="class">icon-elf</span>
+                <div class="icon"><span class="icon-who"></span></div><span class="class">icon-who</span>
               </div>
             </div>
             

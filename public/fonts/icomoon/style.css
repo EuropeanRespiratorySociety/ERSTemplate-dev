@@ -1,69 +1,87 @@
 @font-face {
-    font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?iqe2jr');
-    src:    url('fonts/icomoon.eot?iqe2jr#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?iqe2jr') format('truetype'),
-        url('fonts/icomoon.woff?iqe2jr') format('woff'),
-        url('fonts/icomoon.svg?iqe2jr#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?cz0pg9');
+  src:  url('fonts/icomoon.eot?cz0pg9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cz0pg9') format('truetype'),
+    url('fonts/icomoon.woff?cz0pg9') format('woff'),
+    url('fonts/icomoon.svg?cz0pg9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-appointments:before {
+  content: "\e913";
+}
+.icon-calender:before {
+  content: "\e911";
+}
+.icon-Industry:before {
+  content: "\e912";
+}
+.icon-author:before {
+  content: "\e90e";
+}
+.icon-business-card:before {
+  content: "\e90f";
+}
+.icon-calender-check:before {
+  content: "\e910";
+}
 .icon-hlfl:before {
-    content: "\e90c";
+  content: "\e90c";
 }
 .icon-who:before {
-    content: "\e90d";
+  content: "\e90d";
 }
 .icon-elf:before {
-    content: "\e906";
+  content: "\e906";
 }
 .icon-ers:before {
-    content: "\e907";
+  content: "\e907";
 }
 .icon-vision:before {
-    content: "\e908";
+  content: "\e908";
 }
 .icon-e-learn:before {
-    content: "\e909";
+  content: "\e909";
 }
 .icon-my-ers:before {
-    content: "\e90a";
+  content: "\e90a";
 }
 .icon-publications:before {
-    content: "\e90b";
+  content: "\e90b";
 }
 .icon-handout:before {
-    content: "\e905";
+  content: "\e905";
 }
 .icon-meal:before {
-    content: "\e900";
+  content: "\e900";
 }
 .icon-hotel:before {
-    content: "\e901";
+  content: "\e901";
 }
 .icon-parking:before {
-    content: "\e902";
+  content: "\e902";
 }
 .icon-taxi:before {
-    content: "\e903";
+  content: "\e903";
 }
 .icon-train:before {
-    content: "\e904";
+  content: "\e904";
 }
 
