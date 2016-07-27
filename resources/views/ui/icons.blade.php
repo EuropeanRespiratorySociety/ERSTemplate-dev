@@ -21,17 +21,17 @@
           </div>
           <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="icon-container">
-              <div class="icon"><span class="s7-id"></span></div><span class="class">Social Sessions...</span>
+              <div class="icon"><span class="icon-calender"></span></div><span class="class">Special Sessions...</span>
             </div>
           </div>
           <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="icon-container">
-              <div class="icon"><span class="s7-study"></span></div><span class="class">My Congress</span>
+              <div class="icon"><span class="s7-star"></span></div><span class="class">My Congress</span>
             </div>
           </div>
           <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="icon-container">
-              <div class="icon"><span class="icon-Industry"></span></div><span class="class">Industry</span>
+              <div class="icon"><span class="icon-building"></span></div><span class="class">Industry</span>
             </div>
           </div>
           <div class="col-xs-6 col-sm-3 col-lg-2">
@@ -146,7 +146,7 @@
           </div>
           <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="icon-container">
-              <div class="icon"><span class="s7-star"></span></div><span class="class">Features</span>
+              <div class="icon"><span class="icon-calender-star"></span></div><span class="class">Features</span>
             </div>
           </div>
 
