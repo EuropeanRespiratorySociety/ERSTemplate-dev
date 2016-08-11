@@ -14,36 +14,44 @@ var App = (function () {
         menu: '#menu',
         lockAnchors: false,
         anchors: [
-            'executive', 
-            'finance', 
-            'corporate', 
-            'membership', 
-            'it', 
+            'executive',
+            'congress',
+            'corporate',
             'educational',
-            'scientific', 
-            'publications', 
-            'elf', 
-            'congress', 
-            'eu'
+            'eu',
+            'elf',
+            'finance',
+            'it', 
+            'membership',
+            'publications',
+            'scientific'
+             
+             
+             
+            
         ],
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: [
-            'Executive', 
-            'Finance and Administration', 
-            'Corporate Relations, Marketing ...', 
-            'Membership and National Societies ...', 
-            'IT Infrastructure', 
-            'Educational Activities', 
-            'Scientific Activities', 
+            'Executive',
+            'Congress and Events',
+            'Corporate Relations, Marketing ...',
+            'Educational Activities',
+            'EU Affairs',
+            'European Lung Foundation',
+            'Finance and Administration',
+            'IT Infrastructure',
+            'Membership and National Societies ...',
             'Publications', 
-            'European Lung Foundation', 
-            'Congress and Events', 
-            'EU Affairs'
+            'Scientific Activities', 
+             
+             
+            
+            
         ],
         showActiveTooltip: false,
         slidesNavigation: false,
-        slidesNavPosition: 'bottom',
+        slidesNavPosition: 'top',
 
         //Scrolling
         css3: true,
