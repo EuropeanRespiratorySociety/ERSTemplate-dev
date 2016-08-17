@@ -39,6 +39,16 @@
     		    	page-break-before:avoid;
     		    	padding-left: 20px;
     		    }
+
+    		    .no-break{
+    		    	margin: 0;
+    		    	font-size: 0px;
+    		    	padding: 0;
+    		    }
+
+    		    .no-break ~ ul, .no-break ~ p {
+    		    	page-break-inside: auto;
+    		    }
     		    
     		    h3 { 
     		    	padding-bottom:10px;
@@ -59,10 +69,16 @@
     		    img{
     		    .img-responsive;
 
-    		    @media @phone, @tablet{
-    		    	max-width:100%;
+	    		    @media @phone, @tablet{
+	    		    	max-width:100%;
+	    		    }
+
     		    }
 
+    		    img[alt="float"] {
+    		    	float: left;
+    		    	width: 150px;
+    		    	margin-right:20px
     		    }
 
     		}
