@@ -3,6 +3,19 @@
 
 #ersMainWebsite{
 	.fellowships-content{
+
+		/* ipad : avoid to buttons in 2 lines */
+
+		@media (min-width: @screen-md-min) and (max-width: @screen-md-max){
+            .row_event {
+                .col-md-3{
+                    padding-left: 4px;
+                    padding-right: 4px;
+                }
+            }
+        }
+
+
 		h4{
 			margin-bottom:40px;
 		}

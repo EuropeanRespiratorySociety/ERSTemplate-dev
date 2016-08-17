@@ -231,6 +231,7 @@
 							}
 
 							.caret, a.independent-toggle{display:none;}
+
 							//Third level visible
 
 							> ul.dropdown-menu {
@@ -272,6 +273,8 @@
 
 							> ul{ 
 								> li { 
+
+										/* 3rd level active in blue version */
 										a {
 										color: @dark-color!important;
 										background: transparent;
@@ -1074,6 +1077,24 @@
 
 										}
 									}		
+								}
+							}
+						}
+					}
+
+					/* 3rd level active hover in white version */
+
+					li.dropdown {
+						.dropdown-menu{
+							li.active{
+								ul.dropdown-menu{
+									li{
+										a:hover{color: white !important;}
+
+										&.active{
+											a:hover{color: white !important;}
+										}
+									}
 								}
 							}
 						}

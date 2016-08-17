@@ -276,6 +276,71 @@
 
         /***** Research *****/
 
+        .home-research-content{
+            .row-research{
+                ul{
+                    list-style: none;
+                    padding-left: 0px;
+                    li{
+                        list-style-type: none;
+                        line-height:200%;
+                        font-size: 16px;
+                        a{
+                            color: @gray-light;
+                            &:hover{ color: @link-hover-color }
+                        }
+
+                    }
+                }
+
+                .col-md-3{
+                    border-right: 1px solid @gray-light-medium;
+
+                    min-height:330px;
+                    h2{
+                        margin-top: 0;
+                        font-size:25px;
+                    }
+                    .card-event {
+                        margin-right:10px;
+                        @media (min-width: @screen-md-min) {
+                        min-height: auto;
+                        &.card-event-large{min-height:auto;}
+                        }
+                        @media (max-width: @screen-sm-max){
+                        min-height: auto;
+                        &.card-event-large{min-height:auto;}
+                        }
+
+                        .card-content{
+                            padding: 15px;
+                            
+                            p.title{
+                                font-size: 18px;
+                            }
+                            .place{
+                                margin-bottom: 0;
+                            }
+
+                        }
+                        
+
+                    }
+
+                    @media @phone{
+                        border-right: 0;
+                    }
+                    @media @tablet{
+                        border-right: 0;
+                    }
+                    
+                }
+
+                
+            }
+
+        }
+
         /***** Advocacy *****/
 
         /***** ELF *****/

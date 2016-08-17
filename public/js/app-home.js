@@ -71,7 +71,7 @@ var App = (function () {
         resize : false,
         sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2],
         paddingTop: '0px',
-        paddingBottom: '0px',
+        paddingBottom: '40px',
         fixedElements: '#fixed-top-bar, .fixed-main-nav',
         responsiveWidth: 765,
         responsiveHeight: 0,
