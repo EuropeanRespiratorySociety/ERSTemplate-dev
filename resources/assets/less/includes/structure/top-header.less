@@ -1121,7 +1121,7 @@
 						> a{
 							color: @gray-light;
 
-							/* Main menu forcus in White version */
+							/* Main menu focus in White version */
 
 							&:focus{
 								background-color: white;
@@ -1408,7 +1408,7 @@
 
 	// END Blue version non-responsive
 	
-	@media @phone{
+	@media @phone {
 		position: relative;
 
 		// Phone white version &{ targets the ancestor
@@ -1447,6 +1447,11 @@
 
 					> li{
 						background-color:@light-color;
+
+						a:focus{
+
+						    background-color: #fff;
+						}
 					}
 
 					> li.dropdown{
