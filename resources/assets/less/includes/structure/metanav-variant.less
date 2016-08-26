@@ -70,8 +70,16 @@
 
 .menu__item {
 	display: block;
-	border-bottom: 1px solid darken(@light-color, 10%);
 	list-style: none;
+	/*border-bottom: 1px solid darken(@light-color, 10%);*/
+
+	@media @phone{
+	border-bottom: 1px solid #e6e6e6;
+	}
+
+	@media @tablet{
+	border-bottom: 1px solid #e6e6e6;
+	}
 
 	&:hover{
 		background-color: @left-sidebar-hover-item;
@@ -81,14 +89,16 @@
 
 .menu__link {
 	position: relative;
-	width:90%;
+	/*width:90%;*/
 	display: block;
 	padding: 10px;
 	color: @left-sidebar-color;
 	-webkit-transition: color 0.1s;
 	transition: color 0.1s;
-	font-family: DinPro;
+	/*font-family: DinPro;*/
+	font-family:@font-family-serif;
 	font-size: 12px;
+
 
 	.icon{
 		display:block;
@@ -114,7 +124,7 @@
 	/* .menu__link for Main Web site's meta navigation*/
 
 	#ersMainWebsite &{
-		font-family:@font-family-serif;
+		
 		
 
 	}
@@ -259,6 +269,7 @@
 	}
 }
 
+/* Breadcrumbs on the meta Navigation */
 .menu__breadcrumbs {
 	font-size: 8px;
 	line-height: 1;
@@ -268,6 +279,7 @@
 	white-space: nowrap;
 	overflow:hidden;
 	text-overflow:ellipsis;
+	display:none;
 
 }
 
