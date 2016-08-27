@@ -147,10 +147,10 @@ if ( typeof define === 'function' && define.amd ) {
     // delay between each menu item sliding animation
     itemsDelayInterval : 60,
     // direction 
-    direction : 'r2l',
+    direction : 'r2l'
     // callback: item that doesn´t have a submenu gets clicked
     // onItemClick([event], [inner HTML of the clicked item])
-    onItemClick : function(ev, itemName) { return false; }
+    //onItemClick : function(ev, itemName) { return false; }
   };
 
   MLMenu.prototype._init = function() {
@@ -163,7 +163,6 @@ if ( typeof define === 'function' && define.amd ) {
     this.menus.forEach(function(menuEl, pos) {
       var menu = {menuEl : menuEl, menuItems : [].slice.call(menuEl.querySelectorAll('.menu__item'))};
       self.menusArr.push(menu);
-
       // set current menu class
       if( pos === self.current ) {
         classie.add(menuEl, 'menu__level--current');
@@ -219,7 +218,7 @@ if ( typeof define === 'function' && define.amd ) {
             classie.add(ev.target, 'menu__link--current');
             */
             // callback
-            self.options.onItemClick(ev, itemName);
+            //self.options.onItemClick(ev, itemName);
           }
         });
       });

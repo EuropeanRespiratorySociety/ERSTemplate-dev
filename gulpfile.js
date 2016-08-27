@@ -26,19 +26,19 @@ elixir(function(mix) {
 
 
  
-    mix.copy('resources/assets/fonts', 'public/fonts');
+   // mix.copy('resources/assets/fonts', 'public/fonts');
  
     
-    mix.copy('resources/assets/vendor/bootstrap/dist/fonts', 'public/fonts/glyphicons');
-    mix.copy('resources/assets/vendor/enjoyhint/src/Casino_Hand', 'public/fonts/Casino_Hand');
+  //  mix.copy('resources/assets/vendor/bootstrap/dist/fonts', 'public/fonts/glyphicons');
+  //  mix.copy('resources/assets/vendor/enjoyhint/src/Casino_Hand', 'public/fonts/Casino_Hand');
 
-    mix.copy('resources/html/images', 'public/images');
+  //  mix.copy('resources/html/images', 'public/images');
       
     //this was taken out from the main file for Kendo to work on myERS
-    mix.copy('resources/assets/vendor/jquery/jquery.min.js', 'public/js/jquery.min.js');
+  //  mix.copy('resources/assets/vendor/jquery/jquery.min.js', 'public/js/jquery.min.js');
 
-    mix.less('style.less');
-    mix.styles([
+  //  mix.less('style.less');
+  /*  mix.styles([
         '../vendor/select2/css/select2.min.css',
     	//'../../../public/css/style.css',
         '../vendor/jquery.gritter/css/jquery.gritter.css',
@@ -57,7 +57,7 @@ elixir(function(mix) {
         '../vendor/enjoyhint/src/jquery.enjoyhint.css',
         '../../../public/css/style.css'
     	]);
-       
+       */
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
 
