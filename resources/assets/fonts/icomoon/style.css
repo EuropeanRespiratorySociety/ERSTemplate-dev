@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?s0kyxp');
-  src:  url('fonts/icomoon.eot?s0kyxp#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?s0kyxp') format('truetype'),
-    url('fonts/icomoon.woff?s0kyxp') format('woff'),
-    url('fonts/icomoon.svg?s0kyxp#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?wds051');
+  src:  url('fonts/icomoon.eot?wds051#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wds051') format('truetype'),
+    url('fonts/icomoon.woff?wds051') format('woff'),
+    url('fonts/icomoon.svg?wds051#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,70 +24,100 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-calender-star:before {
-  content: "\e914";
-}
-.icon-building:before {
-  content: "\e915";
-}
-.icon-appointments:before {
-  content: "\e913";
-}
-.icon-calender:before {
-  content: "\e911";
-}
-.icon-Industry:before {
-  content: "\e912";
-}
-.icon-author:before {
-  content: "\e90e";
-}
-.icon-business-card:before {
-  content: "\e90f";
-}
-.icon-calender-check:before {
-  content: "\e910";
-}
-.icon-hlfl:before {
-  content: "\e90c";
-}
-.icon-who:before {
+.icon-hlfl-1:before {
   content: "\e90d";
 }
-.icon-elf:before {
-  content: "\e906";
+.icon-hlfl:before {
+  content: "\e91e";
 }
-.icon-ers:before {
-  content: "\e907";
-}
-.icon-vision:before {
+.icon-elf-2:before {
   content: "\e908";
 }
-.icon-e-learn:before {
+.icon-elf:before {
   content: "\e909";
 }
-.icon-my-ers:before {
-  content: "\e90a";
+.icon-hlfl-2:before {
+  content: "\e90c";
 }
-.icon-publications:before {
-  content: "\e90b";
+.icon-vision-2:before {
+  content: "\e91b";
 }
-.icon-handout:before {
-  content: "\e905";
+.icon-vision:before {
+  content: "\e91c";
 }
-.icon-meal:before {
+.icon-appointments:before {
   content: "\e900";
 }
-.icon-hotel:before {
+.icon-author:before {
   content: "\e901";
 }
-.icon-parking:before {
+.icon-building:before {
   content: "\e902";
 }
-.icon-taxi:before {
+.icon-business-card:before {
   content: "\e903";
 }
-.icon-train:before {
+.icon-calender-check:before {
   content: "\e904";
+}
+.icon-calender-star:before {
+  content: "\e905";
+}
+.icon-calender:before {
+  content: "\e906";
+}
+.icon-e-learn:before {
+  content: "\e907";
+}
+.icon-ers:before {
+  content: "\e90a";
+}
+.icon-handout:before {
+  content: "\e90b";
+}
+.icon-hotel:before {
+  content: "\e90e";
+}
+.icon-Industry:before {
+  content: "\e90f";
+}
+.icon-invitation:before {
+  content: "\e910";
+}
+.icon-meal:before {
+  content: "\e911";
+}
+.icon-menu_1:before {
+  content: "\e912";
+}
+.icon-menu_2:before {
+  content: "\e913";
+}
+.icon-my-ers:before {
+  content: "\e914";
+}
+.icon-parking .path1:before {
+  content: "\e915";
+  color: rgb(35, 31, 32);
+}
+.icon-parking .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-publications:before {
+  content: "\e917";
+}
+.icon-sofa:before {
+  content: "\e918";
+}
+.icon-taxi:before {
+  content: "\e919";
+}
+.icon-train:before {
+  content: "\e91a";
+}
+.icon-who:before {
+  content: "\e91d";
 }
 
