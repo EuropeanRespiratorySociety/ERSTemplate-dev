@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?wds051');
-  src:  url('fonts/icomoon.eot?wds051#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?wds051') format('truetype'),
-    url('fonts/icomoon.woff?wds051') format('woff'),
-    url('fonts/icomoon.svg?wds051#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?7yyyjt');
+  src:  url('fonts/icomoon.eot?7yyyjt#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7yyyjt') format('truetype'),
+    url('fonts/icomoon.woff?7yyyjt') format('woff'),
+    url('fonts/icomoon.svg?7yyyjt#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-parking:before {
+  content: "\e915";
+}
 .icon-hlfl-1:before {
   content: "\e90d";
 }
@@ -95,15 +98,6 @@
 }
 .icon-my-ers:before {
   content: "\e914";
-}
-.icon-parking .path1:before {
-  content: "\e915";
-  color: rgb(35, 31, 32);
-}
-.icon-parking .path2:before {
-  content: "\e916";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
 }
 .icon-publications:before {
   content: "\e917";
