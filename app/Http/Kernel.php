@@ -20,6 +20,7 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\Metanavigation::class,
         \App\Http\Middleware\SlidingMetanavigation::class,
         \App\Http\Middleware\ETagMiddleware::class,
+        \Barryvdh\HttpCache\Middleware\CacheRequests::class,
 
     ];
 

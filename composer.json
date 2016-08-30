@@ -14,7 +14,8 @@
         "alfredo-ramos/parsedown-extra-laravel": "~0.4",
         "artisaninweb/laravel-soap": "0.2.5.10",
         "intervention/image": "^2.3",
-        "intervention/imagecache": "^2.3"
+        "intervention/imagecache": "^2.3",
+        "barryvdh/laravel-httpcache": "^0.2.5"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

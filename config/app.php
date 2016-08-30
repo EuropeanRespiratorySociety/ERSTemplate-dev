@@ -153,7 +153,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Incraigulous\Contentful\ContentfulServiceProvider::class,
         AlfredoRamos\ParsedownExtra\ParsedownExtraServiceProvider::class,
-        Spatie\ResponseCache\ResponseCacheServiceProvider::class,
+        //Barryvdh\HttpCache\ServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
 
     ],
