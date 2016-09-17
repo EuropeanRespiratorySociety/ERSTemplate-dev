@@ -107,7 +107,8 @@ elixir(function(mix) {
         'app-form-elements.js',
         'app-page-profile.js',
  
-    	'init.js' 
+        'init.js',
+        'ie-fix.js' 
     	]);
 
     
