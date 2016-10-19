@@ -1,0 +1,31 @@
+#ersMainWebsite{
+    .news{
+        .card-padded{   
+            @media @desktop{
+                .card-title{
+                    min-height: 60px;
+                }
+                .card-content{
+                    min-height: 185px;
+                    max-height: 185px;
+                }
+            }
+
+            @media @laptop{
+                .card-title{
+                    min-height: 60px;
+                }
+                .card-content{
+                    min-height: 230px;
+                    max-height: 230px;
+                }
+
+                .card-action{
+                    .btn{
+                        width:100%;
+                    }
+                }
+            }
+        } 
+    }
+}
