@@ -333,6 +333,7 @@
 
 		margin:15px 0 0 0;
 		height:65px;
+		white-space: nowrap;
 
 			> li{
 				> a{
@@ -541,9 +542,17 @@
 
 		.ers-icons-nav{
 			margin-right: 20px;
+			position: absolute;
+			right: 0;
+
 
 			@media @tablet{
 				margin-right: 10px;
+				position: relative;
+			}
+			
+			@media @phone{
+				position: relative;
 			}
 
 			> li.dropdown{
