@@ -9,8 +9,8 @@
 	@media @phone{
 		margin-left: 0px;
 			}
-}
-  .ers-top-header-bellow-bar {
+} 
+.ers-top-header-bellow-bar {
     margin-left: @left-sidebar-width;
     margin-top: 81px;
     min-height: 30px;
@@ -333,7 +333,6 @@
 
 		margin:15px 0 0 0;
 		height:65px;
-		white-space: nowrap;
 
 			> li{
 				> a{
@@ -541,18 +540,10 @@
 		}
 
 		.ers-icons-nav{
-			padding-right: 20px;
-			position: absolute;
-			right: 0;
-
+			margin-right: 20px;
 
 			@media @tablet{
-				padding-right: 10px;
-				position: relative;
-			}
-
-			@media @phone{
-				position: relative;
+				margin-right: 10px;
 			}
 
 			> li.dropdown{
@@ -1188,6 +1179,19 @@
 			}
 
 			.ers-icons-nav{
+				padding-right: 20px;
+				position: absolute;
+				right: 0;
+				margin-right:0;
+
+				@media @tablet{
+					padding-right: 10px;
+					position: relative;
+				}
+
+				@media @phone{
+					position: relative;
+				}
 
 				> li.dropdown{
 
