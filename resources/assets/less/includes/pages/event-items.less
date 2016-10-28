@@ -344,10 +344,10 @@
 
 		.fellowship-categories{
 
-			.card{
-				font-family:@font-family-serif;
-				p{margin-bottom:20px;}
-			}
+			/*.card{
+				//font-family:@font-family-serif;
+				//p{margin-bottom:20px;}
+			}*/
 
 			@media (max-width: @screen-sm-max){
 
@@ -411,18 +411,70 @@
 	.related-items{
 		padding:0px 10px 5px 10px;
 
-
+		.card{
+			.label{
+				position: absolute;
+				right: 0;
+				z-index:2;
+			}
+		}
 
 		@media @phone, @tablet{
 			padding: 0px 30px 10px 30px;
 		}
 		.card-image{
 			height:100%;
+			padding: 0;
 			img {
 				height:100%;
 				object-fit: cover;
 			}		
-		}			
+		}
+
+ 		.card-content{
+			position:relative;
+			/* Internet Explorer 10 */
+			display:-ms-flexbox;
+			-ms-flex-pack:center;
+			-ms-flex-align:center;
+
+			/* Firefox */
+			display:-moz-box;
+			-moz-box-pack:center;
+			-moz-box-align:center;
+
+			/* Safari, Opera, and Chrome */
+			display:-webkit-box;
+			-webkit-box-pack:center;
+			-webkit-box-align:center;
+
+			/* W3C */
+			display:box;
+			box-pack:center;
+			box-align:center;
+			height: 100%;
+			h4 {
+				/* Internet Explorer 10 */
+				display:-ms-flexbox;
+				-ms-flex-pack:center;
+				-ms-flex-align:center;
+
+				/* Firefox */
+				display:-moz-box;
+				-moz-box-pack:center;
+				-moz-box-align:center;
+
+				/* Safari, Opera, and Chrome */
+				display:-webkit-box;
+				-webkit-box-pack:center;
+				-webkit-box-align:center;
+
+				/* W3C */
+				display:box;
+				box-pack:center;
+				box-align:center;
+			}
+		 }			
 	
 	} 
 
