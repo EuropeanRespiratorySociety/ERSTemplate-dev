@@ -440,7 +440,7 @@
 
 			/* Firefox */
 			display:-moz-box;
-			-moz-box-pack:center;
+			-moz-box-pack:center; 
 			-moz-box-align:center;
 
 			/* Safari, Opera, and Chrome */
@@ -449,10 +449,11 @@
 			-webkit-box-align:center;
 
 			/* W3C */
-			display:box;
-			box-pack:center;
-			box-align:center;
+			display:flex;
+			//flex-direction: column;
+			align-content: center;
 			height: 100%;
+			
 			h4 {
 				/* Internet Explorer 10 */
 				display:-ms-flexbox;
@@ -470,9 +471,8 @@
 				-webkit-box-align:center;
 
 				/* W3C */
-				display:box;
-				box-pack:center;
-				box-align:center;
+				display:flex;
+				align-items: center;
 			}
 		 }			
 	
