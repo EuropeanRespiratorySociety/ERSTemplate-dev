@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.1.15**
+**Version 1.2.0**
 
 Since Version **1.1.14** top level in the main navigation are clickable. It requires a change in the html:
 
@@ -46,6 +46,7 @@ Here is what is avalaible for now:
 * cards
 * tabs-accordions
 * Tables
+* Timeline
 
 ## Pages Type
 
@@ -126,6 +127,7 @@ Library | Version
 [Select2](https://select2.github.io/) | 4.0.0
 [WOW](http://mynameismatthieu.com/WOW/) | 1.1.2
 [Yamm](https://github.com/geedmo/yamm3) | 1.1.0
+Simple Timeline | not published yet
 
 
 # How to use
@@ -272,6 +274,36 @@ The calendar is configured in `/js/app-page-calendar.js`and is initialized on th
   ```  
 It uses [fullCalendar](http://fullcalendar.io/docs/). There are many examples in the documentation.
 
+## Timeline
+
+  Initialise the component with the following code:
+
+```
+    <script src="https://bootstrap.ersnet.org/js/app-timeline.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        App.timeline();        
+      });
+    </script>
+```
+
+Structure of the html:
+
+```
+                <div class="timeline">                
+                    <ul>
+                        <li class="event">  
+                            <div class="card-container">
+                                <div class="card card-event"> 
+                                </div>
+                            </div>    
+                        </li>
+                    </ul>
+                </div>
+```                
+
+
+
 ## WOW
 
 You can add effects by adding the class `.wow` and the class of the effect like `.bounceInLeft` to the element you want to animate.
@@ -371,6 +403,10 @@ You can see a "real" example here `/pages/fullpage`
 
 -------------------
 ## Change log
+
+### What is new in 1.2.0
+* Stabilization update.The whole template is more robust.
+* Added timline
 
 ### What is new in 1.1.15
 * Added masonry/isotope/packary js lib
