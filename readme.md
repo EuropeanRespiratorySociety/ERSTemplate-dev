@@ -127,8 +127,7 @@ Library | Version
 [Select2](https://select2.github.io/) | 4.0.0
 [WOW](http://mynameismatthieu.com/WOW/) | 1.1.2
 [Yamm](https://github.com/geedmo/yamm3) | 1.1.0
-Simple Timeline | not published yet
-
+[Simple Timeline](https://github.com/idealley/simpletimeline) | 1.0.0
 
 # How to use
 
