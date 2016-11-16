@@ -21,7 +21,9 @@ class SlidingMetanavigation
             //the maximum depth is 4
 
             $menu->add('MyERS', 'https://my.ersnet.org')->prepend('<i class="icon-my-ers icon"></i><span>')->append('</span>'); 
+                $menu->myERS->add('Test', '#');
             $menu->add('Publications', url("#publications"))->prepend('<i class="icon-publications icon"></i><span>')->append('</span>'); 
+                $menu->publications->add('Test', '#test');
             $menu->add('e-learning', 'http://www.ers-education.org/home.aspx')
                     ->prepend('<i class="icon-e-learn icon"></i><span>')->append('</span>')
                     ->link->attr(array('target' => '_blank'));

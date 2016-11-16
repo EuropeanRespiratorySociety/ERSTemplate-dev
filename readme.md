@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.2.0**
+**Version 1.2.1**
 
 Since Version **1.1.14** top level in the main navigation are clickable. It requires a change in the html:
 
@@ -61,6 +61,7 @@ Here is what is avalaible for now:
 * Calendar
 * Stats
 * Guided Tour
+* my CRM
 
 ## User pages (Profile)
 
@@ -402,6 +403,9 @@ You can see a "real" example here `/pages/fullpage`
 
 -------------------
 ## Change log
+
+### What is new in 1.2.1
+* New page: myCRM
 
 ### What is new in 1.2.0
 * Stabilization update.The whole template is more robust.

@@ -1,0 +1,91 @@
+#ers-my-crm{
+    .navbar-brand{
+        padding-left: 7px;
+        width:100%;
+
+        h3 {
+            color:#333;
+        }
+    }
+    .ers-left-sidebar{
+        width:110px;
+        padding-left:10px;
+
+        &.crm-production{
+            background: @danger-color;
+        }
+
+        &.crm-dev{
+            background: @warning-color;
+        }
+        &:hover{
+            width: 250px;
+            }
+    }
+
+    .ers-content{
+        margin-left:110px;
+
+        .main-content{
+            padding:10px;
+
+            .panel-action{
+                margin-bottom:10px;
+
+                .panel-heading{
+                    padding:6px 0 0;
+                }
+            }
+
+            .panel-group.accordion{
+                margin-bottom: 10px;
+
+                .panel{
+                    margin-top:0;
+                }
+            }
+        }
+    }
+
+    .page-aside{
+        left:110px;
+        padding-top:0;
+    }
+
+    .crm-content{
+        background: #fff;
+    }
+    /*
+    * Menu (metanav)
+    */
+    #ml-menu:hover{
+        .menu__wrap{
+            text-align: center;
+        }
+        .menu__breadcrumbs{
+            text-align: left;
+        }
+    }
+    .menu__link {
+        width:90%;
+    }
+    .menu__breadcrumbs{
+        display:initial;
+        text-align: left;
+    }
+
+    .logout{
+        position: absolute;
+        bottom: 0;
+        width: 90%;
+        background: #fff;
+        z-index: 1032;
+        text-align: center;
+        padding:10px;
+
+        i{
+            font-size:33px;
+            display: block;
+        }
+    }
+}

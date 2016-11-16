@@ -46,6 +46,11 @@ Route::group(['middleware' => ['web']], function () {
 	//Route::post('login', ['middleware' => 'doNotCacheResponse', 'uses' => 'Auth\AuthController@login']);
 	
 	Route::Auth();
+
+	Route::get('/my-crm', function(){
+		return view('crm.my-crm');
+	});
+
     
     Route::get('/home', 'HomeController@index');
     
@@ -67,7 +72,6 @@ Route::group(['middleware' => ['web']], function () {
 
     return view('pages.blank')->with($params);
 	});
-
 
 
 	

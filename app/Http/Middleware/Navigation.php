@@ -50,6 +50,7 @@ class Navigation
                   $menu->pages->add('Fullpage','pages/fullpage');
                   $menu->pages->add('Guided Tour','pages/guided-tour');
                   $menu->pages->add('Stats','pages/stats');
+                  $menu->pages->add('myCRM','my-crm');
     
               $menu->add('Profile', 'profile');
                 $menu->profile->add('Member', 'profile/member');
