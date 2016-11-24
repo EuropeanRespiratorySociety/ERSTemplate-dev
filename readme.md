@@ -1,6 +1,10 @@
 # ERS Template
 
-**Version 1.2.1**
+**Version 1.2.2**
+
+Since version **1.2.2** you need to change the html structure in order to use the fixed bar at the top, see the documentation on myCRM bellow.
+
+--------------
 
 Since Version **1.1.14** top level in the main navigation are clickable. It requires a change in the html:
 
@@ -19,11 +23,13 @@ Since Version **1.1.14** top level in the main navigation are clickable. It requ
 
 You need to move the "caret" out of the top level `<a>` and wrap it in its own `<a>` with the `.independent-toggle` class.
 
+-----------------
+
 Since version **1.1.13** a third menu leve has been added to the main menu. The html structure has changed now the `.navbar-nav`class has to be added to the `<ul>`following the `<div class="ers-navbar-collapse collapse navbar-collapse">`
 
  **Bootstrap** and **Jquery** are used (see bellow for the list of libraries) . 
 
-This version makes use of the first version of the *Metanavigation* in the left bar. It is **not finished**. It is just a test for many sub-levels and it needs to be styled.
+~~This version makes use of the first version of the *Metanavigation* in the left bar. It is **not finished**. It is just a test for many sub-levels and it needs to be styled.~~
 
 -------------------
 
@@ -431,6 +437,9 @@ you can wrap both `.main-content` in a `<form></form>` this won't brake the layo
 
 -------------------
 ## Change log
+
+### What is new in 1.2.2
+* New fixed on the top container for myCRM. Be carefull this feature needs a change in the html structure
 
 ### What is new in 1.2.1
 * New page: myCRM
