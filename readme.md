@@ -399,7 +399,35 @@ Add to any url:
 
 You can see a "real" example here `/pages/fullpage`
 
+## myCRM special features
 
+You can fix the "tool bar" at the top. Just use a `.main-content` before the `.main-content`
+
+```
+  <div class="main-content content-fixed-top">
+```
+
+You can use an additional class to have the bar "full width" it has the original name: `.full-width`
+
+This is the mandatory structure for it to work:
+
+```
+        <div class="main-content content-fixed-top">        
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel [...]">
+                        [...]
+                    </div>  
+                </div>        
+            </div>
+        </div>     
+        <div class="main-content">
+          [...]
+```
+
+you can wrap both `.main-content` in a `<form></form>` this won't brake the layout.
+
+[Read the whole html](https://github.com/EuropeanRespiratorySociety/ERSTemplate-dev/blob/master/resources/views/crm/content.blade.php)
 
 -------------------
 ## Change log

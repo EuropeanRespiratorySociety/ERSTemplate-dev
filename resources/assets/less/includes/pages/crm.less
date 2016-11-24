@@ -22,7 +22,6 @@
             width: 250px;
             }
     }
-
     .ers-content{
         margin-left:110px;
 
@@ -44,12 +43,55 @@
                     margin-top:0;
                 }
             }
+
+            &.content-fixed-top{    
+                position: fixed;
+                z-index: 1;
+                padding-left: 400px;
+                width: 100%;
+                left: -290px;
+                top: -10px;
+
+                .row{
+                    width: 100%;
+                    margin: 0 15px 0 10px;
+                    padding: 10px 0;
+                    background: @body-background;
+
+                    .col-sm-12{
+                        padding: 0;
+
+                        .panel{
+                            margin: 0;
+                        }
+                    }
+                }
+
+                &:first-of-type + div{
+                    margin-top: 46px;
+                }
+
+                &.full-width{
+                    padding-left: 380px;
+                    left: -270px;
+
+                    &:first-of-type + div{
+                        margin-top: 36px;
+                    }
+                    
+                    .row{
+                        padding: 0 0 10px;
+                        margin: 0 15px 0 0;
+                    }
+                }
+            }
         }
     }
 
     .page-aside{
         left:110px;
         padding-top:0;
+        z-index: 3;
     }
 
     .crm-content{
