@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.2.2**
+**Version 1.2.3**
 
 Since version **1.2.2** you need to change the html structure in order to use the fixed bar at the top, see the documentation on myCRM bellow.
 
@@ -120,6 +120,7 @@ Library | Version
 [jQuery Nifty Modals](https://github.com/foxythemes/jquery-niftymodals) | 1.0.2
 [jVectorMap](https://github.com/bjornd/jvectormap/) | 1.2.2
 [jQuery Masked Input](https://github.com/digitalBush/jquery.maskedinput) | 1.4.1
+[jQuery REST Client](https://github.com/jpillora/jquery.rest) | 1.0.2
 [jQuery Sparkline](https://github.com/kapusta/jquery.sparkline) | 2.1.3
 [jQuery UI](https://jqueryui.com/) | 1.11.4
 [jQuery Vectormap](http://jvectormap.com/) | 1.2.2
@@ -139,10 +140,12 @@ Library | Version
 # How to use
 
 For the pages to work, only two files need to be included 'all.css' (in the head) and 'all.js' (bottom of the page).
+You also need to add jquery in the head for everything to works.
 
 You can include the files on your server or remotely with the following urls:
 
 * https://bootstrap.ersnet.org/css/all.css
+* https://bootstrap.ersnet.org/js/jquery.min.js
 * https://bootstrap.ersnet.org/js/all.js
 
 You can add your own JS or CSS under the ERS Template files. See bellow.
@@ -308,7 +311,40 @@ Structure of the html:
                 </div>
 ```                
 
+## Newsfeed
 
+Add the following to initialize the news feed.
+
+```
+	<script src="../js/app-newsfeed.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        App.newsfeed();             
+      });
+    </script>
+```
+
+The html structure needs to be the following:
+
+```
+	<div class="ers-newsfeed col-sm-12 {!! $class !!}">
+		<div class="panel panel-full">
+	        <div class="panel-heading">
+	            <span class="title">ERS Newsfeed</span>
+	        </div>
+	        <div class="panel-body">
+                <div class="ers-scroller nano has-scrollbar scrollable">
+	                <div class="nano-content">
+						<ul id="news-feed" class="list-group">
+	    				</ul>
+					</div>
+		        </div>
+	        </div>
+        </div>
+	</div>
+```
+
+The Javascript is looking for the `#news-feed` id. And adds the returned news as list items. 
 
 ## WOW
 
@@ -437,6 +473,10 @@ you can wrap both `.main-content` in a `<form></form>` this won't brake the layo
 
 -------------------
 ## Change log
+
+### What is new in 1.2.3
+* Added news feed from the ERS API.
+* Added new REST client library. 
 
 ### What is new in 1.2.2
 * New fixed on the top container for myCRM. Be carefull this feature needs a change in the html structure

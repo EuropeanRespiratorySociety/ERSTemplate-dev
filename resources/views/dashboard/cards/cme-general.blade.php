@@ -20,15 +20,3 @@
 	    		</div>
 	    	</div>
 
-	    	@section('scripts')
-
-<script type="text/javascript">
-	var options = {
-		useEasing : true,
-	};
-	var CME = new CountUp("CME", 0, 78, 0, 2.5, options);
-	CME.start();
-</script>
-
-
-@stop()

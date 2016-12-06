@@ -37,10 +37,17 @@
 	</div>
 
 	</div>
-	@include('newsfeed.newsfeed', array('class' => 'col-md-3'))
+	@include('newsfeed.newsfeed-api', array('class' => 'col-md-3'))
 
 </div>
 @stop()  
 
 @section('scripts')
+	<script src="../js/app-newsfeed.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      	//initialize the javascript
+        App.newsfeed();             
+      });
+    </script>
 @stop()

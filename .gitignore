@@ -3,5 +3,6 @@
 /config/laravel-responsecache.php
 Homestead.yaml
 Homestead.json
+/storage
 .env
 

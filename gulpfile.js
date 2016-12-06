@@ -57,7 +57,7 @@ elixir(function(mix) {
         '../vendor/enjoyhint/src/jquery.enjoyhint.css',
         '../../../public/css/style.css'
     	]);
-  /*   
+  /*  
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
 
@@ -70,6 +70,7 @@ elixir(function(mix) {
         '../vendor/jquery.nestable/jquery.nestable.js',
         '../vendor/jquery.niftymodals/js/jquery.modalEffects.js',
         '../vendor/jquery-ui/jquery-ui.min.js',
+        '../vendor/jquery-rest-client/rest-client.js', 
 
         '../vendor/datatables/js/jquery.dataTables.min.js',
         '../vendor/datatables/js/dataTables.bootstrap.min.js',
@@ -153,6 +154,7 @@ elixir(function(mix) {
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
         mix.copy('resources/assets/js/app-home.js', 'public/js/app-home.js');
         mix.copy('resources/assets/js/app-timeline.js', 'public/js/app-timeline.js');
+        mix.copy('resources/assets/js/app-newsfeed.js', 'public/js/app-newsfeed.js');
         mix.copy('resources/assets/js/app-membership.js', 'public/js/app-membership.js');
         mix.copy('resources/assets/js/app-policy-areas.js', 'public/js/app-policy-areas.js');
         mix.copy('resources/assets/js/app-enjoyhint-demo.js', 'public/js/app-enjoyhint-demo.js');
@@ -160,5 +162,5 @@ elixir(function(mix) {
         //mix.copy('resources/assets/js/app-wow.js', 'public/js/app-wow.js');
         
         mix.copy('resources/assets/vendor/dropzone/upload.php', 'public/pages/upload.php');
-    */ 
+        */ 
 });
