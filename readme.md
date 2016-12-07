@@ -1,6 +1,6 @@
 # ERS Template
 
-**Version 1.2.3**
+**Version 1.2.4**
 
 Since version **1.2.2** you need to change the html structure in order to use the fixed bar at the top, see the documentation on myCRM bellow.
 
@@ -85,11 +85,15 @@ The status is there, but not necessary as we did not plan any "social features" 
  * Form validation
  * Drag and Drop Upload (Multi uploads)
 
-## Dashboard (Alpha)
+## Dashboard
 * Member
 * Non-member
 * Not connected
 * Variation (for different types of membership/status within the society/etc...)
+
+## [Widget/API](https://github.com/EuropeanRespiratorySociety/api)
+* Metanavigation as a widget
+* News from the API
 
 ## More pages to come
 * Sliders
@@ -142,10 +146,14 @@ Library | Version
 For the pages to work, only two files need to be included 'all.css' (in the head) and 'all.js' (bottom of the page).
 You also need to add jquery in the head for everything to works.
 
+For now the `early-load.js` contains only the Jquery REST client. It is there as we do not need it everywhere and when we need it we may need it early: *e.g.* the metanavigation.
+It has to be added right after Jquery. 
+
 You can include the files on your server or remotely with the following urls:
 
 * https://bootstrap.ersnet.org/css/all.css
 * https://bootstrap.ersnet.org/js/jquery.min.js
+* https://bootstrap.ersnet.org/js/early-load.js
 * https://bootstrap.ersnet.org/js/all.js
 
 You can add your own JS or CSS under the ERS Template files. See bellow.
@@ -208,7 +216,7 @@ Under your file add the following script block:
 
 Notification are configured as follow
 
-    ``` 
+``` 
     $('#not-basic').click(function(){
       $.gritter.add({
         title: 'Samantha new msg!',
@@ -219,8 +227,7 @@ Notification are configured as follow
       });
       return false;
     }); 
-
-    ```
+```
 The notification page uses a specific file (uncompressed in this demo) with all the notification examples. 
 
 ## Form Validation
@@ -473,6 +480,11 @@ you can wrap both `.main-content` in a `<form></form>` this won't brake the layo
 
 -------------------
 ## Change log
+
+### What is new in 1.2.4
+* Added the metanavigation as a "widget" in order to distribute it.
+* Removed the REST Client from the `all.js`
+* Fixed some JS for the metanav to work as a widget or native.
 
 ### What is new in 1.2.3
 * Added news feed from the ERS API.

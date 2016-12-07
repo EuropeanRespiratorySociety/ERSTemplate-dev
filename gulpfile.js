@@ -57,11 +57,11 @@ elixir(function(mix) {
         '../vendor/enjoyhint/src/jquery.enjoyhint.css',
         '../../../public/css/style.css'
     	]);
-  /*  
+  /**/ 
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
-
         'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it
+        
         'main.js',
 
 
@@ -70,7 +70,6 @@ elixir(function(mix) {
         '../vendor/jquery.nestable/jquery.nestable.js',
         '../vendor/jquery.niftymodals/js/jquery.modalEffects.js',
         '../vendor/jquery-ui/jquery-ui.min.js',
-        '../vendor/jquery-rest-client/rest-client.js', 
 
         '../vendor/datatables/js/jquery.dataTables.min.js',
         '../vendor/datatables/js/dataTables.bootstrap.min.js',
@@ -143,6 +142,10 @@ elixir(function(mix) {
         '../vendor/fullpagejs/vendors/jquery.slimscroll.min.js',
         '../vendor/fullpagejs/dist/jquery.fullpage.min.js'
         ], 'public/js/fullpage.js');
+
+        mix.scripts([  
+        '../vendor/jquery-rest-client/rest-client.js', 
+        ], 'public/js/early-load.js');
       
         //Specific copies of files
         mix.copy('resources/assets/js/app-ui-notifications.js', 'public/js/app-ui-notifications.js');
@@ -162,5 +165,5 @@ elixir(function(mix) {
         //mix.copy('resources/assets/js/app-wow.js', 'public/js/app-wow.js');
         
         mix.copy('resources/assets/vendor/dropzone/upload.php', 'public/pages/upload.php');
-        */ 
+
 });

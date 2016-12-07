@@ -7,11 +7,11 @@
               <span>ERS Template</span>
             </div>
             <!-- End Page title Visible on Mobile size screen -->
-              <a href="#" class="ers-toggle-left-sidebar navbar-toggle collapsed">
+              <a href="javascript:void(0)" class="ers-toggle-left-sidebar navbar-toggle collapsed">
               <span class="icon-bar"><span></span><span></span><span></span></span>
             </a>
           </div>
-          <a href="#" class="ers-toggle-right-sidebar">
+          <a href="javascript:void(0)" class="ers-toggle-right-sidebar">
             <span class="icon s7-menu2"></span>
           </a>
           <a data-toggle="collapse" data-target=".ers-navbar-collapse" class="ers-toggle-top-header-menu collapsed">

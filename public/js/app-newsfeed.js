@@ -6,7 +6,7 @@ var App = (function () {
             client.news.read().done(function (data){
                 console.log(data);
                 for( var i = 0; i < data.length -1; i++){
-                    var url = "https://53ed64a9-671f-4e65-9f57-5e736e3d5d62-hosted.cloudcms.net/preview/node/"+data[i].imageId+"?name=image500&size=500";
+                    var url = "https://www.ersnet.org/assets/preview/node/"+data[i].imageId+"?name=image500&size=500";
                     var image ='<div class="card-image"' 
                         +'style="background-size:cover;background-repeat: no-repeat;height:150px;' 
                         +'background-image: url(\''+url+'\');' 
