@@ -57,7 +57,12 @@ elixir(function(mix) {
         '../vendor/enjoyhint/src/jquery.enjoyhint.css',
         '../../../public/css/style.css'
     	]);
-  /**/ 
+    /**
+    * We create a special css for the metanav plugin
+    */
+    //mix.less('metanav.less');      
+    
+  /*
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
         'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it
@@ -165,5 +170,6 @@ elixir(function(mix) {
         //mix.copy('resources/assets/js/app-wow.js', 'public/js/app-wow.js');
         
         mix.copy('resources/assets/vendor/dropzone/upload.php', 'public/pages/upload.php');
+        */
 
 });
