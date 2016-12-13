@@ -133,7 +133,7 @@ Library | Version
 [Gritter](https://github.com/jboesch/Gritter) | 1.7.4
 [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) | 1.0.0
 [Masonry/Isotope](http://isotope.metafizzy.co/) | 3.0.1
-[Moment](http://momentjs.com/) | 2.5.1
+[Moment](http://momentjs.com/) | 2.17.1
 [nanoScroller](http://jamesflorentino.github.io/nanoScrollerJS/) | 0.8.7
 [Parsley](http://parsleyjs.org/) | 2.1.3
 [Select2](https://select2.github.io/) | 4.0.0

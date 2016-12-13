@@ -62,7 +62,7 @@ elixir(function(mix) {
     */
     //mix.less('metanav.less');      
     
-  /*
+  /**/
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
         'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it
@@ -103,7 +103,6 @@ elixir(function(mix) {
         '../vendor/masonry/masonry.pkgd.min.js',
         '../vendor/masonry/isotope.js', 
         '../vendor/masonry/packery.min.js', 
-
         'app-tables-datatables.js',
         //'app-ui-notifications.js',
         //'app-ui-nestable-lists.js',
@@ -115,8 +114,8 @@ elixir(function(mix) {
         'init.js',
         'ie-fix.js' 
     	]);
-
-    
+/**/
+    /*
         mix.scripts([  
         '../vendor/jquery-flot/jquery.flot.js', 
         '../vendor/jquery-flot/jquery.flot.pie.js', 
