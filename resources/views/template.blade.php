@@ -60,7 +60,7 @@
    
     <script src="../js/all.js" type="text/javascript"></script>
     @yield('scripts')
-    <script type="text/javascript">
+    <script type="text/javascript"> 
         $(document).ready(function(){
             var client = new $.RestClient('https://api.ersnet.org/');
             client.add('metanav');
