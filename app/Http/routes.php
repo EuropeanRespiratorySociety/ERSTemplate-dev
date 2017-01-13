@@ -22,6 +22,7 @@ Route::group(['prefix' => 'errors'], function () {
 
 Route::get('cache-flush', function(){
     \File::cleanDirectory(app('http_cache.cache_dir'));
+	\Artisan::call('cache:clear');
     return "The cache has been flushed";
 });
 
