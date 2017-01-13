@@ -62,7 +62,7 @@ elixir(function(mix) {
     */
     //mix.less('metanav.less');      
     
-  /**/
+  /*
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
         'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it
@@ -115,7 +115,7 @@ elixir(function(mix) {
         'ie-fix.js' 
     	]);
 /**/
-    /** */
+    /*
         mix.scripts([  
         '../vendor/jquery-flot/jquery.flot.js', 
         '../vendor/jquery-flot/jquery.flot.pie.js', 
@@ -170,6 +170,6 @@ elixir(function(mix) {
         mix.copy('resources/assets/js/metanav.js', 'public/js/metanav.js');
         
         mix.copy('resources/assets/vendor/dropzone/upload.php', 'public/pages/upload.php');
-       /* */
+       */
 
 });

@@ -194,6 +194,7 @@
 /***** Card with hover effect for News on Home *****/
 /*-------------------------------------------------*/
 
+
 figure.hover-gradation figcaption::before {
     position: absolute;
     top: 0;
@@ -206,6 +207,7 @@ figure.hover-gradation figcaption::before {
     content: '';
     opacity: 1;
 }
+
 
 figure.hover-gradation-dark figcaption::before {
     position: absolute;
@@ -221,11 +223,11 @@ figure.hover-gradation-dark figcaption::before {
 
 
 figure.hover-gradation:hover figcaption::before, figure.hover-gradation-dark:hover figcaption::before {
-    opacity: 0;
+    opacity: 0.6;
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
-
+ 
 figure.hover-gradation figcaption::before, figure.hover-gradation-dark figcaption::before{
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
@@ -257,6 +259,7 @@ figure.hover-gradation-dark h2{
     text-align: left;
     
 }
+
 
 figure.hover-gradation-dark h4{
     color: #333!important;   
