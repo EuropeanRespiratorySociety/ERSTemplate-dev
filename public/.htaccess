@@ -49,7 +49,7 @@ AddOutputFilterByType DEFLATE "application/atom+xml" "application/javascript" "a
 
   # CSS
 
-    ExpiresByType text/css                              "access plus 1 month"
+    ExpiresByType text/css                              "access plus 0 seconds"
 
 
   # Data interchange
