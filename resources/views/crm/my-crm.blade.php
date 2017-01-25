@@ -58,13 +58,17 @@
           $('.ers-aside').addClass('aside-close');
         }
 
-        $('.aside-open-btn').click(function(){
+        $('.aside-open-btn').click(function(e){
+            e.stopPropagation();
+            e.preventDefault();
             $('.ers-aside').removeClass('aside-close');
             Cookies.remove('my-ers-aside');
             $('.page-aside').css('transition-duration', '0.5s');
         });
 
-        $('.aside-close-btn').click(function(){
+        $('.aside-close-btn').click(function(e){
+          e.stopPropagation();
+          e.preventDefault();
           $('.ers-aside').addClass('aside-close');
           Cookies.set('my-ers-aside', true);
         });
