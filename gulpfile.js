@@ -62,7 +62,7 @@ elixir(function(mix) {
     */
     //mix.less('metanav.less');      
     
-  /*
+  /**/ 
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
         'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it

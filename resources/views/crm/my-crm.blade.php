@@ -50,6 +50,27 @@
     </div>
     
     <script src="../js/all.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        
+        if(Cookies.get('my-ers-aside') && Cookies.get('my-ers-aside') != 'undefined'){
+          $('.page-aside').css('transition-duration', '0s');
+          $('.ers-aside').addClass('aside-close');
+        }
+
+        $('.aside-open-btn').click(function(){
+            $('.ers-aside').removeClass('aside-close');
+            Cookies.remove('my-ers-aside');
+            $('.page-aside').css('transition-duration', '0.5s');
+        });
+
+        $('.aside-close-btn').click(function(){
+          $('.ers-aside').addClass('aside-close');
+          Cookies.set('my-ers-aside', true);
+        });
+
+      });
+    </script>
 
     @yield('scripts')
 

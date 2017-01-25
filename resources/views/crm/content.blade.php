@@ -2,7 +2,9 @@
     <aside class="page-aside">
       <div class="ers-scroller nano">
         <div class="nano-content">
-          <div class="content">
+            <div class="content">
+            <a class="aside-open-btn" href="javascrip:void(0)"><i class="s7-angle-right icon"></i></a>
+            <a class="aside-close-btn" href="javascrip:void(0)"><i class="s7-close icon"></i></a>
             <h2>Aside Element</h2>
             <p>This is the <b>aside</b> content, you can easily add content and components to this element.</p>
           </div>
