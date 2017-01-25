@@ -86,43 +86,45 @@
 
         .aside-close-btn{
             position: absolute;
-            right: 0;
+            right: 10px;
             top: 0;
             font-size: 30px;
         }
         .aside-open-btn{
             display:none;
         }
+
+        &.aside-close{
+            .main-content{
+                margin-left: 20px;
+
+                &.content-fixed-top{
+                    left: -30px;
+                    padding-left: 140px;
+                }
+            }
+
+            .aside-close-btn{
+                display:none;
+            }
+
+            .aside-open-btn{
+                display: block;
+                    position: absolute;
+                    left: -5px;
+                    top: 12px;
+                    font-size: 30px;
+            }
+
+            .page-aside{
+                width: 20px;
+                transition: width 0.5s;
+            }
+
+        }
     }
 
-    .aside-close{
-        .main-content{
-            margin-left: 20px;
 
-            &.content-fixed-top{
-                left: -30px;
-                padding-left: 140px;
-            }
-        }
-
-        .aside-close-btn{
-            display:none;
-        }
-
-        .aside-open-btn{
-            display: block;
-                position: absolute;
-                left: -5px;
-                top: 12px;
-                font-size: 30px;
-        }
-
-        .page-aside{
-            width: 20px;
-            transition: width 0.5s;
-        }
-
-        }
 
     .page-aside{
         left:110px;
