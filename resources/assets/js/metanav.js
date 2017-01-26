@@ -139,7 +139,7 @@ if ( typeof define === 'function' && define.amd ) {
 
   MLMenu.prototype.options = {
     // show breadcrumbs
-    breadcrumbsCtrl : true,
+    breadcrumbsCtrl : false,
     // initial breadcrumb text
     initialBreadcrumb : 'all',
     // show back button
@@ -147,10 +147,10 @@ if ( typeof define === 'function' && define.amd ) {
     // delay between each menu item sliding animation
     itemsDelayInterval : 60,
     // direction 
-    direction : 'r2l'
+    direction : 'r2l',
     // callback: item that doesn´t have a submenu gets clicked
     // onItemClick([event], [inner HTML of the clicked item])
-    //onItemClick : function(ev, itemName) { return false; }
+    onItemClick : function(ev, itemName) { return false; }
   };
 
   MLMenu.prototype._init = function() {
