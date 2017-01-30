@@ -68,7 +68,8 @@
 
                         .small{
                             opacity: 1;
-                            transition: opacity 0.4s
+                            visibility: visible;
+                            transition: opacity 1s
                         }
 
                         &.closed{
@@ -83,9 +84,9 @@
                             max-height:35px;
 
                             .small{
-                                display:none;
+                                height:0;
+                                visibility: hidden;
                                 opacity: 0;
-                                transition: opacity 0.4s
                             }
                         }
                     } 
