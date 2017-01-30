@@ -25709,10 +25709,11 @@ li.L9 {
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar .small {
   opacity: 1;
+  transition: opacity 0.4s;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed {
-  height: 35px;
+  max-height: 35px;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed .user-image {
