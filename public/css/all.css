@@ -32718,6 +32718,11 @@ li.L9 {
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading {
   padding: 6px 0 0;
   margin-left: 0;
+  margin-right: 0;
+}
+
+#ers-my-crm .ers-content .main-content .panel-action .panel-heading .ers-top-header {
+  background-color: #f9f9f9;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading .nav a {
@@ -32733,6 +32738,7 @@ li.L9 {
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading .nav .ers-navbar-collapse {
   background: #fff;
+  padding: 0;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar {
