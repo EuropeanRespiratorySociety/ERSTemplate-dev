@@ -32746,7 +32746,8 @@ li.L9 {
   padding-bottom: 3px;
   background: #fff;
   margin: 0;
-  transition: height 0.3s;
+  max-height: 45px;
+  transition: max-height 0.3s;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar .user-image {
