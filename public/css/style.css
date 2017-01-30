@@ -25707,6 +25707,10 @@ li.L9 {
   width: 40px;
 }
 
+#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar .small {
+  opacity: 1;
+}
+
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed {
   height: 35px;
 }
@@ -25721,6 +25725,8 @@ li.L9 {
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed .small {
   display: none;
+  opacity: 0;
+  transition: opacity 0.4s;
 }
 
 #ers-my-crm .ers-content .main-content .panel-group.accordion {

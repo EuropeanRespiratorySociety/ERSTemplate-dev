@@ -66,6 +66,10 @@
                             width:40px;
                         }
 
+                        .small{
+                            opacity: 1;
+                        }
+
                         &.closed{
                             .user-image{
                                 width: 30px;
@@ -79,6 +83,8 @@
 
                             .small{
                                 display:none;
+                                opacity: 0;
+                                transition: opacity 0.4s
                             }
                         }
                     } 
