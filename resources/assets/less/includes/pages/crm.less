@@ -30,6 +30,18 @@
 
                 .panel-heading{
                     padding:6px 0 0;
+                    margin-left:0;
+                    .nav{
+                        a{
+                            background: @body-background-white;
+                            color: @dark-color;
+                        }
+                    #user-info-bar{
+                        border-bottom: 1px solid darken(@light-color, 10%);
+                        padding-bottom:2px;
+                    }    
+
+                    }
                 }
             }
 
@@ -52,11 +64,15 @@
                 .row{
                     width: 100%;
                     margin: 0 15px 0 10px;
-                    padding: 10px 0;
+                    padding: 0;
                     background: @body-background;
 
-                    .col-sm-12{
+                    .col-sm-12, .col-md-9, .col-md-3{
                         padding: 0;
+
+                        .col-md-6{
+                            padding:0;
+                        }
 
                         .panel{
                             margin: 0;
