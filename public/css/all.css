@@ -32746,6 +32746,7 @@ li.L9 {
   padding-bottom: 3px;
   background: #fff;
   margin: 0;
+  transition: height 0.3s;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar .user-image {
@@ -32811,7 +32812,7 @@ li.L9 {
 }
 
 #ers-my-crm .ers-content .main-content.content-fixed-top:first-of-type + div {
-  margin-top: 46px;
+  margin-top: 71px;
 }
 
 #ers-my-crm .ers-content .main-content.content-fixed-top.full-width {
