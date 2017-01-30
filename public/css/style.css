@@ -25701,7 +25701,7 @@ li.L9 {
   margin: 0;
 }
 
-#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar img {
+#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar .user-image {
   width: 40px;
 }
 
@@ -25709,7 +25709,7 @@ li.L9 {
   height: 35px;
 }
 
-#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed img {
+#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed .user-image {
   width: 30px;
 }
 
