@@ -35,13 +35,21 @@
                         a{
                             background: @body-background-white;
                             color: @dark-color;
+
+                            &:hover, &:active{
+                                background: darken(@body-background-white, 10%);
+                                color: lighten(@dark-color, 10%);
+                            }   
                         }
+                        .ers-navbar-collapse{
+                            background: #fff;
+                        }    
+                    }
+
                     #user-info-bar{
                         border-bottom: 1px solid darken(@light-color, 10%);
                         padding-bottom:2px;
-                    }    
-
-                    }
+                    } 
                 }
             }
 
