@@ -25694,6 +25694,11 @@ li.L9 {
   padding: 0;
 }
 
+#ers-my-crm .ers-content .main-content .panel-action .panel-heading .badge {
+  color: #fff;
+  background-color: none;
+}
+
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar {
   border-bottom: 1px solid #e6e6e6;
   padding-bottom: 3px;
