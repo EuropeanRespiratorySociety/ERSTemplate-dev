@@ -32760,6 +32760,12 @@ li.L9 {
   transition: opacity 1s;
 }
 
+#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar h4,
+#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar h5,
+#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar h6 {
+  margin: 5px 0;
+}
+
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed {
   max-height: 35px;
   transition: max-height 0.3s;
@@ -32767,12 +32773,6 @@ li.L9 {
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed .user-image {
   width: 30px;
-}
-
-#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed h4,
-#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed h5,
-#ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed h6 {
-  margin: 5px 0;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action .panel-heading #user-info-bar.closed .small {
