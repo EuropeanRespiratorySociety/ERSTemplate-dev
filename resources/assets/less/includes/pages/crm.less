@@ -155,6 +155,12 @@
                     }
                 }
             }
+
+            .row{
+                &.vertical-divider > div[class^="col-"] + div[class^="col-"]{
+                    border: 2px solid #eaeaea;
+                }
+            } 
         }
 
         .aside-close-btn{
