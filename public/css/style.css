@@ -25712,6 +25712,10 @@ li.L9 {
   color: #ffffff;
 }
 
+#ers-my-crm .ers-content .main-content .panel .card .card-content .dl-horizontal {
+  margin-bottom: 0;
+}
+
 #ers-my-crm .ers-content .main-content .panel .card .card-content .dl-horizontal dt {
   width: initial;
 }
