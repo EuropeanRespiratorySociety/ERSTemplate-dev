@@ -32752,24 +32752,18 @@ li.L9 {
   color: #313131;
 }
 
-#ers-my-crm .ers-content .main-content .panel .card-primary,
-#ers-my-crm .ers-content .main-content .panel .card-warning,
-#ers-my-crm .ers-content .main-content .panel .card-danger,
-#ers-my-crm .ers-content .main-content .panel .card-dark {
+#ers-my-crm .ers-content .main-content .panel .card.card-primary,
+#ers-my-crm .ers-content .main-content .panel .card.card-warning,
+#ers-my-crm .ers-content .main-content .panel .card.card-danger,
+#ers-my-crm .ers-content .main-content .panel .card.card-dark {
   color: #ffffff;
 }
 
-#ers-my-crm .ers-content .main-content .panel .card-primary .card-content .dl-horizontal dt,
-#ers-my-crm .ers-content .main-content .panel .card-warning .card-content .dl-horizontal dt,
-#ers-my-crm .ers-content .main-content .panel .card-danger .card-content .dl-horizontal dt,
-#ers-my-crm .ers-content .main-content .panel .card-dark .card-content .dl-horizontal dt {
+#ers-my-crm .ers-content .main-content .panel .card .card-content .dl-horizontal dt {
   width: initial;
 }
 
-#ers-my-crm .ers-content .main-content .panel .card-primary .card-content .dl-horizontal dd,
-#ers-my-crm .ers-content .main-content .panel .card-warning .card-content .dl-horizontal dd,
-#ers-my-crm .ers-content .main-content .panel .card-danger .card-content .dl-horizontal dd,
-#ers-my-crm .ers-content .main-content .panel .card-dark .card-content .dl-horizontal dd {
+#ers-my-crm .ers-content .main-content .panel .card .card-content .dl-horizontal dd {
   margin-left: 100px;
 }
 

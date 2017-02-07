@@ -29,10 +29,13 @@
 
             .panel{
                 color: @dark-color;
-                
-                .card-primary, .card-warning, .card-danger, .card-dark{
-                    color: @light-color;
-                    
+
+                .card{
+
+                    &.card-primary, &.card-warning, &.card-danger, &.card-dark{
+                        color: @light-color;
+                    }
+
                     .card-content{
                         .dl-horizontal{
                             dt{
