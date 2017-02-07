@@ -25712,11 +25712,17 @@ li.L9 {
   color: #ffffff;
 }
 
-#ers-my-crm .ers-content .main-content .panel .card .dl-horizontal dt {
+#ers-my-crm .ers-content .main-content .panel .card-primary .card-content .dl-horizontal dt,
+#ers-my-crm .ers-content .main-content .panel .card-warning .card-content .dl-horizontal dt,
+#ers-my-crm .ers-content .main-content .panel .card-danger .card-content .dl-horizontal dt,
+#ers-my-crm .ers-content .main-content .panel .card-dark .card-content .dl-horizontal dt {
   width: initial;
 }
 
-#ers-my-crm .ers-content .main-content .panel .card .dl-horizontal dd {
+#ers-my-crm .ers-content .main-content .panel .card-primary .card-content .dl-horizontal dd,
+#ers-my-crm .ers-content .main-content .panel .card-warning .card-content .dl-horizontal dd,
+#ers-my-crm .ers-content .main-content .panel .card-danger .card-content .dl-horizontal dd,
+#ers-my-crm .ers-content .main-content .panel .card-dark .card-content .dl-horizontal dd {
   margin-left: 100px;
 }
 
