@@ -25701,9 +25701,19 @@ li.L9 {
   padding: 10px;
 }
 
+#ers-my-crm .ers-content .main-content .panel {
+  color: #313131;
+}
+
+#ers-my-crm .ers-content .main-content .panel .card-primary,
+#ers-my-crm .ers-content .main-content .panel .card-warning,
+#ers-my-crm .ers-content .main-content .panel .card-danger,
+#ers-my-crm .ers-content .main-content .panel .card-dark {
+  color: #ffffff;
+}
+
 #ers-my-crm .ers-content .main-content .panel-action {
   margin-bottom: 10px;
-  color: #313131;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action > .panel-heading {
@@ -25778,13 +25788,6 @@ li.L9 {
   height: 0;
   visibility: hidden;
   opacity: 0;
-}
-
-#ers-my-crm .ers-content .main-content .panel-action .card-primary,
-#ers-my-crm .ers-content .main-content .panel-action .card-warning,
-#ers-my-crm .ers-content .main-content .panel-action .card-danger,
-#ers-my-crm .ers-content .main-content .panel-action .card-dark {
-  color: #ffffff;
 }
 
 #ers-my-crm .ers-content .main-content .panel-group.accordion {

@@ -27,9 +27,16 @@
         .main-content{
             padding:10px;
 
+            .panel{
+                color: @dark-color;
+                
+                .card-primary, .card-warning, .card-danger, .card-dark{
+                    color: @light-color;
+                }
+            }
+
             .panel-action{
                 margin-bottom:10px;
-                color: @dark-color;
 
                  >.panel-heading{ 
                     padding:6px 0 0;
@@ -102,10 +109,6 @@
                             }
                         }
                     } 
-                }
-
-                .card-primary, .card-warning, .card-danger, .card-dark{
-                    color: @light-color;
                 }
             }
 
