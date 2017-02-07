@@ -32712,6 +32712,7 @@ li.L9 {
 }
 
 #ers-my-crm {
+  color: #313131;
   /*
     * Menu (metanav)
     */
@@ -32745,10 +32746,6 @@ li.L9 {
 
 #ers-my-crm .ers-content .main-content {
   padding: 10px;
-}
-
-#ers-my-crm .ers-content .main-content .card {
-  color: #ffffff;
 }
 
 #ers-my-crm .ers-content .main-content .panel-action {
