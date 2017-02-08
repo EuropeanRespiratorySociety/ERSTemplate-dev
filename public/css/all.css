@@ -32748,7 +32748,7 @@ li.L9 {
   padding: 10px;
 }
 
-#ers-my-crm .ers-content .main-content input[type=checkbox]:checked ~ label:after {
+#ers-my-crm .ers-content .main-content input[type=checkbox] ~ label:after {
   opacity: 1;
 }
 
