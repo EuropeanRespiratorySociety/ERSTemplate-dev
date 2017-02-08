@@ -32744,6 +32744,10 @@ li.L9 {
   margin-left: 110px;
 }
 
+#ers-my-crm .ers-content .input-sm {
+  padding: 0 0 0 5px;
+}
+
 #ers-my-crm .ers-content .main-content {
   padding: 10px;
 }
@@ -33041,10 +33045,6 @@ li.L9 {
 #ers-my-crm .table-condensed tr th {
   padding-top: 2px;
   padding-bottom: 0px;
-}
-
-#ers-my-crm .input-sm {
-  padding: 0 0 0 5px;
 }
 
 #ers-my-crm .control-label {
