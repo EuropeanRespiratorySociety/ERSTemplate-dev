@@ -27,7 +27,22 @@
         .main-content{
             padding:10px;
 
-            input[type=checkbox] ~ label:after, input[type=checkbox] ~ label:before {opacity:1;}
+            .ers-checkbox input[type="checkbox"] + input[type="hidden"] + label:before {
+                content: "";
+                width: 22px;
+                height: 22px;
+                display: inline-block;
+                border: 2px solid #eaeaea;
+                margin-right: 5px;
+                font-size: 18px;
+                font-family: 'Stroke 7';
+                font-weight: normal;
+                line-height: 19px;
+                vertical-align: bottom;
+                text-align: center;
+                background-color: transparent;
+                cursor: pointer;
+            }
 
             .panel{
                 color: @dark-color;
