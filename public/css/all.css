@@ -33038,6 +33038,23 @@ li.L9 {
   display: block;
 }
 
+#ers-my-crm .table-condensed tr th {
+  padding-top: 2px;
+  padding-bottom: 0px;
+}
+
+#ers-my-crm .input-sm {
+  padding: 0 0 0 5px;
+}
+
+#ers-my-crm .control-label {
+  padding: 5px 0 0 0;
+}
+
+#ers-my-crm input .form-control {
+  padding: 0 0 0 5px;
+}
+
 /*------------------------------------------------------------------
   [Bootstrap elements]
 */
