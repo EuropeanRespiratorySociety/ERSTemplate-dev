@@ -33042,7 +33042,8 @@ li.L9 {
   display: block;
 }
 
-#ers-my-crm .table-condensed tr th {
+#ers-my-crm .table-condensed tr th,
+#ers-my-crm .table-condensed tr td {
   padding-top: 2px;
   padding-bottom: 0px;
 }
