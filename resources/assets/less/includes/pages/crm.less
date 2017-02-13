@@ -121,7 +121,13 @@
                         .small{
                             opacity: 1;
                             visibility: visible;
-                            transition: opacity 1s
+                            transition: opacity 1s;
+
+                            span{
+                                opacity: 1;
+                                visibility: visible;
+                                transition: opacity 1s
+                            }
                         }
 
                         h4, h5, h6{
@@ -140,6 +146,12 @@
                                 height:0;
                                 visibility: hidden;
                                 opacity: 0;
+                                
+                                span{
+                                    height:0;
+                                    visibility: hidden;
+                                    opacity: 0;
+                                }
                             }
                         }
                     } 
