@@ -26048,6 +26048,10 @@ li.L9 {
   padding: 2px 2px 0;
 }
 
+#ers-my-crm .modal-dialog .input-group-addon i {
+  font-size: 22px;
+}
+
 #ers-my-crm .modal-dialog .col-sm-3,
 #ers-my-crm .modal-dialog .col-sm-4,
 #ers-my-crm .modal-dialog .col-sm-5,
