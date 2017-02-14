@@ -26048,6 +26048,14 @@ li.L9 {
   padding: 2px 2px 0;
 }
 
+#ers-my-crm .modal-dialog .col-sm-3,
+#ers-my-crm .modal-dialog .col-sm-4,
+#ers-my-crm .modal-dialog .col-sm-5,
+#ers-my-crm .modal-dialog .col-sm-6,
+#ers-my-crm .modal-dialog .col-sm-8 {
+  padding-right: 0;
+}
+
 /*------------------------------------------------------------------
   [Bootstrap elements]
 */
