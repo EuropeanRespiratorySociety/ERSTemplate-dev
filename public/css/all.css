@@ -32885,6 +32885,15 @@ li.L9 {
   margin-top: 0;
 }
 
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .input-group-addon {
+  padding: 0 3px;
+}
+
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .input-group-addon .ers-radio,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .input-group-addon .ers-checkbox {
+  margin-top: -4px;
+}
+
 #ers-my-crm .ers-content .main-content.content-fixed-top {
   position: fixed;
   z-index: 1;
