@@ -25860,6 +25860,15 @@ li.L9 {
   padding-right: 0;
 }
 
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-2 :after,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-3 :after,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-4 :after,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-5 :after,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-6 :after,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-8 :after {
+  padding-right: initial;
+}
+
 #ers-my-crm .ers-content .main-content.content-fixed-top {
   position: fixed;
   z-index: 1032;
