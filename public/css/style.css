@@ -26099,7 +26099,8 @@ li.L9 {
 #ers-my-crm .modal-dialog .form-group .col-sm-4,
 #ers-my-crm .modal-dialog .form-group .col-sm-5,
 #ers-my-crm .modal-dialog .form-group .col-sm-6,
-#ers-my-crm .modal-dialog .form-group .col-sm-8 {
+#ers-my-crm .modal-dialog .form-group .col-sm-8,
+#ers-my-crm .modal-dialog .form-group .col-sm-12 {
   padding-right: 0;
 }
 
