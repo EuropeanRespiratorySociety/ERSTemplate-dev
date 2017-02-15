@@ -25851,12 +25851,17 @@ li.L9 {
   margin: 0 2px;
 }
 
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group {
+  padding-right: 15px;
+}
+
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-2,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-3,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-4,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-5,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-6,
-#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-8 {
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-8,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-12 {
   padding-right: 0;
 }
 
@@ -25865,7 +25870,8 @@ li.L9 {
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-4 :after,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-5 :after,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-6 :after,
-#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-8 :after {
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-8 :after,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-12 :after {
   padding-right: initial;
 }
 
