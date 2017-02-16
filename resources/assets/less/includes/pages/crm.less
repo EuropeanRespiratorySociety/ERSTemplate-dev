@@ -132,12 +132,12 @@
                             @media @phone{
                                 position: fixed;
                                 width:168px;
-                                right:0
+                                right:20px;
                             }
                             @media @tablet{
                                 position: fixed;
                                 width:168px;
-                                right:0
+                                right:20px;
                             }
 
                         }
@@ -231,11 +231,15 @@
                 @media @tablet{
                     padding-left: 10px;
                     left: -10px;
+                    max-height:71px;
+                    overflow:hidden;
                 }
 
                 @media @phone{
                     padding-left: 10px;
                     left: -10px;
+                    max-height:71px;
+                    overflow:hidden;
                 }
 
                 .row{
@@ -353,6 +357,13 @@
             .page-aside{
                 width: 20px;
                 transition: width 0.5s;
+                
+                @media @phone{
+                    margin-top:68px;
+                }
+                @media @tablet{
+                    margin-top:68px;
+                }
             }
 
         }

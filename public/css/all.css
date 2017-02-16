@@ -32870,7 +32870,7 @@ li.L9 {
   #ers-my-crm .ers-content .main-content .panel-action > .panel-heading #user-info-bar #actionButtons {
     position: fixed;
     width: 168px;
-    right: 0;
+    right: 20px;
   }
 }
 
@@ -32878,7 +32878,7 @@ li.L9 {
   #ers-my-crm .ers-content .main-content .panel-action > .panel-heading #user-info-bar #actionButtons {
     position: fixed;
     width: 168px;
-    right: 0;
+    right: 20px;
   }
 }
 
@@ -32985,6 +32985,8 @@ li.L9 {
   #ers-my-crm .ers-content .main-content.content-fixed-top {
     padding-left: 10px;
     left: -10px;
+    max-height: 71px;
+    overflow: hidden;
   }
 }
 
@@ -32992,6 +32994,8 @@ li.L9 {
   #ers-my-crm .ers-content .main-content.content-fixed-top {
     padding-left: 10px;
     left: -10px;
+    max-height: 71px;
+    overflow: hidden;
   }
 }
 
@@ -33129,6 +33133,18 @@ li.L9 {
 #ers-my-crm .ers-content.aside-close .page-aside {
   width: 20px;
   transition: width 0.5s;
+}
+
+@media (max-width: 991px) {
+  #ers-my-crm .ers-content.aside-close .page-aside {
+    margin-top: 68px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .ers-content.aside-close .page-aside {
+    margin-top: 68px;
+  }
 }
 
 #ers-my-crm .page-aside {
