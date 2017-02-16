@@ -33251,6 +33251,16 @@ li.L9 {
   }
 }
 
+#ers-my-crm .ers-content #editorDialog {
+  width: 800px;
+}
+
+@media (max-width: 991px), (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .ers-content #editorDialog {
+    width: auto;
+  }
+}
+
 #ers-my-crm .page-aside {
   left: 110px;
   padding-top: 0;
