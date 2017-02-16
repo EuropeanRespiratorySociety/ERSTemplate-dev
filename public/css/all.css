@@ -33060,13 +33060,15 @@ li.L9 {
 
 @media (max-width: 991px) {
   #ers-my-crm .ers-content.aside-close .main-content.content-fixed-top {
-    padding-left: 0;
+    padding-left: 10px;
+    margin-left: 20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #ers-my-crm .ers-content.aside-close .main-content.content-fixed-top {
-    padding-left: 0;
+    padding-left: 10px;
+    margin-left: 20px;
   }
 }
 
