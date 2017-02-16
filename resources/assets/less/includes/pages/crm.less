@@ -364,7 +364,7 @@
                     top: -6px;
                     width: 10px;
                     height:10px;
-                    
+
                     i {
                         transform: rotate(90deg);
                         position: absolute;
@@ -376,7 +376,14 @@
                 width: 20px;
                 transition: width 0.5s;
 
-                @media @phone, @tablet{
+                @media @phone{
+                    width:100%;
+                    height:20px;
+                    top:-20px;
+                    transition: height 0.5s;
+                }
+                
+                @media @tablet{
                     width:100%;
                     height:20px;
                     top:-20px;
