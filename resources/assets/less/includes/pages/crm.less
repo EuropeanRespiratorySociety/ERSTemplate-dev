@@ -127,6 +127,20 @@
                         margin:0;
                         max-height:55px;
                         transition: max-height 0.3s;
+
+                        #actionButtons{
+                            @media @phone{
+                                position: fixed;
+                                width:168px;
+                                right:0
+                            }
+                            @media @tablet{
+                                position: fixed;
+                                width:168px;
+                                right:0
+                            }
+
+                        }
                         
                         .user-image{
                             width:40px;
@@ -245,6 +259,12 @@
 
                 &:first-of-type + div{
                     margin-top: 71px;
+                    @media @phone {
+                        margin-top: 0;
+                    }
+                    @media @tablet {
+                        margin-top: 0;
+                    }
                 }
 
                 &.full-width{
@@ -253,6 +273,12 @@
 
                     &:first-of-type + div{
                         margin-top: 36px;
+                        @media @phone {
+                            margin-top: 0;
+                        }
+                        @media @tablet {
+                            margin-top: 0;
+                        }
                     }
                     
                     .row{
@@ -302,12 +328,12 @@
                 @media @phone{
                     padding-left:10px;
                     margin-left:20px;
-                    height:70px;
+                    height:87px;
                 }
                 @media @tablet{
                     padding-left:10px;
                     margin-left:20px;
-                    height:70px;
+                    height:87px;
                 }
                 }
             }
