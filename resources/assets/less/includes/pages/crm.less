@@ -29,6 +29,9 @@
         @media @tablet{
             margin-left: 0;
         }
+        @media @phone{
+            margin-left: 0;
+        }
         
         .input-sm {
             padding: 0 0 0 5px;
@@ -36,6 +39,13 @@
 
         .main-content{
             padding:10px;
+
+            @media @tablet{
+                margin-left:0;
+            }
+            @media @phone{
+                margin-left:0;
+            }
 
             .page-head{
                 height:70px;
@@ -203,6 +213,16 @@
                 width: 100%;
                 left: -290px;
                 top: -10px;
+
+                @media @tablet{
+                    padding-left: 10px;
+                    left: -10px;
+                }
+
+                @media @phone{
+                    padding-left: 10px;
+                    left: -10px;
+                }
 
                 .row{
                     width: 100%;
