@@ -26097,13 +26097,13 @@ li.L9 {
 
 @media (max-width: 991px) {
   #ers-my-crm .ers-content .main-content .row.vertical-divider > div[class^="col-"] + div[class^="col-"] {
-    border: none;
+    border-left: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #ers-my-crm .ers-content .main-content .row.vertical-divider > div[class^="col-"] + div[class^="col-"] {
-    border: none;
+    border-left: none;
   }
 }
 
