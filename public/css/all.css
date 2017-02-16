@@ -33142,6 +33142,18 @@ li.L9 {
   border-left: 2px solid #eaeaea;
 }
 
+@media (max-width: 991px) {
+  #ers-my-crm .ers-content .main-content .row.vertical-divider > div[class^="col-"] + div[class^="col-"] {
+    border: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .ers-content .main-content .row.vertical-divider > div[class^="col-"] + div[class^="col-"] {
+    border: none;
+  }
+}
+
 #ers-my-crm .ers-content .aside-close-btn {
   position: absolute;
   right: 10px;

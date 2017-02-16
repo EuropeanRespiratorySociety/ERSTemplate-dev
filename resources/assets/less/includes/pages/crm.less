@@ -300,6 +300,13 @@
             .row{
                 &.vertical-divider > div[class^="col-"] + div[class^="col-"]{
                     border-left: 2px solid #eaeaea;
+                    @media @phone{
+                        border:none;
+                    } 
+                    
+                    @media @tablet{
+                        border:none;
+                    }
                 }
             } 
         }
