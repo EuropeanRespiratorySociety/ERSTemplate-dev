@@ -23360,6 +23360,7 @@ h6 .text-primary {
 .ers-splash-screen input:-webkit-autofill:focus,
 .ers-splash-screen input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #ffffff;
 }
 
 .ers-splash-screen .ers-wrapper {
