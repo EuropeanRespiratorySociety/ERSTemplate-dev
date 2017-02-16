@@ -392,17 +392,21 @@
                 
             }
 
-        }
+        } 
 
-        #editorDialog > #editorContainer > .modal-dialog{
-            width:800px;
-            
-            @media @phone{
-                width: auto;
-            }
-            @media  @tablet{
-                width: auto;
-            }
+        #editorDialog {
+            > #editorContainer{ 
+                > .modal-dialog{
+                    width:800px;
+                    
+                    @media @phone{
+                        width: auto;
+                    }
+                    @media  @tablet{
+                        width: auto;
+                    }
+                }
+            }        
         }
 
         .table-responsive{
