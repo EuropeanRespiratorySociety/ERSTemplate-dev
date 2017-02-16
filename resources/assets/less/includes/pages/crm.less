@@ -288,9 +288,23 @@
             .main-content{
                 margin-left: 20px;
 
+                @media @phone{
+                    margin-left:0;
+                }
+                @media @tablet{
+                    margin-left:0;
+                }
+
                 &.content-fixed-top{
                     left: -30px;
                     padding-left: 140px;
+
+                @media @phone{
+                    padding-left:0;
+                }
+                @media @tablet{
+                    padding-left:0;
+                }
                 }
             }
 

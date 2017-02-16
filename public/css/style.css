@@ -25994,9 +25994,33 @@ li.L9 {
   margin-left: 20px;
 }
 
+@media (max-width: 991px) {
+  #ers-my-crm .ers-content.aside-close .main-content {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .ers-content.aside-close .main-content {
+    margin-left: 0;
+  }
+}
+
 #ers-my-crm .ers-content.aside-close .main-content.content-fixed-top {
   left: -30px;
   padding-left: 140px;
+}
+
+@media (max-width: 991px) {
+  #ers-my-crm .ers-content.aside-close .main-content.content-fixed-top {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .ers-content.aside-close .main-content.content-fixed-top {
+    padding-left: 0;
+  }
 }
 
 #ers-my-crm .ers-content.aside-close .aside-close-btn {
