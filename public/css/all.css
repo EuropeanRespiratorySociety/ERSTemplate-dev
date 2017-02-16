@@ -32752,6 +32752,12 @@ li.L9 {
   margin-left: 110px;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .ers-content {
+    margin-left: 0;
+  }
+}
+
 #ers-my-crm .ers-content .input-sm {
   padding: 0 0 0 5px;
 }
@@ -32916,6 +32922,7 @@ li.L9 {
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-5,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-6,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-8,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-9,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-12 {
   padding-right: 0;
 }
@@ -32926,6 +32933,7 @@ li.L9 {
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-5 :after,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-6 :after,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-8 :after,
+#ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-9 :after,
 #ers-my-crm .ers-content .main-content .panel-group.accordion .panel .form-group .col-md-12 :after {
   padding-right: initial;
 }
