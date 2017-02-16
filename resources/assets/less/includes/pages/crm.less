@@ -25,6 +25,13 @@
     }
     .ers-content{
         margin-left:110px;
+
+        @media @tablet{
+            margin-left: 0;
+        }
+        @media @phone{
+            margin-left: 0;
+        }
         
         .input-sm {
             padding: 0 0 0 5px;
@@ -32,6 +39,13 @@
 
         .main-content{
             padding:10px;
+
+            @media @tablet{
+                margin-left:0;
+            }
+            @media @phone{
+                margin-left:0;
+            }
 
             .page-head{
                 height:70px;
@@ -113,6 +127,20 @@
                         margin:0;
                         max-height:55px;
                         transition: max-height 0.3s;
+
+                        #actionButtons{
+                            @media @phone{
+                                position: fixed;
+                                width:168px;
+                                right:20px;
+                            }
+                            @media @tablet{
+                                position: fixed;
+                                width:168px;
+                                right:20px;
+                            }
+
+                        }
                         
                         .user-image{
                             width:40px;
@@ -121,7 +149,13 @@
                         .small{
                             opacity: 1;
                             visibility: visible;
-                            transition: opacity 1s
+                            transition: opacity 1s;
+
+                            span{
+                                opacity: 1;
+                                visibility: visible;
+                                transition: opacity 1s
+                            }
                         }
 
                         h4, h5, h6{
@@ -140,6 +174,12 @@
                                 height:0;
                                 visibility: hidden;
                                 opacity: 0;
+                                
+                                span{
+                                    height:0;
+                                    visibility: hidden;
+                                    opacity: 0;
+                                }
                             }
                         }
                     } 
@@ -151,16 +191,56 @@
 
                 .panel{
                     margin-top:0;
+
+                    .input-group-addon{
+                        padding: 0 3px;
+
+                        .control-label{
+                            padding:0;
+                        }
+
+                        .ers-radio, .ers-checkbox{
+
+                            input + label:before{
+                                margin:0 2px;
+                            }
+                        }
+                    }
+                .form-group{
+                    padding-right:15px;
+
+                    .col-md-2, .col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-8,.col-md-9, .col-md-12{
+                        padding-right:0;
+
+                        :after{
+                            padding-right:initial;
+                        }
+                    }
+                }    
                 }
             }
 
             &.content-fixed-top{    
                 position: fixed;
-                z-index: 1;
+                z-index: 1032;
                 padding-left: 400px;
                 width: 100%;
                 left: -290px;
                 top: -10px;
+
+                @media @tablet{
+                    padding-left: 10px;
+                    left: -10px;
+                    max-height:71px;
+                    overflow:hidden;
+                }
+
+                @media @phone{
+                    padding-left: 10px;
+                    left: -10px;
+                    max-height:71px;
+                    overflow:hidden;
+                }
 
                 .row{
                     width: 100%;
@@ -183,6 +263,12 @@
 
                 &:first-of-type + div{
                     margin-top: 71px;
+                    @media @phone {
+                        margin-top: 0;
+                    }
+                    @media @tablet {
+                        margin-top: 0;
+                    }
                 }
 
                 &.full-width{
@@ -191,6 +277,12 @@
 
                     &:first-of-type + div{
                         margin-top: 36px;
+                        @media @phone {
+                            margin-top: 0;
+                        }
+                        @media @tablet {
+                            margin-top: 0;
+                        }
                     }
                     
                     .row{
@@ -198,6 +290,11 @@
                         margin: 0 15px 0 0;
                     }
                 }
+
+                @media @phone{
+
+				}
+
             }
 
             .row{
@@ -221,9 +318,27 @@
             .main-content{
                 margin-left: 20px;
 
+                @media @phone{
+                    margin-left:0;
+                }
+                @media @tablet{
+                    margin-left:0;
+                }
+
                 &.content-fixed-top{
                     left: -30px;
                     padding-left: 140px;
+
+                @media @phone{
+                    padding-left:10px;
+                    margin-left:20px;
+                    height:87px;
+                }
+                @media @tablet{
+                    padding-left:10px;
+                    margin-left:20px;
+                    height:87px;
+                }
                 }
             }
 
@@ -242,6 +357,7 @@
             .page-aside{
                 width: 20px;
                 transition: width 0.5s;
+                
             }
 
         }
@@ -253,6 +369,17 @@
         left:110px;
         padding-top:0;
         z-index: 3;
+
+        @media @phone {
+            left:0;
+            padding-top:0;
+            margin-top:68px;
+        }
+        @media @tablet {
+            left:0;
+            padding-top:0;
+            margin-top:68px;
+        }
 
         .panel-heading{
             margin:0;
@@ -353,6 +480,42 @@
     input {
         .form-control {
             padding: 0 0 0 5px;
+        }
+    }
+
+    .modal-dialog{
+        .datetimepicker{
+                padding:0;
+        }
+
+        .input-group-addon{
+            font-size:12px;
+            line-height: 1;
+            padding:2px 2px 0;
+            height:26px;
+            border:none;
+
+            i {
+                font-size:22px;
+            }
+
+            .control-label{
+                padding:0;
+            } 
+
+            .ers-radio, .ers-checkbox{
+
+                input + label:before{
+                    margin:0 2px;
+                }
+            }
+        }
+        .form-group {
+            padding-right: 15px;
+
+            .col-sm-2, .col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-8, .col-sm-12 {
+                padding-right:0;
+            }
         }
     }
 }
