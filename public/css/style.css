@@ -16308,6 +16308,13 @@ h6 .text-primary {
   background-color: #002947;
 }
 
+.ers-splash-screen input:-webkit-autofill,
+.ers-splash-screen input:-webkit-autofill:hover,
+.ers-splash-screen input:-webkit-autofill:focus,
+.ers-splash-screen input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 .ers-splash-screen .ers-wrapper {
   padding-top: 0;
 }
