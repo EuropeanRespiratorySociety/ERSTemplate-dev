@@ -26015,6 +26015,7 @@ li.L9 {
   #ers-my-crm .ers-content.aside-close .main-content.content-fixed-top {
     padding-left: 10px;
     margin-left: 20px;
+    height: 70px;
   }
 }
 
@@ -26022,6 +26023,7 @@ li.L9 {
   #ers-my-crm .ers-content.aside-close .main-content.content-fixed-top {
     padding-left: 10px;
     margin-left: 20px;
+    height: 70px;
   }
 }
 
@@ -26046,6 +26048,20 @@ li.L9 {
   left: 110px;
   padding-top: 0;
   z-index: 3;
+}
+
+@media (max-width: 991px) {
+  #ers-my-crm .page-aside {
+    left: 0;
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .page-aside {
+    left: 0;
+    padding-top: 0;
+  }
 }
 
 #ers-my-crm .page-aside .panel-heading {

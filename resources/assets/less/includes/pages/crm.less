@@ -302,10 +302,12 @@
                 @media @phone{
                     padding-left:10px;
                     margin-left:20px;
+                    height:70px;
                 }
                 @media @tablet{
                     padding-left:10px;
                     margin-left:20px;
+                    height:70px;
                 }
                 }
             }
@@ -336,6 +338,15 @@
         left:110px;
         padding-top:0;
         z-index: 3;
+
+        @media @phone {
+            left:0;
+            padding-top:0;
+        }
+        @media @tablet {
+            left:0;
+            padding-top:0;
+        }
 
         .panel-heading{
             margin:0;
