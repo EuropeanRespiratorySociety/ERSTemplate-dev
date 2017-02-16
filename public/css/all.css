@@ -33255,9 +33255,31 @@ li.L9 {
   width: 800px;
 }
 
-@media (max-width: 991px), (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   #ers-my-crm .ers-content #editorDialog {
     width: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .ers-content #editorDialog {
+    width: auto;
+  }
+}
+
+#ers-my-crm .ers-content .table-responsive {
+  overflow-x: initial;
+}
+
+@media (max-width: 991px) {
+  #ers-my-crm .ers-content .table-responsive {
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ers-my-crm .ers-content .table-responsive {
+    overflow-x: auto;
   }
 }
 

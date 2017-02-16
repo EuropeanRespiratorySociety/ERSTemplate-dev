@@ -397,9 +397,24 @@
         #editorDialog{
             width:800px;
             
-            @media @phone, @tablet{
+            @media @phone{
                 width: auto;
             }
+            @media  @tablet{
+                width: auto;
+            }
+        }
+
+        .table-responsive{
+            overflow-x: initial;
+                        
+            @media @phone{
+                overflow-x: auto;
+            }
+            @media  @tablet{
+                overflow-x: auto;
+            }
+
         }
     }
 
