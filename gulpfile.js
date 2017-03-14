@@ -23,9 +23,12 @@ elixir(function(mix) {
     |
     */
 
-
-
- /*
+    /**
+    *　--------------------------------------
+    *  Special copies to public folder
+    *　--------------------------------------
+    */
+/*
     mix.copy('resources/assets/fonts', 'public/fonts');
  
     
@@ -37,6 +40,13 @@ elixir(function(mix) {
     //this was taken out from the main file for Kendo to work on myERS
     mix.copy('resources/assets/vendor/jquery/jquery.min.js', 'public/js/jquery.min.js');
 */
+
+    /**
+    *　--------------------------------------
+    *  Main CSS
+    *　--------------------------------------
+    */
+/**
     mix.less('style.less');
     mix.styles([
         '../vendor/select2/css/select2.min.css',
@@ -57,12 +67,18 @@ elixir(function(mix) {
         '../vendor/enjoyhint/src/jquery.enjoyhint.css',
         '../../../public/css/style.css'
     	]);
+*/        
     /**
     * We create a special css for the metanav plugin
     */
     //mix.less('metanav.less');      
     
-  /** 
+    /**
+    *　--------------------------------------
+    * Main JS Files
+    *　--------------------------------------
+    */
+/**
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
         'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it
@@ -115,7 +131,14 @@ elixir(function(mix) {
         'ie-fix.js' 
     	]);
 */
-    /** 
+   
+
+        /**
+        *　--------------------------------------
+        * Stats, Chart plotting
+        *　--------------------------------------
+        */
+/**  
         mix.scripts([  
         '../vendor/jquery-flot/jquery.flot.js', 
         '../vendor/jquery-flot/jquery.flot.pie.js', 
@@ -140,18 +163,39 @@ elixir(function(mix) {
         '../vendor/chartjs/Chart.min.js'
 
         ], 'public/js/stats.js');
-
+*/
+        /**
+        *　--------------------------------------
+        * Fullpage
+        *　--------------------------------------
+        */
+/*
         mix.scripts([  
         '../vendor/fullpagejs/vendors/jquery.easings.min.js',
         '../vendor/fullpagejs/vendors/jquery.slimscroll.min.js',
         '../vendor/fullpagejs/dist/jquery.fullpage.min.js'
         ], 'public/js/fullpage.js');
+*/
 
+        /**
+        *　--------------------------------------
+        * Earlyload
+        *　--------------------------------------
+        */
+
+/*
         mix.scripts([  
         '../vendor/jquery-rest-client/rest-client.js', 
         ], 'public/js/early-load.js');
+*/
       
-        //Specific copies of files
+        /**
+        *　--------------------------------------
+        * Copies to public folder
+        *　--------------------------------------
+        */
+
+/*
         mix.copy('resources/assets/js/app-ui-notifications.js', 'public/js/app-ui-notifications.js');
         mix.copy('resources/assets/js/app-page-calendar.js', 'public/js/app-page-calendar.js');
 
@@ -159,12 +203,16 @@ elixir(function(mix) {
         mix.copy('resources/assets/js/app-fullpage.js', 'public/js/app-fullpage.js');
         mix.copy('resources/assets/js/app-assemblies.js', 'public/js/app-assemblies.js');
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
+
         mix.copy('resources/assets/js/app-home.js', 'public/js/app-home.js');
+*/        
+/*         
         mix.copy('resources/assets/js/app-timeline.js', 'public/js/app-timeline.js');
         mix.copy('resources/assets/js/app-newsfeed.js', 'public/js/app-newsfeed.js');
         mix.copy('resources/assets/js/app-membership.js', 'public/js/app-membership.js');
+*/         
         mix.copy('resources/assets/js/app-policy-areas.js', 'public/js/app-policy-areas.js');
-        mix.copy('resources/assets/js/app-enjoyhint-demo.js', 'public/js/app-enjoyhint-demo.js');
+/*      mix.copy('resources/assets/js/app-enjoyhint-demo.js', 'public/js/app-enjoyhint-demo.js');
         mix.copy('resources/assets/js/app-who-we-are.js', 'public/js/app-who-we-are.js');
         
         //mix.copy('resources/assets/js/app-wow.js', 'public/js/app-wow.js');
