@@ -91,5 +91,25 @@ var App = (function () {
 
   };
 
+    function setHeight(){
+        var els = document.querySelectorAll(".home-news");
+        console.log(els);
+        var height = 0;
+        for (var i = 0; i < els.length; i++) {
+            if (height < els[i].offsetHeight){
+                height = els[i].offsetHeight;
+            }
+        }
+
+        for (var i = 0; i < els.length; i++) {
+            els[i].style.height = height +  "px";
+        }
+
+    }
+
+    // listen for events
+    window.addEventListener("load", setHeight);
+    window.addEventListener("resize", setHeight);
+
   return App;
 })(App || {});
