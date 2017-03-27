@@ -1,7 +1,7 @@
 var App = (function () {
   'use strict';
   
-  App.assemblies = function( ){
+  App.policyAreas = function( ){
 
     //var alt2 = App.color.assemblies_odd;
     var assemblies1 = App.color.assemblies1;
@@ -16,18 +16,20 @@ var App = (function () {
         anchors: [
         	'policy-areas',
             'tobacco-control', 
-            'chronic-diseases', 
-            'environment-policy', 
-            'research-and-innovation'
+            'environment-and-health', 
+            'science-and-healthcare', 
+            'tuberculosis', 
+            'chronic-diseases'         
         ],
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: [
             'Policy areas',
             'Tobacco control',
-            'Chronic diseases including COPD', 
-            'Environment Policy', 
-            'Research and Innovation Policy'
+            'Environment and health', 
+            'Science and healthcare', 
+            'Tuberculosis',
+            'Chronic diseases'            
         ],
         showActiveTooltip: false,
         slidesNavigation: false,
