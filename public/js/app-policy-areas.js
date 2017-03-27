@@ -1,7 +1,7 @@
 var App = (function () {
   'use strict';
   
-  App.assemblies = function( ){
+  App.policyAreas = function( ){
 
     //var alt2 = App.color.assemblies_odd;
     var assemblies1 = App.color.assemblies1;
@@ -18,8 +18,8 @@ var App = (function () {
             'tobacco-control', 
             'environment-and-health', 
             'science-and-healthcare', 
-            'tuberculosis'
-            'chronic-diseases'
+            'tuberculosis', 
+            'chronic-diseases'         
         ],
         navigation: true,
         navigationPosition: 'right',
@@ -28,8 +28,8 @@ var App = (function () {
             'Tobacco control',
             'Environment and health', 
             'Science and healthcare', 
-            'Tuberculosis'
-            'Chronic diseases'
+            'Tuberculosis',
+            'Chronic diseases'            
         ],
         showActiveTooltip: false,
         slidesNavigation: false,
