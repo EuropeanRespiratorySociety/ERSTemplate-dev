@@ -19,7 +19,8 @@ var App = (function () {
             'environment-and-health', 
             'science-and-healthcare', 
             'tuberculosis', 
-            'chronic-diseases'         
+            'chronic-diseases',
+            'ers-presidential-summits'                             
         ],
         navigation: true,
         navigationPosition: 'right',
@@ -29,7 +30,8 @@ var App = (function () {
             'Environment and health', 
             'Science and healthcare', 
             'Tuberculosis',
-            'Chronic diseases'            
+            'Chronic diseases',  
+            'ERS Presidential Summits'            
         ],
         showActiveTooltip: false,
         slidesNavigation: false,
@@ -62,7 +64,7 @@ var App = (function () {
         controlArrows: true,
         verticalCentered: false,
         resize : false,
-        sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies1],
+        sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1],
         paddingTop: '0px',
         paddingBottom: '40px',
         fixedElements: '#header, .footer',
