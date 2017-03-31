@@ -46,7 +46,7 @@ elixir(function(mix) {
     *  Main CSS
     *　--------------------------------------
     */
-/**
+/**  
     mix.less('style.less');
     mix.styles([
         '../vendor/select2/css/select2.min.css',
