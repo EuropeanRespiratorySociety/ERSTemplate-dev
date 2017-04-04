@@ -210,11 +210,12 @@ elixir(function(mix) {
  */      
 /*         
         mix.copy('resources/assets/js/app-timeline.js', 'public/js/app-timeline.js');
+*/       
         mix.copy('resources/assets/js/app-newsfeed.js', 'public/js/app-newsfeed.js');
-        mix.copy('resources/assets/js/app-membership.js', 'public/js/app-membership.js');
-*/         
+/*        mix.copy('resources/assets/js/app-membership.js', 'public/js/app-membership.js');
+        
         mix.copy('resources/assets/js/app-policy-areas.js', 'public/js/app-policy-areas.js');
-
+*/ 
 /*        
         mix.copy('resources/assets/js/app-enjoyhint-demo.js', 'public/js/app-enjoyhint-demo.js');
 
