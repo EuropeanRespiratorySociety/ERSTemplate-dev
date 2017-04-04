@@ -1,11 +1,11 @@
 var App = (function () {
     'use strict';
-    App.newsfeed = function( ){
-            //var client = new $.RestClient('https://api.ersnet.org/');
-            var client = new $.RestClient('http://localhost:3030/', {
+    App.newsfeed = function(){
+            var client = new $.RestClient('https://api.ersnet.org/', {
                 cache: 60, //This will cache requests for 60 seconds
                 cachableMethods: ["GET"] //This defines what method types can be cached (this is already set by default)
             });
+            // var client = new $.RestClient('http://localhost:3030/');
             client.add('news');
             client.news.read({limit:5}).done(function (data){
                 var articles = data.data;
