@@ -6,8 +6,10 @@ var App = (function () {
                 cachableMethods: ["GET"] //This defines what method types can be cached (this is already set by default)
             });
             // var client = new $.RestClient('http://localhost:3030/');
+
             client.add('news');
             client.news.read({limit:5}).done(function (data){
+                console.log(data)
                 var articles = data.data;
                 for( var i = 0; i < articles.length -1; i++){
                     if(articles[i].image) {
