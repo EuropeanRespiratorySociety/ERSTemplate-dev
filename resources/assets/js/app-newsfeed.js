@@ -10,10 +10,15 @@ var App = (function () {
             client.news.read({limit:5}).done(function (data){
                 var articles = data.data;
                 for( var i = 0; i < articles.length -1; i++){
-                    var image ='<div class="card-image"' 
-                        +'style="background-size:cover;background-repeat: no-repeat;height:150px;' 
-                        +'background-image: url(\'' + articles[i].image + '\');' 
-                        +'background-position: center center;"></div>';
+                    if(articles[i].image) {
+                        var image = 
+                            '<div class="card-image"' 
+                            +'style="background-size:cover;background-repeat: no-repeat;height:150px;' 
+                            +'background-image: url(\'' + articles[i].image + '\');' 
+                            +'background-position: center center;"></div>';
+                    } else {
+                        var image = '';
+                    }
                     $(
                     '<li class="list-group-item panel panel-full-default">'
                         +'<div class="card card-default card-dashboard">'
