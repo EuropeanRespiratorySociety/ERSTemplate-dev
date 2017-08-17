@@ -4,6 +4,9 @@
     "gulp": "^3.8.8"
   },
   "dependencies": {
-    "laravel-elixir": "^3.0.0"
+    "graceful-fs": "^4.1.11",
+    "laravel-elixir": "^3.0.0",
+    "require-dir": "^0.3.2",
+    "vinyl-fs": "^2.4.4"
   }
 }
