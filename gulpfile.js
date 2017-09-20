@@ -46,7 +46,7 @@ elixir(function(mix) {
     *  Main CSS
     *　--------------------------------------
     */
-/**  
+ 
     mix.less('style.less');
     mix.styles([
         '../vendor/select2/css/select2.min.css',
@@ -67,7 +67,7 @@ elixir(function(mix) {
         '../vendor/enjoyhint/src/jquery.enjoyhint.css',
         '../../../public/css/style.css'
     	]);
-*/        
+
     /**
     * We create a special css for the metanav plugin
     */
@@ -198,21 +198,21 @@ elixir(function(mix) {
 /*
         mix.copy('resources/assets/js/app-ui-notifications.js', 'public/js/app-ui-notifications.js');
         mix.copy('resources/assets/js/app-page-calendar.js', 'public/js/app-page-calendar.js');
-
         mix.copy('resources/assets/js/app-stats.js', 'public/js/app-stats.js');
         mix.copy('resources/assets/js/app-fullpage.js', 'public/js/app-fullpage.js');
+*/
+    
         mix.copy('resources/assets/js/app-assemblies.js', 'public/js/app-assemblies.js');
+ /*
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
 
-
-       
         mix.copy('resources/assets/js/app-home.js', 'public/js/app-home.js');
- */      
-/*         
+        
         mix.copy('resources/assets/js/app-timeline.js', 'public/js/app-timeline.js');
 */       
-  //      mix.copy('resources/assets/js/app-newsfeed.js', 'public/js/app-newsfeed.js');
+          mix.copy('resources/assets/js/app-newsfeed.js', 'public/js/app-newsfeed.js');
 /*        mix.copy('resources/assets/js/app-membership.js', 'public/js/app-membership.js');
+
         
         mix.copy('resources/assets/js/app-policy-areas.js', 'public/js/app-policy-areas.js');
 */ 
