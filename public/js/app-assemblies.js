@@ -44,8 +44,8 @@ var App = (function () {
             'Allied Respiratory Professionals', 
             'Respiratory Infections', 
             'Thoracic Oncology',
-            'ILD or DPLD',
-            'Pulmonary Vascular Diseases(PVD)'
+            'Interstitial Lung Diseases',
+            'Pulmonary Vascular Diseases'
         ],
         showActiveTooltip: false,
         slidesNavigation: false,
