@@ -17,14 +17,16 @@ var App = (function () {
             'executive',
             'congress',
             'corporate',
-            'educational',
+            'press',
+            'education',
             'eu',
             'elf',
             'finance',
             'it', 
             'membership',
             'publications',
-            'scientific'
+            'scientific-activities',
+            'scientific-events'
              
              
              
@@ -35,18 +37,18 @@ var App = (function () {
         navigationTooltips: [
             'Executive',
             'Congress and Events',
-            'Corporate Relations, Marketing ...',
-            'Educational Activities',
-            'EU Affairs',
+            'Marketing and Corporate Relations ...',
+            'Press and Communications',
+            'Education',
+            'Advocacy and EU Affairs',
             'European Lung Foundation',
             'Finance and Administration',
-            'IT Infrastructure',
-            'Membership and National Societies ...',
+            'IT Infrastructure and Service',
+            'Membership',
             'Publications', 
             'Scientific Activities', 
-             
-             
-            
+            'Scientific Events'
+                         
             
         ],
         showActiveTooltip: false,
@@ -80,7 +82,20 @@ var App = (function () {
         controlArrows: true,
         verticalCentered: false,
         resize : false,
-        sectionsColor : [assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1, assemblies2, assemblies1],
+        sectionsColor : [assemblies1, 
+                         assemblies2, 
+                         assemblies1, 
+                         assemblies2, 
+                         assemblies1, 
+                         assemblies2, 
+                         assemblies1, 
+                         assemblies2, 
+                         assemblies1, 
+                         assemblies2, 
+                         assemblies1,
+                         assemblies2,
+                         assemblies1
+                         ],
         paddingTop: '0px',
         paddingBottom: '40px',
         fixedElements: '#fixed-top-bar, .fixed-main-nav',

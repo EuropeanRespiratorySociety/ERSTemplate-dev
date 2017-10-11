@@ -200,11 +200,12 @@ elixir(function(mix) {
         mix.copy('resources/assets/js/app-page-calendar.js', 'public/js/app-page-calendar.js');
         mix.copy('resources/assets/js/app-stats.js', 'public/js/app-stats.js');
         mix.copy('resources/assets/js/app-fullpage.js', 'public/js/app-fullpage.js');
-*/
     
         mix.copy('resources/assets/js/app-assemblies.js', 'public/js/app-assemblies.js');
- /*
+*/
+      
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
+ /*
 
         mix.copy('resources/assets/js/app-home.js', 'public/js/app-home.js');
         
