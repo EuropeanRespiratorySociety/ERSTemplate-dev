@@ -37,7 +37,7 @@ var App = (function () {
         navigationTooltips: [
             'Executive',
             'Congress and Events',
-            'Marketing and Corporate Relations ...',
+            'Marketing and Corporate Relations',
             'Press and Communications',
             'Education',
             'Advocacy and EU Affairs',
