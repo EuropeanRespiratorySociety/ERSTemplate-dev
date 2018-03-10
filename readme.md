@@ -1,5 +1,7 @@
 # ERS Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/EuropeanRespiratorySociety/ERSTemplate-dev.svg)](https://greenkeeper.io/)
+
 **Version 1.2.4**
 
 Since version **1.2.2** you need to change the html structure in order to use the fixed bar at the top, see the documentation on myCRM bellow.
