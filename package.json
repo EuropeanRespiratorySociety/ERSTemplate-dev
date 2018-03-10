@@ -5,8 +5,8 @@
   },
   "dependencies": {
     "graceful-fs": "^4.1.11",
-    "laravel-elixir": "^3.0.0",
-    "require-dir": "^0.3.2",
-    "vinyl-fs": "^2.4.4"
+    "laravel-elixir": "^5.0.0",
+    "require-dir": "^1.0.0",
+    "vinyl-fs": "^3.0.2"
   }
 }
