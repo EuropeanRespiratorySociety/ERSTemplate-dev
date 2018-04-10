@@ -8973,6 +8973,10 @@ h6 .text-primary {
   clear: both;
 }
 
+#news-feed .card-image {
+  max-height: 200px;
+}
+
 /*------------------------------------------------------------------
 [Fonts]
 */
@@ -25387,17 +25391,13 @@ li.L9 {
 }
 
 #ersMainWebsite .article-items .article-text .article.two-columns {
-  -moz-column-count: 2;
   column-count: 2;
-  -moz-column-gap: 60px;
   column-gap: 60px;
-  -moz-column-rule: 0px solid #999;
   column-rule: 0px solid #999;
 }
 
 @media (max-width: 991px) {
   #ersMainWebsite .article-items .article-text .article.two-columns {
-    -moz-column-count: 1;
     column-count: 1;
   }
 }
@@ -25419,7 +25419,6 @@ li.L9 {
 }
 
 #ersMainWebsite .article-items .article-text .article ul {
-  -moz-break-before: avoid;
   break-before: avoid;
   page-break-before: avoid;
   padding-left: 20px;
@@ -25439,7 +25438,6 @@ li.L9 {
 #ersMainWebsite .article-items .article-text .article h3 {
   padding-bottom: 10px;
   page-break-after: avoid;
-  -moz-break-after: avoid;
   break-after: avoid;
 }
 
@@ -25448,7 +25446,6 @@ li.L9 {
 }
 
 #ersMainWebsite .article-items .article-text .article hr {
-  -moz-column-span: all;
   column-span: all;
 }
 

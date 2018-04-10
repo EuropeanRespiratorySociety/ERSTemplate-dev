@@ -9,15 +9,15 @@ var App = (function () {
 
             client.add('news');
             client.news.read({limit:5}).done(function (data){
-                console.log(data)
                 var articles = data.data;
                 for( var i = 0; i < articles.length -1; i++){
                     if(articles[i].image) {
+                        console.log(articles[i]);
                         var image = 
                             '<div class="card-image"' 
-                            +'style="background-size:cover;background-repeat: no-repeat;height:150px;' 
+                            +'style="background-size:cover;background-repeat: no-repeat;height:200px;' 
                             +'background-image: url(\'' + articles[i].image + '\');' 
-                            +'background-position: center center;"></div>';
+                            +'background-position:' + articles[i].itemImageAlignment + ' center;"></div>';
                     } else {
                         var image = '';
                     }

@@ -50,7 +50,7 @@ elixir(function(mix) {
     mix.less('style.less');
     mix.styles([
         '../vendor/select2/css/select2.min.css',
-    	//'../../../public/css/style.css',
+    	'../../../public/css/style.css',
         '../vendor/jquery.gritter/css/jquery.gritter.css',
         '../vendor/jquery.niftymodals/css/component.css',
         '../vendor/jquery.vectormap/jquery-jvectormap-1.2.2.css',
@@ -61,7 +61,7 @@ elixir(function(mix) {
         '../vendor/bootstrap-slider/css/bootstrap-slider.css',
         '../vendor/dropzone/dist/dropzone.css',
         '../vendor/datatables/css/dataTables.bootstrap.min.css',
-        //'../vendor/fullpagejs/dist/jquery.fullpage.min.css',
+        '../vendor/fullpagejs/dist/jquery.fullpage.min.css',
         '../../../public/css/fullpage.css',
         '../vendor/wow/wow.css',
         '../vendor/enjoyhint/src/jquery.enjoyhint.css',
@@ -78,7 +78,7 @@ elixir(function(mix) {
     * Main JS Files
     *　--------------------------------------
     */
-/**
+/** 
     mix.scripts([
         '../vendor/bootstrap/dist/js/bootstrap.min.js',
         'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it
