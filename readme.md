@@ -91,7 +91,7 @@ The status is there, but not necessary as we did not plan any "social features" 
 * Not connected
 * Variation (for different types of membership/status within the society/etc...)
 
-## [Widget/API](https://github.com/EuropeanRespiratorySociety/api)
+## [Widget/API](https://github.com/EuropeanRespiratorySociety/api-ers)
 * Metanavigation as a widget
 * News from the API
 
@@ -156,11 +156,22 @@ You can include the files on your server or remotely with the following urls:
 * https://bootstrap.ersnet.org/js/early-load.js
 * https://bootstrap.ersnet.org/js/all.js
 
+To speed up the website all files are available through our CDN:
+
+* https://cdn.ersnet.org/css/all.css
+* https://cdn.ersnet.org/js/jquery.min.js
+* https://cdn.ersnet.org/js/early-load.js
+* https://cdn.ersnet.org/js/all.js
+
 You can add your own JS or CSS under the ERS Template files. See bellow.
 
 You can also use all images avaible in this demo with the following example url:
 
 * https://bootstrap.ersnet.org/images/logo.png
+
+or via the CDN
+
+* https://cdn.ersnet.org/images/logo.png
 
 ## How to add your own JS
 
@@ -295,7 +306,7 @@ It uses [fullCalendar](http://fullcalendar.io/docs/). There are many examples in
   Initialise the component with the following code:
 
 ```
-    <script src="https://bootstrap.ersnet.org/js/app-timeline.js" type="text/javascript"></script>
+    <script src="https://cdn.ersnet.org/js/app-timeline.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         App.timeline();        
