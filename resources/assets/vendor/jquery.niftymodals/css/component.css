@@ -701,7 +701,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 @media screen and (max-width: 32em) {
-	body { font-size: 75%; }
+	body { font-size: 150%; }
 }
 
 @-moz-keyframes blink {
