@@ -78,20 +78,20 @@ elixir(function (mix) {
         * Main JS Files
         *　--------------------------------------
         */
-        /** 
-            mix.scripts([
+        /** */
+        mix.scripts([
                 '../vendor/bootstrap/dist/js/bootstrap.min.js',
                 'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it
-                
+
                 'main.js',
-        
-        
+
+
                 '../vendor/jquery.nanoscroller/javascripts/jquery.nanoscroller.js',
                 '../vendor/jquery.gritter/js/jquery.gritter.js',
                 '../vendor/jquery.nestable/jquery.nestable.js',
                 '../vendor/jquery.niftymodals/js/jquery.modalEffects.js',
                 '../vendor/jquery-ui/jquery-ui.min.js',
-        
+
                 '../vendor/datatables/js/jquery.dataTables.min.js',
                 '../vendor/datatables/js/dataTables.bootstrap.min.js',
                 '../vendor/datatables/plugins/buttons/js/dataTables.buttons.js',
@@ -100,9 +100,9 @@ elixir(function (mix) {
                 '../vendor/datatables/plugins/buttons/js/buttons.print.js',
                 '../vendor/datatables/plugins/buttons/js/buttons.colVis.js',
                 '../vendor/datatables/plugins/buttons/js/buttons.bootstrap.js',
-        
+
                 '../vendor/prettify/prettify.js',
-                '../vendor/datetimepicker/js/bootstrap-datetimepicker.min.js',        
+                '../vendor/datetimepicker/js/bootstrap-datetimepicker.min.js',
                 //'../vendor/fuelux/js/wizard.js',
                 '../vendor/select2/js/select2.min.js',
                 //'../vendor/bootstrap-slider/js/bootstrap-slider.js',
@@ -117,21 +117,18 @@ elixir(function (mix) {
                 '../vendor/countup/countUp.min.js',
                 '../vendor/enjoyhint/enjoyhint.min.js', //url of the font has to be changed in case of update of this file
                 '../vendor/masonry/masonry.pkgd.min.js',
-                '../vendor/masonry/isotope.js', 
-                '../vendor/masonry/packery.min.js', 
+                '../vendor/masonry/isotope.js',
+                '../vendor/masonry/packery.min.js',
                 'app-tables-datatables.js',
                 //'app-ui-notifications.js',
                 //'app-ui-nestable-lists.js',
                 //'app-form-wizard.js',
                 //'app-form-masks.js',
-                'app-form-elements.js',
                 'app-page-profile.js',
-         
+
                 'init.js',
-                'ie-fix.js' 
-                        ]);
-        
-           */
+                'ie-fix.js'
+        ]);
 
         /**
         *　--------------------------------------
@@ -206,6 +203,7 @@ elixir(function (mix) {
          */
 
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
+        mix.copy('resources/assets/js/app-form-elements.js', 'public/js/app-form-elements.js');
         /*
         
                 mix.copy('resources/assets/js/app-home.js', 'public/js/app-home.js');

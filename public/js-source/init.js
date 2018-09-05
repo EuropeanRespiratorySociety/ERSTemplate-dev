@@ -3,7 +3,7 @@
 *
 */
 
-$(document).ready(function(){
+$(document).ready(function () {
     //initialize the javascript
     App.init();
     //Runs prettify
@@ -13,7 +13,7 @@ $(document).ready(function(){
     //Runs notifications
     //App.uiNotifications();
     //Form Elements
-    App.formElements();
+    // App.formElements();
     //Tables
     App.dataTables();
     //Modal trigger
