@@ -685,4 +685,10 @@
 	@stop()  
 
   @section('scripts')
+    <script src="../js/app-form-elements.js" type="text/javascript"></script>
+    <script>
+      $(document).ready(function(){
+        App.formElements();
+      });
+    </script>
   @stop()
