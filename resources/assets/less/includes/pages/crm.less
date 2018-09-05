@@ -227,18 +227,21 @@
                 width: 100%;
                 left: -290px;
                 top: -10px;
+                -webkit-box-shadow: 0px 6px 12px -5px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 6px 12px -5px rgba(0,0,0,0.75);
+                box-shadow: 0px 6px 12px -5px rgba(0,0,0,0.75);
 
                 @media @tablet{
                     padding-left: 10px;
                     left: -10px;
-                    max-height:71px;
+                    max-height:85px;
                     overflow:hidden;
                 }
 
                 @media @phone{
                     padding-left: 10px;
                     left: -10px;
-                    max-height:71px;
+                    max-height:85px;
                     overflow:hidden;
                 }
 
@@ -377,16 +380,20 @@
                 transition: width 0.5s;
 
                 @media @phone{
-                    width:100%;
+                    width:96.2%;
                     height:20px;
-                    top:-20px;
+                    top:-3px;
+                    margin-bottom: -20px;
+                    margin-left: 10px;
                     transition: height 0.5s;
                 }
 
                 @media @tablet{
-                    width:100%;
+                    width:97.7%;
                     height:20px;
-                    top:-20px;
+                    top:-5px;
+                    margin-bottom: -20px;
+                    margin-left: 10px;
                     transition: height 0.5s;
                 }
                 
@@ -416,12 +423,18 @@
         @media @phone {
             left:0;
             padding-top:0;
-            margin-top:45px;
+            margin-top:70px;
+            width: 96.2%;
+            margin-left: 10px;
+            margin-bottom:-15px;
         }
         @media @tablet {
             left:0;
             padding-top:0;
-            margin-top:45px;
+            width: 97.7%;
+            margin-top:70px;
+            margin-left: 10px;
+            margin-bottom:-15px;
         }
 
         .panel-heading{
