@@ -1,0 +1,20 @@
+version: "2"
+services:
+  template:
+    build:
+      context: ./
+      dockerfile: prod.dockerfile
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+
+  web:
+    build:
+      context: ./
+      dockerfile: web.dockerfile
+    working_dir: /var/www
+    volumes_from:
+      - template
+    ports:
+      - 8888:80
+

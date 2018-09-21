@@ -1,5 +1,25 @@
 # ERS Template
 
+## Docker
+
+In order to run the project just launch it for the cloned repository:
+```
+$ docker-compose up 
+```
+This will launch the project in "watch mode" every change done in the colned folder will be compiled immediately.
+
+@TODO add variables to the configuration to compile for "production".
+
+For now just run:
+
+```
+$ docker-compose -f ./docker-compose-prod.yml up
+```
+
+This will comile all assets and minify/uglify them
+
+Remember to modify the `gulpfile.js` to select what you want to compile. If no work is needed with js, no need to recompile it :)
+
 **Version 1.2.4**
 
 Since version **1.2.2** you need to change the html structure in order to use the fixed bar at the top, see the documentation on myCRM bellow.
