@@ -10,7 +10,7 @@ This will launch the project in "watch mode" every change done in the colned fol
 
 @TODO add variables to the configuration to compile for "production".
 
-For now just run:
+For now to compile for production (before commiting) just run:
 
 ```
 $ docker-compose -f ./docker-compose-prod.yml up
@@ -19,6 +19,18 @@ $ docker-compose -f ./docker-compose-prod.yml up
 This will comile all assets and minify/uglify them
 
 Remember to modify the `gulpfile.js` to select what you want to compile. If no work is needed with js, no need to recompile it :)
+
+To launch containers in detached mode
+
+```
+$ docker-compose up -d
+
+``` 
+
+Shut down containers with (when in detached mode else use `Ctrl + C` )
+```
+$ docker-compose stop
+```
 
 **Version 1.2.4**
 
