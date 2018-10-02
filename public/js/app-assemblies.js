@@ -15,10 +15,10 @@ var App = (function () {
         lockAnchors: false,
         anchors: [
             'assemblies', 
-            'clinical', 
+            'general-pneumology', 
             'respiratory-intensive-care', 
             'basic-and-translational-sciences', 
-            'clinical-physiology', 
+            'sleep-and-breathing-disorders', 
             'airway-diseases',
             'epidemiology-and-environment', 
             'paediatrics', 
@@ -27,16 +27,18 @@ var App = (function () {
             'respiratory-infections', 
             'thoracic-oncology',
             'interstitial-lung-diseases',
-            'pulmonary-vascular-diseases'
+            'pulmonary-vascular-diseases',
+            'clinical-techniques'
+
         ],
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: [
             'Assemblies', 
-            'Clinical', 
+            'General Pneumology', 
             'Respiratory Intensive Care', 
             'Basic and translational sciences', 
-            'Clinical physiology...', 
+            'Sleep and Breathing disorders...', 
             'Airway Diseases',
             'Epidemiology and Environment', 
             'Paediatrics', 
@@ -45,7 +47,8 @@ var App = (function () {
             'Respiratory Infections', 
             'Thoracic Oncology',
             'Interstitial Lung Diseases',
-            'Pulmonary Vascular Diseases'
+            'Pulmonary Vascular Diseases',
+            'Clinical Techniques, Imaging and Endoscopy'
         ],
         showActiveTooltip: false,
         slidesNavigation: false,
@@ -92,7 +95,8 @@ var App = (function () {
             assemblies1, 
             assemblies2, 
             assemblies1, 
-            assemblies2
+            assemblies2,
+            assemblies1
         ],
         paddingTop: '0px',
         paddingBottom: '40px',

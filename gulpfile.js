@@ -70,15 +70,15 @@ elixir(function (mix) {
 
         /**
         * We create a special css for the metanav plugin
-        */
+       
         mix.less('metanav.less');
-
+ */
         /**
         *　--------------------------------------
         * Main JS Files
         *　--------------------------------------
         */
-        /** */
+        /** 
         mix.scripts([
                 '../vendor/bootstrap/dist/js/bootstrap.min.js',
                 'metanav.js', //The metanav needs to be before the main.js as we call the metanav from it
@@ -129,7 +129,7 @@ elixir(function (mix) {
                 'init.js',
                 'ie-fix.js'
         ]);
-
+*/
         /**
         *　--------------------------------------
         * Stats, Chart plotting
@@ -199,9 +199,10 @@ elixir(function (mix) {
                 mix.copy('resources/assets/js/app-fullpage.js', 'public/js/app-fullpage.js');
            
            
-                mix.copy('resources/assets/js/app-assemblies.js', 'public/js/app-assemblies.js');
+               
          */
-
+        mix.copy('resources/assets/js/app-assemblies.js', 'public/js/app-assemblies.js');
+        /*
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
         mix.copy('resources/assets/js/app-form-elements.js', 'public/js/app-form-elements.js');
         /*
@@ -210,6 +211,7 @@ elixir(function (mix) {
                 
                 mix.copy('resources/assets/js/app-timeline.js', 'public/js/app-timeline.js');
         */
+       /*
         mix.copy('resources/assets/js/app-newsfeed.js', 'public/js/app-newsfeed.js');
         /*        mix.copy('resources/assets/js/app-membership.js', 'public/js/app-membership.js');
         

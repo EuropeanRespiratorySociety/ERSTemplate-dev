@@ -13,7 +13,7 @@ This will launch the project in "watch mode" every change done in the colned fol
 For now to compile for production (before commiting) just run:
 
 ```
-$ docker-compose -f ./docker-compose-prod.yml up
+$ docker-compose -f ./docker-compose-prod.yml up --build
 ```
 
 This will comile all assets and minify/uglify them
