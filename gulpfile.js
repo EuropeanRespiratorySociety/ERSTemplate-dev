@@ -199,23 +199,18 @@ elixir(function(mix) {
            
            
                
-         */
   mix.copy(
     "resources/assets/js/app-assemblies.js",
     "public/js/app-assemblies.js"
   );
-  /*
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
         mix.copy('resources/assets/js/app-form-elements.js', 'public/js/app-form-elements.js');
-        /*
         
                 mix.copy('resources/assets/js/app-home.js', 'public/js/app-home.js');
                 
                 mix.copy('resources/assets/js/app-timeline.js', 'public/js/app-timeline.js');
-        */
-  /*
+
         mix.copy('resources/assets/js/app-newsfeed.js', 'public/js/app-newsfeed.js');
-        */
   mix.copy(
     "resources/assets/js/app-membership.js",
     "public/js/app-membership.js"

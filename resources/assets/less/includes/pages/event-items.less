@@ -1,591 +1,588 @@
-#ersMainWebsite{
-
-	.event-items-content{
-
-		font-family:@font-family-sans-serif;
-
-		.img-responsive{
-			width:100%;
-		}
-
-		.header{
-			min-height: 150px;
-    		margin-bottom: 20px;
-		}
-
-		p.deadline{
-			color:#d0003c;
-			background-color: #fef0ed;
-			border: 1px solid #fbe0e9;
-			padding: 5px 10px;
-			font-size: 13px;
-		}
-
-
-		button.btn-light-primary{
-			.pull-right{margin-left: 30px;}
-			.pull-left{margin-right: 10px;}
-			&.pratical-info{
-			width:100%;
-			margin-top:19px;
-			}
-			span{
-			margin-right: 4px;
-			}
-
-		}
-
-		.bt-course-programme{
-			padding: 10px 20px 8px;
-
-			span.icon{
-			position: relative;
-    		top: -2px;
-
-			}
-
-		}
-
-		.ers-course-info, ers-research-seminar-info{
-			position: relative;
-    		left: 10px;
-    		padding: 0 20px;
-
-		}
-
-		.text-danger{padding: 10px 0;}
-
-
-
-		.ers-course-organisers{
-			padding: 0 40px;
-		}
-
-		.event-items-category{
-			p{
-			font-size: 20px;
-			color:@gray-light;
-			margin: 0;
-			em{font-style: italic;font-family:@font-family-serif;}
-			}
-		}
-		.notification{
-			margin:15px 0;
-			p{margin:0;}
-			.warning{
-			color: @danger-color;
-
-			}
-
-		}
-
-
-
-		h2.article-title, h5, .article, .learning-outcomes{
-			font-family:@font-family-serif;
-		}
-		h2.article-title{margin-top: 70px;}
-		h5{
-			a{font-family:@font-family-sans-serif;}
-		}
-		.article{
-			font-size: 16px;
-			line-height: 140%;
-			margin: 40px;
-		}
-		.learning-outcomes{
-			border-top: 1px solid @gray-light-medium;
-			margin: 50px 0;
-			padding: 20px 0;
-		}
-
-		h2.date-venue{
-			color: @dark-color;
-			display: block;
-			margin: 15px 0 0;
-			border-bottom: 1px solid @gray-light-medium;
-			border-top: 1px solid @gray-light-medium;
-			padding: 20px 10px;
-
-			label{
-			padding:0 10px;
-			font-size: 27px;
-			a{color: @primary-color;}
-			a:hover{color:@link-hover-color;}
-			}
-
-			a{color:#cfcfcf;}
-			a:hover{color:#999;}
-
-
-
-		}
-
-		.event-items-tab{
-			padding:0 !important;
-			right:0;
-
-
-
-			.tab-container{
-
-				font-size: 12px;
-				padding: 0px 20px 10px;
-				position: fixed;
-				top:100px;
-
-				@media @phone{
-				position:relative;
-				}
-
-				@media @tablet{
-					position:relative; 
-				}
-
-				p{
-				line-height: 120%;
-				margin:5px 0;
-				}
-
-				.list-group{
-
-					width: 96%;
-					margin-top:10px;
-
-					.badge{
-					font-weight: normal;
-					color: @ers-content-default-text;
-					background-color: transparent;
-					font-size: 14px;
-					}
-					.list-group-item{
-						border: 0;
-						padding: 8px 15px;
-
-					}
-				}
-				.nav-tabs{
-					display:inline-flex;
-					width:100%;
-
-					li{
-						width:100%;
-						font-size: 12px;
-						flex: 1 1 auto;
-
-						> a{
-							color:#555;
-							min-height: 145px;
-
-							&:hover{
-								color:#999;
-							}
-						}
-
-						&.active > a {
-							min-height:145px;
-						}
-					}
-
-				} 
-
-				.tab-bottom{
-					position: absolute;
-					bottom: 0;
-					height:100px;
-					border:1px solid #666;
-					width:90%;
-				}
-
-				.tab-content{
-					height:100%;
-					width: 22%;
-					position: fixed;
-
-					@media @phone{
-					position:relative;
-					width: 100%;
-					}
-
-					@media @tablet{
-						position:relative;
-						width: 100%;
-					}
-
-
-					.btn-light-primary{
-					    width: 96%;
-					}
-
-					.bt-practicalInfo{
-					padding: 10px 20px 8px;
-
-					span.icon{
-					position: relative;
-		    		top: -2px;
-
-					}
-
-				}
-
-				}
-
-
-			}
-			.btn-primary{
-			width: 100%;
-			}
-
-
-
-		}
-
-		.event-items-right{
-		padding:20px 20px 20px 20px;
-		position:fixed;
-		height:100%;
-		right:0;
-
-		@media @phone{
-		position:relative;
-		}
-		@media @tablet{
-		position:relative;
-		}
-
-		.item-register-bt{
-		width:90%;
-		position: absolute;
-		bottom: 140px;
-		left: 20px;
-		width: 90%;
-		@media @phone{
-		position:relative;
-		bottom: 0px;
-		left:0;
-		}
-		@media @tablet{
-		position:relative;
-		bottom: 0px;
-		left:0;
-		}
-
-
-		}
-		.rules{
-		font-size:12px;
-		margin-bottom:10px;
-
-		}
-		.list-group{margin:0 0 10px 0;}
-		.list-group-item{ 
-		border:0;
-		&:nth-child(2), &:nth-child(3), &:nth-child(4){
-		border-top:1px solid #ddd;
-		border-right:0;
-		border-bottom:0;
-		border-left:0;
-		/*padding: 10px ;*/
-
-		}
-		p{
-		font-size:13px;
-		float:left;
-		width:70%;
-		margin:0;
-		span{
-		font-size:13px;
-
-		}
-
-		}
-		.icon{
-		display: block;
-		font-size: 30px;
-		float:left;
-		margin-right:10px;
-		}
-
-
-		}
-
-
-
-		}
-
-		.left-photo-map{
-			padding:0;
-
-			p{
-				margin: 0;
-
-			}
-
-			.card-content{
-				p{
-					white-space: nowrap;
-    				text-overflow: ellipsis;
-    				overflow: hidden;
-
-					@media @laptop{
-						display:none;
-					}
-				}
-
-				h4{
-					margin-top:0;
-
-					@media @laptop{
-						font-size: 15px;
-					}
-				}
-			}
-		}
-
-		.fellowship-categories{
-
-			/*.card{
+#ersMainWebsite {
+  .event-items-content {
+    font-family: @font-family-sans-serif;
+
+    .img-responsive {
+      width: 100%;
+    }
+
+    .header {
+      min-height: 150px;
+      margin-bottom: 20px;
+    }
+
+    p.deadline {
+      color: #d0003c;
+      background-color: #fef0ed;
+      border: 1px solid #fbe0e9;
+      padding: 5px 10px;
+      font-size: 13px;
+    }
+
+    button.btn-light-primary {
+      .pull-right {
+        margin-left: 30px;
+      }
+      .pull-left {
+        margin-right: 10px;
+      }
+      &.pratical-info {
+        width: 100%;
+        margin-top: 19px;
+      }
+      span {
+        margin-right: 4px;
+      }
+    }
+
+    .bt-course-programme {
+      padding: 10px 20px 8px;
+
+      span.icon {
+        position: relative;
+        top: -2px;
+      }
+    }
+
+    .ers-course-info,
+    ers-research-seminar-info {
+      position: relative;
+      left: 10px;
+      padding: 0 20px;
+    }
+
+    .text-danger {
+      padding: 10px 0;
+    }
+
+    .ers-course-organisers {
+      padding: 0 40px;
+    }
+
+    .event-items-category {
+      p {
+        font-size: 20px;
+        color: @gray-light;
+        margin: 0;
+        em {
+          font-style: italic;
+          font-family: @font-family-serif;
+        }
+      }
+    }
+    .notification {
+      margin: 15px 0;
+      p {
+        margin: 0;
+      }
+      .warning {
+        color: @danger-color;
+      }
+    }
+
+    h2.article-title,
+    h5,
+    .article,
+    .learning-outcomes {
+      font-family: @font-family-serif;
+    }
+    h2.article-title {
+      margin-top: 70px;
+    }
+    h5 {
+      a {
+        font-family: @font-family-sans-serif;
+      }
+    }
+    .article {
+      font-size: 16px;
+      line-height: 140%;
+      margin: 40px;
+    }
+    .learning-outcomes {
+      border-top: 1px solid @gray-light-medium;
+      margin: 50px 0;
+      padding: 20px 0;
+    }
+
+    h2.date-venue {
+      color: @dark-color;
+      display: block;
+      margin: 15px 0 0;
+      border-bottom: 1px solid @gray-light-medium;
+      border-top: 1px solid @gray-light-medium;
+      padding: 20px 10px;
+
+      label {
+        padding: 0 10px;
+        font-size: 27px;
+        a {
+          color: @primary-color;
+        }
+        a:hover {
+          color: @link-hover-color;
+        }
+      }
+
+      a {
+        color: #cfcfcf;
+      }
+      a:hover {
+        color: #999;
+      }
+    }
+
+    .event-items-tab {
+      padding: 0 !important;
+      right: 0;
+
+      .tab-container {
+        font-size: 12px;
+        padding: 0px 20px 10px;
+        position: fixed;
+        top: 100px;
+
+        @media @phone {
+          position: relative;
+        }
+
+        @media @tablet {
+          position: relative;
+        }
+
+        p {
+          line-height: 120%;
+          margin: 5px 0;
+        }
+
+        .list-group {
+          width: 96%;
+          margin-top: 10px;
+
+          .badge {
+            font-weight: normal;
+            color: @ers-content-default-text;
+            background-color: transparent;
+            font-size: 14px;
+          }
+          .list-group-item {
+            border: 0;
+            padding: 8px 15px;
+          }
+        }
+        .nav-tabs {
+          display: inline-flex;
+          width: 100%;
+
+          li {
+            width: 100%;
+            font-size: 12px;
+            flex: 1 1 auto;
+
+            > a {
+              color: #555;
+              min-height: 145px;
+
+              &:hover {
+                color: #999;
+              }
+            }
+
+            &.active > a {
+              min-height: 145px;
+            }
+          }
+        }
+
+        .tab-bottom {
+          position: absolute;
+          bottom: 0;
+          height: 100px;
+          border: 1px solid #666;
+          width: 90%;
+        }
+
+        .tab-content {
+          height: 100%;
+          width: 22%;
+          position: fixed;
+
+          @media @phone {
+            position: relative;
+            width: 100%;
+          }
+
+          @media @tablet {
+            position: relative;
+            width: 100%;
+          }
+
+          .btn-light-primary {
+            width: 96%;
+          }
+
+          .bt-practicalInfo {
+            padding: 10px 20px 8px;
+
+            span.icon {
+              position: relative;
+              top: -2px;
+            }
+          }
+        }
+      }
+      .btn-primary {
+        width: 100%;
+      }
+    }
+
+    .right-column-smaller {
+      width: 22%;
+      @media @phone {
+        width: 100%;
+      }
+      @media @tablet {
+        width: 100%;
+      }
+    }
+
+    .event-items-right {
+      padding: 20px 20px 20px 20px;
+      position: fixed;
+      height: 100%;
+      right: 0;
+
+      @media @phone {
+        position: relative;
+      }
+      @media @tablet {
+        position: relative;
+      }
+
+      .sticky-infobox {
+        position: fixed;
+        padding-bottom: 20px;
+        background: #fff;
+        bottom: 0;
+        width: 260px;
+        @media @phone {
+          position: fixed;
+          width: 100%;
+          bottom: 0;
+          padding: 20px 0;
+        }
+        @media @tablet {
+          position: fixed;
+          width: 100%;
+          bottom: 0;
+          padding: 20px 0;
+        }
+        .sticky-btn {
+          width: 100%;
+        }
+      }
+
+      .item-register-bt {
+        width: 90%;
+        position: absolute;
+        bottom: 140px;
+        left: 20px;
+        width: 90%;
+        @media @phone {
+          position: relative;
+          bottom: 0px;
+          left: 0;
+        }
+        @media @tablet {
+          position: relative;
+          bottom: 0px;
+          left: 0;
+        }
+      }
+
+      .rules {
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+      .list-group {
+        margin: 0 0 10px 0;
+      }
+      .list-group-item {
+        border: 0;
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+          border-top: 1px solid #ddd;
+          border-right: 0;
+          border-bottom: 0;
+          border-left: 0;
+          /*padding: 10px ;*/
+        }
+        p {
+          font-size: 13px;
+          float: left;
+          width: 70%;
+          margin: 0;
+          span {
+            font-size: 13px;
+          }
+        }
+        .icon {
+          display: block;
+          font-size: 30px;
+          float: left;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .left-photo-map {
+      padding: 0;
+
+      p {
+        margin: 0;
+      }
+
+      .card-content {
+        p {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+
+          @media @laptop {
+            display: none;
+          }
+        }
+
+        h4 {
+          margin-top: 0;
+
+          @media @laptop {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .fellowship-categories {
+      /*.card{
 				//font-family:@font-family-serif;
 				//p{margin-bottom:20px;}
 			}*/
 
-			@media (max-width: @screen-sm-max){
+      @media (max-width: @screen-sm-max) {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
 
-				max-width: 450px;
-				margin-left: auto;
-				margin-right: auto;
+        .col-md-4 {
+          margin: 0 0 50px 0;
+        }
+      }
+    }
+    .page-head {
+      margin: 0 40px;
+      h2 {
+        margin-top: 30px;
+      }
+    }
 
+    .event-items-fs-title {
+      padding-right: 60px;
+      padding-left: initial !important;
+    }
 
-				.col-md-4{
-				margin:0 0 50px 0;
-				}
+    .event-items-right-bt {
+      position: fixed;
+      padding-bottom: 20px;
+      background: @light-color;
+      bottom: 0;
+      width: 260px;
 
-			}
+      .btn-primary {
+        width: 90%;
+      }
 
-		}
-		.page-head{
-			margin:0 40px;
-			h2{
-			margin-top: 30px;
+      p {
+        font-size: 12px;
+        text-align: left;
+      }
 
-			}
-		}
+      @media @phone {
+        position: relative;
+        width: 100%;
+        bottom: 0px;
 
-		.event-items-fs-title{
-		    padding-right: 60px;
-			padding-left: initial !important;
-		}
+        .btn-primary {
+          width: 100%;
+        }
+      }
 
+      @media @tablet {
+        position: relative;
+        width: 100%;
+        bottom: 0px;
 
-		.event-items-right-bt{
-			position: fixed;
-			padding-bottom:20px;
-			background: @light-color;
-			bottom: 0; 
-			width: 260px;
+        .btn-primary {
+          width: 100%;
+        }
+      }
+    }
 
-			.btn-primary{
-				width: 90%;
-			}
+    .course-sponsor {
+      padding: 0px 10px 5px 10px;
+      background-color: #fff;
 
-			p{
-				font-size: 12px;
-				text-align: left;
-			}
+      @media @phone, @tablet {
+        padding: 0px 30px 10px 30px;
+      }
+      .course-sponsor-image {
+        @media @phone, @tablet {
+          padding: 15px 0;
+        }
 
-			@media @phone{
-				position:relative;
-				width: 100%;
-				bottom: 0px;
+        height: 100%;
+        padding: 0 0 0 15px;
+      }
 
-				.btn-primary{
-					width: 100%;
-				}
-			}
+      .course-sponsor-wrapper {
+        position: relative;
+        overflow: hidden;
+        height: 100px;
+        margin-top: 10px;
+      }
 
-			@media @tablet{
-				position:relative; 
-				width: 100%;
-				bottom: 0px;
+      .course-sponsor-right {
+        position: relative;
+        /* Internet Explorer 10 */
+        display: -ms-flexbox;
+        -ms-flex-pack: center;
+        -ms-flex-align: center;
 
-				.btn-primary{
-					width: 100%;
-				}
-			}
+        /* Firefox */
+        display: -moz-box;
+        -moz-box-pack: center;
+        -moz-box-align: center;
 
+        /* Safari, Opera, and Chrome */
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
 
-		}
+        /* W3C */
+        display: flex;
+        //flex-direction: column;
+        align-content: center;
+        height: 100%;
 
+        h4 {
+          font-size: 15px;
+          /* Internet Explorer 10 */
+          display: -ms-flexbox;
+          -ms-flex-pack: center;
+          -ms-flex-align: center;
 
+          /* Firefox */
+          display: -moz-box;
+          -moz-box-pack: center;
+          -moz-box-align: center;
 
-		.course-sponsor{
-			padding:0px 10px 5px 10px;
-			background-color: #fff;
+          /* Safari, Opera, and Chrome */
+          display: -webkit-box;
+          -webkit-box-pack: center;
+          -webkit-box-align: center;
 
+          /* W3C */
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
 
-			@media @phone, @tablet{
-				padding: 0px 30px 10px 30px;
-			}
-			.course-sponsor-image{
+  .related-items {
+    padding: 0px 10px 5px 10px;
 
-				@media @phone, @tablet{
-					padding: 15px 0;
-				}
+    .card {
+      .label {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+      }
+    }
 
-				height:100%;
-				padding: 0 0 0 15px;
-			}
+    @media @phone, @tablet {
+      padding: 0px 30px 10px 30px;
+    }
+    .card-image {
+      height: 100%;
+      padding: 0;
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
 
+    .card-content {
+      position: relative;
+      /* Internet Explorer 10 */
+      display: -ms-flexbox;
+      -ms-flex-pack: center;
+      -ms-flex-align: center;
 
-			.course-sponsor-wrapper{
-				position: relative;
-				overflow: hidden;
-				height: 100px;
-				margin-top: 10px;
+      /* Firefox */
+      display: -moz-box;
+      -moz-box-pack: center;
+      -moz-box-align: center;
 
-			}
+      /* Safari, Opera, and Chrome */
+      display: -webkit-box;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
 
-	 		.course-sponsor-right{
-				position:relative;
-				/* Internet Explorer 10 */
-				display:-ms-flexbox;
-				-ms-flex-pack:center;
-				-ms-flex-align:center;
+      /* W3C */
+      display: flex;
+      //flex-direction: column;
+      align-content: center;
+      height: 100%;
 
-				/* Firefox */
-				display:-moz-box;
-				-moz-box-pack:center; 
-				-moz-box-align:center;
+      h4 {
+        /* Internet Explorer 10 */
+        display: -ms-flexbox;
+        -ms-flex-pack: center;
+        -ms-flex-align: center;
 
-				/* Safari, Opera, and Chrome */
-				display:-webkit-box;
-				-webkit-box-pack:center;
-				-webkit-box-align:center;
+        /* Firefox */
+        display: -moz-box;
+        -moz-box-pack: center;
+        -moz-box-align: center;
 
-				/* W3C */
-				display:flex;
-				//flex-direction: column;
-				align-content: center;
-				height: 100%;
-				
-				h4 {
-					font-size: 15px;
-					/* Internet Explorer 10 */
-					display:-ms-flexbox;
-					-ms-flex-pack:center;
-					-ms-flex-align:center;
+        /* Safari, Opera, and Chrome */
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
 
-					/* Firefox */
-					display:-moz-box;
-					-moz-box-pack:center;
-					-moz-box-align:center;
+        /* W3C */
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
 
-					/* Safari, Opera, and Chrome */
-					display:-webkit-box;
-					-webkit-box-pack:center;
-					-webkit-box-align:center;
+  .left-photo-map {
+    .related-items {
+      padding: 0px 10px 5px 25px;
+    }
+  }
 
-					/* W3C */
-					display:flex;
-					align-items: center;
-				}
-			 }			
-		
-		} 
-
-
-	}
-
-
-
-
-	.related-items{
-		padding:0px 10px 5px 10px;
-
-		.card{
-			.label{
-				position: absolute;
-				right: 0;
-				z-index:2;
-			}
-		}
-
-		@media @phone, @tablet{
-			padding: 0px 30px 10px 30px;
-		}
-		.card-image{
-			height:100%;
-			padding: 0;
-			img {
-				height:100%;
-				object-fit: cover;
-			}		
-		}
-
- 		.card-content{
-			position:relative;
-			/* Internet Explorer 10 */
-			display:-ms-flexbox;
-			-ms-flex-pack:center;
-			-ms-flex-align:center;
-
-			/* Firefox */
-			display:-moz-box;
-			-moz-box-pack:center; 
-			-moz-box-align:center;
-
-			/* Safari, Opera, and Chrome */
-			display:-webkit-box;
-			-webkit-box-pack:center;
-			-webkit-box-align:center;
-
-			/* W3C */
-			display:flex;
-			//flex-direction: column;
-			align-content: center;
-			height: 100%;
-			
-			h4 {
-				/* Internet Explorer 10 */
-				display:-ms-flexbox;
-				-ms-flex-pack:center;
-				-ms-flex-align:center;
-
-				/* Firefox */
-				display:-moz-box;
-				-moz-box-pack:center;
-				-moz-box-align:center;
-
-				/* Safari, Opera, and Chrome */
-				display:-webkit-box;
-				-webkit-box-pack:center;
-				-webkit-box-align:center;
-
-				/* W3C */
-				display:flex;
-				align-items: center;
-			}
-		 }			
-	
-	} 
-
-	.left-photo-map {
-		.related-items{
-			padding:0px 10px 5px 25px;
-		} 
-	}
-
-	.lsc-content{
-
-		#venue{
-			.icon{
-			font-size: 30px;
-    		margin-right: 5px;
-    		position: relative;
-    		top: 5px;
-			}
-
-		}
-
-	}
+  .lsc-content {
+    #venue {
+      .icon {
+        font-size: 30px;
+        margin-right: 5px;
+        position: relative;
+        top: 5px;
+      }
+    }
+  }
 }
