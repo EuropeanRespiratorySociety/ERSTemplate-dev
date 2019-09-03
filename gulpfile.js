@@ -48,6 +48,7 @@ elixir(function(mix) {
 
   mix.less("style.less");
   mix.styles([
+    "../vendor/jquery.scrolling-tabs/jquery.scrolling-tabs.css",
     "../vendor/select2/css/select2.min.css",
     "../../../public/css/style.css",
     "../vendor/jquery.gritter/css/jquery.gritter.css",
@@ -134,32 +135,31 @@ elixir(function(mix) {
    * Stats, Chart plotting
    *　--------------------------------------
    */
-  /**  
-                mix.scripts([  
-                '../vendor/jquery-flot/jquery.flot.js', 
-                '../vendor/jquery-flot/jquery.flot.pie.js', 
-                '../vendor/jquery-flot/jquery.flot.resize.js', 
-                '../vendor/jquery-flot/plugins/jquery.flot.orderBars.js', 
-                '../vendor/jquery-flot/plugins/curvedLines.js', 
-                
-                '../vendor/jquery.sparkline/jquery.sparkline.min.js', 
-               
-                '../vendor/jquery.vectormap/jquery-jvectormap-1.2.2.min.js', 
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js',
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js', 
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-uk-mill-en.js', 
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-fr-merc-en.js', 
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-us-il-chicago-mill-en.js',
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-au-mill-en.js', 
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-in-mill-en.js', 
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-map.js', 
-                '../vendor/jquery.vectormap/maps/jquery-jvectormap-ca-lcc-en.js', 
-        
-               
-                '../vendor/chartjs/Chart.min.js'
-        
-                ], 'public/js/stats.js');
-        */
+  mix.scripts(
+    [
+      "../vendor/jquery-flot/jquery.flot.js",
+      "../vendor/jquery-flot/jquery.flot.pie.js",
+      "../vendor/jquery-flot/jquery.flot.resize.js",
+      "../vendor/jquery-flot/plugins/jquery.flot.orderBars.js",
+      "../vendor/jquery-flot/plugins/curvedLines.js",
+
+      "../vendor/jquery.sparkline/jquery.sparkline.min.js",
+
+      "../vendor/jquery.vectormap/jquery-jvectormap-1.2.2.min.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-uk-mill-en.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-fr-merc-en.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-us-il-chicago-mill-en.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-au-mill-en.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-in-mill-en.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-map.js",
+      "../vendor/jquery.vectormap/maps/jquery-jvectormap-ca-lcc-en.js",
+
+      "../vendor/chartjs/Chart.min.js"
+    ],
+    "public/js/stats.js"
+  );
   /**
    *　--------------------------------------
    * Fullpage
@@ -190,8 +190,13 @@ elixir(function(mix) {
    * Copies to public folder
    *　--------------------------------------
    */
+  mix.copy(
+    "resources/assets/vendor/jquery.scrolling-tabs/jquery.scrolling-tabs.js",
+    "public/js/jquery.scrolling-tabs.js"
+  );
 
   /*
+  
                 mix.copy('resources/assets/js/app-ui-notifications.js', 'public/js/app-ui-notifications.js');
                 mix.copy('resources/assets/js/app-page-calendar.js', 'public/js/app-page-calendar.js');
                 mix.copy('resources/assets/js/app-stats.js', 'public/js/app-stats.js');
