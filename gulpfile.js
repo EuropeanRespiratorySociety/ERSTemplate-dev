@@ -48,7 +48,8 @@ elixir(function(mix) {
 
   mix.less("style.less");
   mix.styles([
-    "../vendor/jquery.scrolling-tabs/jquery.scrolling-tabs.css",
+    "../vendor/owl-carousel/owl.theme.default.css",
+    "../vendor/owl-carousel/owl.carousel.css",
     "../vendor/select2/css/select2.min.css",
     "../../../public/css/style.css",
     "../vendor/jquery.gritter/css/jquery.gritter.css",
@@ -137,6 +138,7 @@ elixir(function(mix) {
    */
   mix.scripts(
     [
+      "../vendor/jquery-flot/owl.carousel.min.js",
       "../vendor/jquery-flot/jquery.flot.js",
       "../vendor/jquery-flot/jquery.flot.pie.js",
       "../vendor/jquery-flot/jquery.flot.resize.js",
