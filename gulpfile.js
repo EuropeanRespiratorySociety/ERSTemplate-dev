@@ -138,7 +138,7 @@ elixir(function(mix) {
    */
   mix.scripts(
     [
-      "../vendor/jquery-flot/owl.carousel.min.js",
+      "../vendor/owl-carousel/owl.carousel.min.js",
       "../vendor/jquery-flot/jquery.flot.js",
       "../vendor/jquery-flot/jquery.flot.pie.js",
       "../vendor/jquery-flot/jquery.flot.resize.js",
@@ -192,10 +192,6 @@ elixir(function(mix) {
    * Copies to public folder
    *　--------------------------------------
    */
-  mix.copy(
-    "resources/assets/vendor/jquery.scrolling-tabs/jquery.scrolling-tabs.js",
-    "public/js/jquery.scrolling-tabs.js"
-  );
 
   /*
   
