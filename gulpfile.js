@@ -138,7 +138,6 @@ elixir(function(mix) {
    */
   mix.scripts(
     [
-      "../vendor/owl-carousel/owl.carousel.min.js",
       "../vendor/jquery-flot/jquery.flot.js",
       "../vendor/jquery-flot/jquery.flot.pie.js",
       "../vendor/jquery-flot/jquery.flot.resize.js",
@@ -192,6 +191,11 @@ elixir(function(mix) {
    * Copies to public folder
    *　--------------------------------------
    */
+
+  mix.copy(
+    "resouces/assets/vendor/owl-carousel/owl.carousel.min.js",
+    "public/js/owl.carousel.min.js"
+  );
 
   /*
   
