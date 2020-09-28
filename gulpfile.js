@@ -11,7 +11,7 @@ var elixir = require("laravel-elixir");
  |
  */
 
-elixir(function(mix) {
+elixir(function (mix) {
   /*
         |--------------------------------------------------------------------------
         | Development Tip
@@ -66,7 +66,7 @@ elixir(function(mix) {
     "../../../public/css/fullpage.css",
     "../vendor/wow/wow.css",
     "../vendor/enjoyhint/src/jquery.enjoyhint.css",
-    "../../../public/css/style.css"
+    "../../../public/css/style.css",
   ]);
 
   /**
@@ -157,7 +157,7 @@ elixir(function(mix) {
       "../vendor/jquery.vectormap/maps/jquery-jvectormap-map.js",
       "../vendor/jquery.vectormap/maps/jquery-jvectormap-ca-lcc-en.js",
 
-      "../vendor/chartjs/Chart.min.js"
+      "../vendor/chartjs/Chart.min.js",
     ],
     "public/js/stats.js"
   );
@@ -197,19 +197,22 @@ elixir(function(mix) {
     "public/js/owl.carousel.min.js"
   );
 
-  /*
-  
-                mix.copy('resources/assets/js/app-ui-notifications.js', 'public/js/app-ui-notifications.js');
-                mix.copy('resources/assets/js/app-page-calendar.js', 'public/js/app-page-calendar.js');
-                mix.copy('resources/assets/js/app-stats.js', 'public/js/app-stats.js');
-                mix.copy('resources/assets/js/app-fullpage.js', 'public/js/app-fullpage.js');
-           
-           
-               
+  mix.copy(
+    "resources/assets/js/app-ui-notifications.js",
+    "public/js/app-ui-notifications.js"
+  );
+  mix.copy(
+    "resources/assets/js/app-page-calendar.js",
+    "public/js/app-page-calendar.js"
+  );
+  mix.copy("resources/assets/js/app-stats.js", "public/js/app-stats.js");
+  mix.copy("resources/assets/js/app-fullpage.js", "public/js/app-fullpage.js");
+
   mix.copy(
     "resources/assets/js/app-assemblies.js",
     "public/js/app-assemblies.js"
   );
+  /*
         mix.copy('resources/assets/js/app-executive-office.js', 'public/js/app-executive-office.js');
         mix.copy('resources/assets/js/app-form-elements.js', 'public/js/app-form-elements.js');
         
